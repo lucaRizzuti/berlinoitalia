@@ -1,52 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="778e06b0-380a-4f2d-b8aa-189b7c98688a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/background-home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/goal.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/magic-ball.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/masks.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/slippers.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vettoriale.png" afterPath="" />
+    <list default="true" id="778e06b0-380a-4f2d-b8aa-189b7c98688a" name="Default" comment="solo il lunedi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="168" column="10" lean-forward="false" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -75,13 +42,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
     <option name="y" value="23" />
     <option name="width" value="1769" />
     <option name="height" value="1385" />
   </component>
+  <component name="ProjectId" id="2ACry0zbHN25qvHFDA1I7zLb5Qh" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -127,25 +101,31 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lucarizzuti/Documents/berlinoitalia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -157,7 +137,102 @@
       <option name="presentableId" value="Default" />
       <updated>1592823012204</updated>
       <workItem from="1592823014115" duration="1750000" />
+      <workItem from="1654524659846" duration="1514000" />
+      <workItem from="1739182789786" duration="5975000" />
+      <workItem from="1744717001659" duration="726000" />
+      <workItem from="1756452535840" duration="1086000" />
+      <workItem from="1768224944212" duration="55000" />
+      <workItem from="1772540442538" duration="498000" />
+      <workItem from="1772639412416" duration="583000" />
     </task>
+    <task id="LOCAL-00001" summary="rimuovi iframe facebook">
+      <created>1654524928025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654524928025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cambia indirizzo, aggiungi Babel">
+      <option name="closed" value="true" />
+      <created>1739183612895</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739183612895</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cambia indirizzo, aggiungi Babel">
+      <option name="closed" value="true" />
+      <created>1739185333727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739185333727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cambia indirizzo, aggiungi Babel">
+      <option name="closed" value="true" />
+      <created>1739185435643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739185435643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="aggiorna il video">
+      <option name="closed" value="true" />
+      <created>1739186326878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739186326878</updated>
+    </task>
+    <task id="LOCAL-00006" summary="aggiorna il video">
+      <option name="closed" value="true" />
+      <created>1739189692486</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739189692486</updated>
+    </task>
+    <task id="LOCAL-00007" summary="aggiorna il video con autoplay">
+      <option name="closed" value="true" />
+      <created>1739189874498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739189874498</updated>
+    </task>
+    <task id="LOCAL-00008" summary="aggiungi che è possibile il drop in">
+      <option name="closed" value="true" />
+      <created>1744717119518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744717119519</updated>
+    </task>
+    <task id="LOCAL-00009" summary="aggiungi che è possibile il drop in">
+      <option name="closed" value="true" />
+      <created>1756453613238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756453613238</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aggiungi che è possibile il drop in">
+      <option name="closed" value="true" />
+      <created>1772540625086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772540625086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="solo il lunedi">
+      <option name="closed" value="true" />
+      <created>1772540925153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772540925153</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -188,14 +263,27 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rimuovi iframe facebook" />
+    <MESSAGE value="cambia indirizzo, aggiungi Babel" />
+    <MESSAGE value="aggiorna il video" />
+    <MESSAGE value="aggiorna il video con autoplay" />
+    <MESSAGE value="aggiungi che è possibile il drop in" />
+    <MESSAGE value="solo il lunedi" />
+    <option name="LAST_COMMIT_MESSAGE" value="solo il lunedi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.css">
