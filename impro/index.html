@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berlino Impro Gutschein – Berlino Italia Improv</title>
+  <meta name="description" content="The Berlino Impro Gutschein: a metal token you can use to attend a show for two, or join a drop-in improvisation class. A gift that opens doors.">
+  <link rel="canonical" href="https://berlinoitalia.com/gutschein/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --black: #0d0d0d;
+      --white: #f2f2f0;
+      --red: #c0392b;
+      --red-dark: #922b21;
+      --metal: #8a8a8a;
+      --metal-light: #b0b0b0;
+      --gap: clamp(3rem, 6vw, 6rem);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'Barlow', sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 3rem;
+      background: rgba(13,13,13,0.9);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .nav-logo {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--white);
+      text-decoration: none;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    .nav-logo:hover { opacity: 1; }
+
+    .nav-back {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--metal-light);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--white); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0 3rem 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 80px,
+          rgba(255,255,255,0.012) 80px,
+          rgba(255,255,255,0.012) 81px
+        );
+    }
+
+    .hero-eyebrow {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .hero-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 2.5rem;
+      height: 2px;
+      background: var(--red);
+    }
+
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(4.5rem, 14vw, 13rem);
+      line-height: 0.88;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 0.2em;
+    }
+
+    .hero h1 .outline {
+      -webkit-text-stroke: 2px var(--white);
+      color: transparent;
+    }
+
+    .hero h1 .red {
+      color: var(--red);
+    }
+
+    .hero-sub {
+      margin-top: 2.5rem;
+      max-width: 480px;
+      font-size: 1.05rem;
+      color: rgba(242,242,240,0.6);
+      line-height: 1.75;
+      border-left: 2px solid var(--red);
+      padding-left: 1.5rem;
+    }
+
+    /* ── PHOTO STRIP ── */
+    .photo-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+      background: #000;
+    }
+
+    .photo-strip img {
+      width: 100%;
+      height: 55vw;
+      max-height: 600px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      filter: contrast(1.08) saturate(0.85);
+      transition: filter 0.4s;
+    }
+
+    .photo-strip img:hover {
+      filter: contrast(1.1) saturate(1);
+    }
+
+    .photo-strip img:first-child {
+      grid-row: 1;
+      grid-column: 1 / -1;
+      height: 65vw;
+      max-height: 700px;
+    }
+
+    /* ── SECTIONS ── */
+    .section {
+      padding: var(--gap) 3rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(255,255,255,0.1);
+    }
+
+    /* ── HOW IT WORKS ── */
+    .how-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+      margin-top: 0;
+    }
+
+    .how-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.07);
+      padding: 3rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s;
+    }
+
+    .how-card:hover {
+      background: rgba(255,255,255,0.07);
+    }
+
+    .how-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 3px;
+      background: var(--red);
+    }
+
+    .how-number {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 5rem;
+      font-weight: 900;
+      color: rgba(255,255,255,0.05);
+      line-height: 1;
+      position: absolute;
+      top: 1.5rem;
+      right: 2rem;
+    }
+
+    .how-icon {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+
+    .how-card h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 1rem;
+      line-height: 1.1;
+    }
+
+    .how-card p {
+      font-size: 0.95rem;
+      color: rgba(242,242,240,0.6);
+      line-height: 1.8;
+    }
+
+    /* ── TOKEN DETAIL ── */
+    .token-section {
+      background: rgba(255,255,255,0.03);
+      border-top: 1px solid rgba(255,255,255,0.07);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      padding: var(--gap) 3rem;
+    }
+
+    .token-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: center;
+    }
+
+    .token-text h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      text-transform: uppercase;
+      line-height: 0.95;
+      margin-bottom: 2rem;
+    }
+
+    .token-text h2 em {
+      font-style: normal;
+      color: var(--red);
+    }
+
+    .token-text p {
+      color: rgba(242,242,240,0.6);
+      line-height: 1.85;
+      margin-bottom: 1.2rem;
+      font-size: 0.97rem;
+    }
+
+    .token-facts {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    .token-fact {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .token-fact:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .fact-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--red);
+      flex-shrink: 0;
+      margin-top: 0.55rem;
+    }
+
+    .token-fact span {
+      font-size: 0.9rem;
+      color: rgba(242,242,240,0.65);
+      line-height: 1.7;
+    }
+
+    .token-fact span strong {
+      color: var(--white);
+      font-weight: 400;
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 0.15rem;
+    }
+
+    /* Token visual graphic */
+    .token-visual {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .token-graphic {
+      width: 200px;
+      background: linear-gradient(145deg, #a0a0a0, #6a6a6a);
+      border-radius: 8px;
+      padding: 1.2rem 1rem;
+      text-align: center;
+      box-shadow:
+        4px 4px 12px rgba(0,0,0,0.6),
+        -1px -1px 4px rgba(255,255,255,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.2);
+      position: relative;
+    }
+
+    .token-strap {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 18px;
+      height: 40px;
+      background: var(--red);
+      border-radius: 2px;
+    }
+
+    .token-strap.black { background: #222; }
+
+    .token-graphic-text {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 1;
+      color: #3a3a3a;
+    }
+
+    .token-graphic-text .t1 { font-size: 0.7rem; letter-spacing: 0.1em; opacity: 0.7; }
+    .token-graphic-text .t2 { font-size: 2.2rem; letter-spacing: -0.02em; }
+    .token-graphic-text .t3 { font-size: 0.65rem; letter-spacing: 0.08em; opacity: 0.7; }
+    .token-graphic-text .t4 { font-size: 0.9rem; letter-spacing: 0.05em; }
+
+    .token-caption {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--metal);
+      text-align: center;
+    }
+
+    /* ── PARTNERS ── */
+    .partners-section {
+      padding: var(--gap) 3rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .partners-intro {
+      font-size: 1rem;
+      color: rgba(242,242,240,0.55);
+      max-width: 520px;
+      margin-bottom: 3rem;
+      line-height: 1.8;
+    }
+
+    .partners-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3px;
+    }
+
+    .partner-card {
+      border: 1px solid rgba(255,255,255,0.07);
+      padding: 2rem 1.8rem;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .partner-card:hover {
+      background: rgba(255,255,255,0.04);
+      border-color: rgba(255,255,255,0.15);
+    }
+
+    .partner-name {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+
+    .partner-lang {
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .partner-placeholder {
+      border: 1px dashed rgba(255,255,255,0.1);
+      padding: 2rem 1.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .partner-placeholder span {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.15);
+    }
+
+    /* ── BIG QUOTE ── */
+    .quote-section {
+      padding: var(--gap) 3rem;
+      background: var(--red);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .quote-bg-text {
+      position: absolute;
+      top: 50%;
+      left: -2%;
+      transform: translateY(-50%);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(6rem, 18vw, 16rem);
+      text-transform: uppercase;
+      color: rgba(0,0,0,0.15);
+      line-height: 1;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    .quote-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .quote-inner p {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: clamp(1.8rem, 4vw, 3.2rem);
+      text-transform: uppercase;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      color: var(--white);
+      max-width: 700px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 2.5rem 3rem;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: rgba(242,242,240,0.3);
+      letter-spacing: 0.05em;
+    }
+
+    footer a {
+      color: rgba(242,242,240,0.4);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    footer a:hover { color: var(--white); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-eyebrow { animation: fadeUp 0.5s ease both; }
+    .hero h1      { animation: fadeUp 0.6s 0.1s ease both; }
+    .hero-sub     { animation: fadeUp 0.6s 0.25s ease both; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 800px) {
+      nav { padding: 1rem 1.5rem; }
+      .hero { padding: 0 1.5rem 3rem; }
+      .how-grid { grid-template-columns: 1fr; }
+      .token-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .token-visual { order: -1; }
+      .partners-grid { grid-template-columns: 1fr 1fr; }
+      .section { padding: var(--gap) 1.5rem; }
+      .token-section { padding: var(--gap) 1.5rem; }
+      .partners-section { padding: var(--gap) 1.5rem; }
+      .quote-section { padding: var(--gap) 1.5rem; }
+      footer { padding: 2rem 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
+      .photo-strip img:first-child { height: 80vw; }
+      .photo-strip img { height: 60vw; }
+    }
+
+    @media (max-width: 500px) {
+      .partners-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="https://berlinoitalia.com" class="nav-logo">Berlino Italia Improv</a>
+    <a href="https://berlinoitalia.com" class="nav-back">← Back to site</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-eyebrow">Berlino Italia Improv</div>
+    <h1>
+      <span class="outline">Berlino</span><br>
+      <span>Impro</span><br>
+      <span class="red">Gutschein</span>
+    </h1>
+    <p class="hero-sub">
+      A metal token. A gift that opens two doors — a seat at the theatre for two, or a spot in a drop-in improvisation class.
+    </p>
+  </section>
+
+  <!-- PHOTO STRIP -->
+  <div class="photo-strip">
+    <img src="./IMG_1044.jpeg" alt="Berlino Impro Gutschein – cards and tokens on a wooden surface">
+    <img src="./IMG_0403.jpeg" alt="Berlino Impro Gutschein – token in its case">
+    <img src="./IMG_1045.jpeg" alt="Berlino Impro Gutschein – multiple tokens and cards">
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="section">
+    <div class="section-label">How it works</div>
+    <div class="how-grid">
+      <div class="how-card">
+        <span class="how-number">01</span>
+        <span class="how-icon">🎭</span>
+        <h3>Go to a show<br>for two</h3>
+        <p>Use one Gutschein to attend any of our monthly shows at Teatro Acud — and bring someone with you. One token, two seats. No booking, no fuss.</p>
+      </div>
+      <div class="how-card">
+        <span class="how-number">02</span>
+        <span class="how-icon">⚡</span>
+        <h3>Join a<br>drop-in class</h3>
+        <p>Use your token to walk into one of our drop-in improvisation sessions — no previous experience needed, no commitment. Just show up and play.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOKEN DETAIL -->
+  <div class="token-section">
+    <div class="token-inner">
+      <div class="token-text">
+        <div class="section-label">The object</div>
+        <h2>Not a voucher.<br>A <em>token.</em></h2>
+        <p>The Berlino Impro Gutschein is a cast metal token — designed to be held, gifted, and used. It comes mounted on a card with a ribbon strap, ready to give.</p>
+        <p>It is not disposable. It has weight. It means something.</p>
+        <div class="token-facts">
+          <div class="token-fact">
+            <div class="fact-dot"></div>
+            <span><strong>Cast metal</strong>Engraved with the Berlino Italia Improv mark</span>
+          </div>
+          <div class="token-fact">
+            <div class="fact-dot"></div>
+            <span><strong>Mounted on a card</strong>Black card with bold typography, ribbon strap in red or black</span>
+          </div>
+          <div class="token-fact">
+            <div class="fact-dot"></div>
+            <span><strong>No expiry</strong>Use it whenever you want — the offer doesn't expire</span>
+          </div>
+          <div class="token-fact">
+            <div class="fact-dot"></div>
+            <span><strong>Valid at all partner venues</strong>Accepted by Berlino Italia Improv and partner schools</span>
+          </div>
+        </div>
+      </div>
+      <div class="token-visual">
+        <div style="position: relative; margin-top: 2.5rem;">
+          <div class="token-graphic">
+            <div class="token-strap"></div>
+            <div class="token-graphic-text">
+              <div class="t1">Berlino</div>
+              <div class="t2">B</div>
+              <div class="t3">Italia</div>
+              <div class="t4">Improv</div>
+            </div>
+          </div>
+        </div>
+        <div class="token-caption">Cast metal token · Red ribbon</div>
+        <div style="position: relative; margin-top: 1rem;">
+          <div class="token-graphic" style="background: linear-gradient(145deg, #888, #555);">
+            <div class="token-strap black"></div>
+            <div class="token-graphic-text" style="color: #2a2a2a;">
+              <div class="t1">Berlino</div>
+              <div class="t2">B</div>
+              <div class="t3">Italia</div>
+              <div class="t4">Improv</div>
+            </div>
+          </div>
+        </div>
+        <div class="token-caption">Cast metal token · Black ribbon</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PARTNERS -->
+  <div class="partners-section">
+    <div class="section-label">Accepted by</div>
+    <p class="partners-intro">The Gutschein is valid at Berlino Italia Improv events and accepted by our partner improvisation schools in Berlin.</p>
+    <div class="partners-grid">
+      <div class="partner-card">
+        <div class="partner-name">Berlino Italia Improv</div>
+        <div class="partner-lang">Italian</div>
+      </div>
+      <div class="partner-card">
+        <div class="partner-name">Impro Embassy</div>
+        <div class="partner-lang">English</div>
+      </div>
+      <div class="partner-card">
+        <div class="partner-name">Berlín ES Impro</div>
+        <div class="partner-lang">Spanish</div>
+      </div>
+      <div class="partner-card">
+        <div class="partner-name">LIBER</div>
+        <div class="partner-lang">French</div>
+      </div>
+      <div class="partner-card">
+        <div class="partner-name">Scratch Theater</div>
+        <div class="partner-lang">English</div>
+      </div>
+      <div class="partner-card">
+        <div class="partner-name">Polskie Impro Berlin</div>
+        <div class="partner-lang">Polish</div>
+      </div>
+      <div class="partner-placeholder">
+        <span>More partners</span>
+      </div>
+      <div class="partner-placeholder">
+        <span>Coming soon</span>
+      </div>
+      <div class="partner-placeholder">
+        <span>Coming soon</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUOTE -->
+  <div class="quote-section">
+    <div class="quote-bg-text">Impro</div>
+    <div class="quote-inner">
+      <p>The best gift for someone who has never tried improvisation — and for someone who can't get enough of it.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 Berlino Italia Improv</span>
+    <span>
+      <a href="mailto:info@berlinoitalia.com">info@berlinoitalia.com</a>
+      &nbsp;·&nbsp;
+      <a href="https://berlinoitalia.com">berlinoitalia.com</a>
+    </span>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.how-card, .token-fact, .partner-card').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
