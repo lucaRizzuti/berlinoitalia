@@ -269,40 +269,6 @@
       line-height: 1.8;
     }
 
-    /* ── CONTACT CARDS ── */
-    a.how-card {
-      text-decoration: none;
-      display: block;
-      cursor: pointer;
-    }
-
-    a.how-card::before {
-      background: var(--red);
-      transition: background 0.3s;
-    }
-
-    a.how-card:hover::before {
-      background: var(--white);
-    }
-
-    .contact-link {
-      margin-top: 1.8rem;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 1rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--red);
-      border-bottom: 1px solid rgba(192,57,43,0.3);
-      padding-bottom: 0.3rem;
-      display: inline-block;
-      transition: color 0.2s, border-color 0.2s;
-    }
-
-    a.how-card:hover .contact-link {
-      color: var(--white);
-      border-color: rgba(255,255,255,0.3);
-    }
-
     /* ── TOKEN DETAIL ── */
     .token-section {
       background: rgba(255,255,255,0.03);
@@ -700,25 +666,6 @@
     </div>
   </div>
 
-  <!-- COME ORDINARE -->
-  <div class="section">
-    <div class="section-label">How to purchase the Gutschein</div>
-    <div class="how-grid">
-      <a class="how-card" href="mailto:berlinoitaliaimprov@gmail.com">
-        <span class="how-number" style="font-size: 3rem; opacity: 0.08;">✉</span>
-        <h3>Send us<br>an email</h3>
-        <p>Contact us to receive your voucher, arrange delivery, or ask questions.</p>
-        <div class="contact-link">berlinoitaliaimprov@gmail.com</div>
-      </a>
-      <a class="how-card" href="https://wa.me/491639192451" target="_blank" rel="noopener noreferrer">
-        <span class="how-number" style="font-size: 3rem; opacity: 0.08;">💬</span>
-        <h3>Message us<br>on WhatsApp</h3>
-        <p>Find us on WhatsApp Business, and we’ll get back to you as soon as possible.</p>
-        <div class="contact-link">+49 163 919 2451 →</div>
-      </a>
-    </div>
-  </div>
-
   <!-- PARTNERS -->
   <div class="partners-section">
     <div class="section-label">Accepted by</div>
@@ -781,31 +728,6 @@
       <a href="https://berlinoitalia.com">berlinoitalia.com</a>
     </span>
   </footer>
-
-  <style>
-    /* Contact card overrides */
-    a.how-card {
-      text-decoration: none;
-      display: block;
-      cursor: pointer;
-    }
-    .contact-link {
-      margin-top: 1.8rem;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 0.95rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--red);
-      border-bottom: 1px solid rgba(192,57,43,0.3);
-      padding-bottom: 0.3rem;
-      display: inline-block;
-      transition: color 0.2s, border-color 0.2s;
-    }
-    a.how-card:hover .contact-link {
-      color: var(--white);
-      border-color: rgba(255,255,255,0.3);
-    }
-  </style>
 
   <script>
     const observer = new IntersectionObserver((entries) => {
