@@ -161,9 +161,6 @@ export default function CorsiPage() {
             <dt className="font-display font-semibold uppercase tracking-[0.08em]">Lingua</dt>
             <dd>Italiano</dd>
           </div>
-          <p className="mt-4 inline-block border-2 border-dashed border-blu/50 px-3 py-2 font-display text-[11px] uppercase tracking-[0.12em] text-blu">
-            Orari e sedi da confermare
-          </p>
         </dl>
       </Container>
 

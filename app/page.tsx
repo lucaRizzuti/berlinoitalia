@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
 import { EventiList } from "@/components/EventiList";
 import { getEventi } from "@/lib/eventi";
+import { site } from "@/lib/site";
 
 export const revalidate = 3600;
 
@@ -214,15 +215,10 @@ export default async function HomePage() {
               Spettacoli, corsi e workshop. Una mail al mese, niente di più.
             </p>
           </div>
-          <div className="flex flex-col gap-4">
-            <div className="flex">
-              <span className="flex-1 border-2 border-r-0 border-paper px-4 py-3.5 text-sm text-paper/55">
-                la-tua@email.com
-              </span>
-              <Button href="/contatti" variant="rosso" className="border-rosso">
-                Iscriviti
-              </Button>
-            </div>
+          <div className="flex flex-col items-start gap-4">
+            <Button href={site.newsletterUrl} external variant="rosso" className="border-rosso">
+              Iscriviti alla newsletter
+            </Button>
             <p className="kicker tracking-[0.18em] text-paper/65">
               Instagram · Facebook · YouTube · WhatsApp
             </p>

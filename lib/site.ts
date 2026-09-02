@@ -24,6 +24,10 @@ export const site = {
     youtube: "https://www.youtube.com/@berlinoitaliaimprov1498",
   },
 
+  /** Modulo iscrizione newsletter ospitato su Brevo (sibforms). */
+  newsletterUrl:
+    "https://02687b9c.sibforms.com/serve/MUIFAAhV0wtuvDMkmpN-C76LM3on07c-jvz780iiyotdFkpj-cik33b90-WEVckb9QXleSzFEqFUlhKm7Y6S7j5FYnL3ob3khgWOTs1SeihYaLGEFMsXbdjEFnEum1Q7bmBVWt7C1PMgwhMVSZBY0UZvzxNQd_5BqnTCwGhuCc-ObJmzliFsSZyiwxZuMh7cEffiMWmAx5GugNzlSg==",
+
   venues: {
     acud: {
       name: "Teatro Acud",

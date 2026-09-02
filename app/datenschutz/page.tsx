@@ -13,7 +13,7 @@ export default function DatenschutzPage() {
     <LegalPage
       title="Datenschutzerklärung"
       updated="Datenschutz"
-      note="Bozza — definire la sezione Newsletter e far verificare a un legale prima della pubblicazione."
+      note="Bozza — consigliata una revisione legale prima della pubblicazione."
     >
       <h2>1. Verantwortlicher</h2>
       <p>
@@ -70,11 +70,11 @@ export default function DatenschutzPage() {
 
       <h2>7. Newsletter</h2>
       <p>
-        [Falls ein Newsletter angeboten wird:] Für den Versand nutzen wir den Dienst Brevo
-        (Sendinblue GmbH, Köpenicker Str. 126, 10179 Berlin). Die Anmeldung erfolgt im
-        Double-Opt-in-Verfahren. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit.
-        a DSGVO), die Sie jederzeit widerrufen können. [Abschnitt entfernen, falls kein
-        Newsletter.]
+        Die Anmeldung zu unserem Newsletter erfolgt über ein extern gehostetes Formular des
+        Anbieters Brevo (Sendinblue GmbH, Köpenicker Str. 126, 10179 Berlin). Beim Aufruf
+        dieses Formulars gelten die Datenschutzbestimmungen von Brevo. Die Anmeldung
+        erfolgt im Double-Opt-in-Verfahren; Rechtsgrundlage ist Ihre Einwilligung (Art. 6
+        Abs. 1 lit. a DSGVO), die Sie jederzeit über den Abmeldelink widerrufen können.
       </p>
 
       <h2>8. Ticketing (YesTicket)</h2>

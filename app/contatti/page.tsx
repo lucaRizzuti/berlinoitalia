@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Container } from "@/components/Container";
+import { Button } from "@/components/Button";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -51,9 +52,11 @@ export default function ContattiPage() {
           <h2 className="max-w-[16ch] text-[clamp(1.8rem,4.5vw,2.5rem)] text-paper">
             Spettacoli, corsi e workshop. Una mail al mese.
           </h2>
-          <p className="mt-4 max-w-md text-paper/70">
-            Iscrizione tramite il modulo Brevo — da collegare.
-          </p>
+          <div className="mt-5">
+            <Button href={site.newsletterUrl} external variant="verde">
+              Iscriviti alla newsletter
+            </Button>
+          </div>
         </Container>
       </section>
     </>
