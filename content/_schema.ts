@@ -13,10 +13,13 @@ export const showFrontmatter = z.object({
   hero: z.string().optional(),
   gallery: z.array(z.string()).default([]),
   video: z.string().url().optional(),
-  /** Aggancio per il blocco "prossime date" (integrazione YesTicket nativa). */
+  /**
+   * Parole chiave per filtrare gli eventi YesTicket di questo format
+   * (match sul titolo dell'evento nel feed iCal). Vuoto = nessun blocco date.
+   */
   yesticket: z
-    .object({ productId: z.string().nullable().default(null) })
-    .default({ productId: null }),
+    .object({ match: z.array(z.string()).default([]) })
+    .default({ match: [] }),
   /** Pagina propria per i format speciali: es. "/rodari". Altrimenti null. */
   external: z.string().nullable().default(null),
   seo: z

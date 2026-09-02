@@ -9,7 +9,7 @@ pubblico: Scuole e ragazzi
 hero: /collage/collage-mouth.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Rodari", "Grammatica della fantasia"]
 external: /rodari
 seo:
   description: Grammatica della Fantasia — spettacolo di improvvisazione teatrale per le scuole ispirato a Gianni Rodari, a Berlino, in italiano.

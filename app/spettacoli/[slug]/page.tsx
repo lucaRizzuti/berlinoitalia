@@ -5,10 +5,13 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Container } from "@/components/Container";
-import { EventiPlaceholder } from "@/components/EventiPlaceholder";
+import { EventiList } from "@/components/EventiList";
 import { Button } from "@/components/Button";
 import { getShow, getShowSlugs } from "@/lib/spettacoli";
+import { getEventiForShow } from "@/lib/eventi";
 import { site } from "@/lib/site";
+
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return getShowSlugs().map((slug) => ({ slug }));
@@ -45,6 +48,8 @@ export default async function ShowPage(props: PageProps<"/spettacoli/[slug]">) {
   const show = getShow(slug);
   if (!show) notFound();
   if (show.external) redirect(show.external);
+
+  const eventi = await getEventiForShow(show.yesticket.match);
 
   const meta = [
     { k: "Lingua", v: show.lingua.map((l) => langLabel[l]).join(" / ") },
@@ -157,7 +162,11 @@ export default async function ShowPage(props: PageProps<"/spettacoli/[slug]">) {
             </h2>
           </div>
           <div className="self-center">
-            <EventiPlaceholder slug={show.slug} dark />
+            <EventiList
+              eventi={eventi}
+              dark
+              emptyLabel="Nessuna data in programma per questo format. Guarda tutti gli eventi."
+            />
           </div>
         </Container>
       </section>

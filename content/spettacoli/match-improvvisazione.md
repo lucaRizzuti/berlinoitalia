@@ -10,7 +10,7 @@ pubblico: Adulti e famiglie
 hero: /collage/collage-hand-arch.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Match"]
 external: null
 seo:
   description: Il Match d'improvvisazione teatrale a Berlino, in italiano — due squadre si sfidano a giocare scene ispirate dal pubblico, sotto lo sguardo di un arbitro impassibile.

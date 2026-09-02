@@ -5,6 +5,10 @@ import { Button } from "@/components/Button";
 import { MetaBand } from "@/components/MetaBand";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
+import { EventiList } from "@/components/EventiList";
+import { getEventi } from "@/lib/eventi";
+
+export const revalidate = 3600;
 
 const quickLinks = [
   {
@@ -57,7 +61,9 @@ const quickLinks = [
   },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const eventi = (await getEventi()).slice(0, 4);
+
   return (
     <>
       {/* HERO */}
@@ -191,10 +197,11 @@ export default function HomePage() {
             </Link>
           </p>
         </div>
-        <div className="self-center border-2 border-dashed border-blu/50 p-8 text-center font-display text-sm uppercase tracking-[0.12em] text-blu">
-          Qui andrà l&apos;anteprima delle prossime date
-          <br />
-          (integrazione YesTicket)
+        <div className="self-center">
+          <EventiList
+            eventi={eventi}
+            emptyLabel="Nessuna data in programma. Torna presto — o iscriviti alla newsletter."
+          />
         </div>
       </Container>
 

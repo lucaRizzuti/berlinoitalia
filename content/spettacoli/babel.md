@@ -10,7 +10,7 @@ pubblico: Adulti e famiglie
 hero: /collage/collage-people.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Babel"]
 external: null
 seo:
   description: Berlino Babel — spettacolo di improvvisazione teatrale multilingua a Berlino, nato dalla collaborazione tra le scuole di impro in italiano, tedesco, spagnolo, francese e inglese.

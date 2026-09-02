@@ -10,7 +10,7 @@ pubblico: Adulti e famiglie
 hero: /collage/collage-ear.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Storie all"]
 external: null
 seo:
   description: Storie all'Improvviso — spettacolo di improvvisazione teatrale in italiano a Berlino che unisce giochi classici e narrazione di storie ispirate dal pubblico.

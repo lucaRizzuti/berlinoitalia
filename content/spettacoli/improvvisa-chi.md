@@ -10,7 +10,7 @@ pubblico: Adulti e famiglie
 hero: /collage/collage-berlin.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Improvvisa Chi"]
 external: null
 seo:
   description: Improvvisa Chi? — format di improvvisazione teatrale a Berlino ispirato al classico gioco da tavolo. Vincitore di Pandora Festival 2016, ideato da Francesco De Vincenzi.

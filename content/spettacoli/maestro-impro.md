@@ -10,7 +10,7 @@ pubblico: Adulti e famiglie
 hero: /collage/collage-mouth.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Maestro"]
 external: null
 seo:
   description: Maestro Impro a Berlino — il format ideato da Keith Johnstone. Scene estratte a sorte, guidate da un regista, votate dal pubblico fino all'ultimo improvvisatore rimasto.

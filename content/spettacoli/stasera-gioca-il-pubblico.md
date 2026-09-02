@@ -10,7 +10,7 @@ pubblico: Adulti e famiglie
 hero: /collage/collage-hand-circle.webp
 gallery: []
 yesticket:
-  productId: null
+  match: ["Stasera gioca", "gioca il pubblico"]
 external: null
 seo:
   description: Stasera Gioca il Pubblico — una serata di improvvisazione teatrale in italiano a Berlino dove sono gli spettatori a salire sul palco con gli attori.
