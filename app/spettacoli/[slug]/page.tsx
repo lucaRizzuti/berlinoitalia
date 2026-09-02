@@ -7,8 +7,10 @@ import remarkGfm from "remark-gfm";
 import { Container } from "@/components/Container";
 import { EventiList } from "@/components/EventiList";
 import { Button } from "@/components/Button";
+import { JsonLd } from "@/components/JsonLd";
 import { getShow, getShowSlugs } from "@/lib/spettacoli";
 import { getEventiForShow } from "@/lib/eventi";
+import { showLd, breadcrumbLd } from "@/lib/jsonld";
 import { site } from "@/lib/site";
 
 export const revalidate = 3600;
@@ -60,6 +62,15 @@ export default async function ShowPage(props: PageProps<"/spettacoli/[slug]">) {
 
   return (
     <>
+      <JsonLd
+        data={[
+          showLd(show),
+          breadcrumbLd([
+            { name: "Spettacoli", url: "/spettacoli" },
+            { name: show.title, url: `/spettacoli/${show.slug}` },
+          ]),
+        ]}
+      />
       <Container className="pt-6">
         <p className="kicker text-ink/55">
           <Link href="/spettacoli" className="text-ink/55 hover:text-rosso">

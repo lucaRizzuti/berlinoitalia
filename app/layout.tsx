@@ -6,6 +6,8 @@ import { site } from "@/lib/site";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { WhatsappButton } from "@/components/WhatsappButton";
+import { JsonLd } from "@/components/JsonLd";
+import { organizationLd } from "@/lib/jsonld";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -34,8 +36,9 @@ export const metadata: Metadata = {
     url: site.url,
     title: `${site.name} — Improvvisazione teatrale in italiano a Berlino`,
     description: site.description,
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: site.name }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: ["/og.png"] },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -48,6 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <WhatsappButton />
         <div className="u-grain fixed" aria-hidden="true" />
         <Analytics />
+        <JsonLd data={organizationLd} />
       </body>
     </html>
   );

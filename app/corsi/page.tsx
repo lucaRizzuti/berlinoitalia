@@ -4,6 +4,8 @@ import { Container } from "@/components/Container";
 import { MetaBand } from "@/components/MetaBand";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/Button";
+import { JsonLd } from "@/components/JsonLd";
+import { courseLd } from "@/lib/jsonld";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -48,6 +50,7 @@ const skill = [
 export default function CorsiPage() {
   return (
     <>
+      <JsonLd data={courseLd} />
       {/* HERO */}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
         <div>
