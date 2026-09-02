@@ -15,7 +15,7 @@ export default function DatenschutzPage() {
       <p>
         Verantwortlich für die Datenverarbeitung auf dieser Website ist:
         <br />
-        [Name / Rechtsform], [Anschrift], [PLZ] Berlin
+        Luca Rizzuti, [Straße und Hausnummer], [PLZ] Berlin
         <br />
         E-Mail: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
       </p>
