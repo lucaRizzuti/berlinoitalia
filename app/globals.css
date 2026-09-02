@@ -137,4 +137,22 @@
     list-style: square;
   }
   .prose li { margin: 0.25rem 0; }
+
+  /* pagine legali */
+  .legal h2 {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    margin: 2rem 0 0.5rem;
+  }
+  .legal h3 {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 1.25rem 0 0.35rem;
+  }
+  .legal p { margin: 0 0 0.85rem; font-size: 0.95rem; line-height: 1.65; }
+  .legal ul { margin: 0 0 0.85rem; padding-left: 1.1rem; list-style: square; font-size: 0.95rem; }
+  .legal a { text-decoration: underline; text-underline-offset: 2px; }
 }
