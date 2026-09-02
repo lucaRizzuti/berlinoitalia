@@ -11,14 +11,18 @@ export const metadata: Metadata = {
 
 export default function ImpressumPage() {
   return (
-    <LegalPage title="Impressum" updated="Angaben gemäß § 5 DDG">
+    <LegalPage
+      title="Impressum"
+      updated="Angaben gemäß § 5 DDG"
+      note="Bozza — consigliata una revisione legale prima della pubblicazione."
+    >
       <h2>Diensteanbieter</h2>
       <p>
         Luca Rizzuti
         <br />
-        [Straße und Hausnummer]
+        Kiefholzstraße 26
         <br />
-        [PLZ] Berlin
+        12435 Berlin
         <br />
         Deutschland
       </p>
@@ -32,12 +36,6 @@ export default function ImpressumPage() {
 
       <h2>Redaktionell verantwortlich (§ 18 Abs. 2 MStV)</h2>
       <p>Luca Rizzuti (Anschrift wie oben)</p>
-
-      <h2>Umsatzsteuer-Identifikationsnummer</h2>
-      <p>
-        [USt-IdNr. gemäß § 27a UStG: … — nur angeben, falls vorhanden; andernfalls diesen
-        Abschnitt entfernen]
-      </p>
 
       <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
       <p>

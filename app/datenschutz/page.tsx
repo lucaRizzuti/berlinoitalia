@@ -10,12 +10,16 @@ export const metadata: Metadata = {
 
 export default function DatenschutzPage() {
   return (
-    <LegalPage title="Datenschutzerklärung" updated="Datenschutz">
+    <LegalPage
+      title="Datenschutzerklärung"
+      updated="Datenschutz"
+      note="Bozza — definire la sezione Newsletter e far verificare a un legale prima della pubblicazione."
+    >
       <h2>1. Verantwortlicher</h2>
       <p>
         Verantwortlich für die Datenverarbeitung auf dieser Website ist:
         <br />
-        Luca Rizzuti, [Straße und Hausnummer], [PLZ] Berlin
+        Luca Rizzuti, Kiefholzstraße 26, 12435 Berlin
         <br />
         E-Mail: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
       </p>
