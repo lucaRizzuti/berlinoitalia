@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/corsi",
     "/spettacoli",
     "/eventi",
+    "/video",
     "/rodari",
     "/gutschein",
     "/contatti",

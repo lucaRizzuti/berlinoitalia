@@ -1,6 +1,7 @@
 import { site } from "./site";
 import type { Show } from "@/content/_schema";
 import type { Evento } from "./eventi";
+import type { Video } from "./youtube";
 
 const ORG_ID = `${site.url}/#organization`;
 
@@ -95,6 +96,27 @@ export function eventLd(e: Evento) {
       ? { location: { "@type": "Place", name: e.location, address: e.location } }
       : {}),
     ...(e.url ? { url: e.url, offers: { "@type": "Offer", url: e.url } } : {}),
+  };
+}
+
+export function videoLd(videos: Video[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: videos.map((v, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "VideoObject",
+        name: v.title,
+        description: v.description ?? v.title,
+        thumbnailUrl: v.thumb,
+        uploadDate: v.published.toISOString(),
+        embedUrl: `https://www.youtube.com/embed/${v.id}`,
+        contentUrl: v.url,
+        publisher: { "@id": ORG_ID },
+      },
+    })),
   };
 }
 

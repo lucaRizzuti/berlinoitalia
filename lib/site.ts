@@ -56,6 +56,7 @@ export const nav: NavItem[] = [
   { label: "Corsi", href: "/corsi", accent: "blu" },
   { label: "Spettacoli", href: "/spettacoli", accent: "rosso" },
   { label: "Eventi", href: "/eventi", accent: "verde" },
+  { label: "Video", href: "/video", accent: "rosso" },
   { label: "Rodari", href: "/rodari" },
   { label: "Gutschein", href: "/gutschein" },
   { label: "Contatti", href: "/contatti" },

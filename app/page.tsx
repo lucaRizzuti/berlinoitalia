@@ -6,7 +6,9 @@ import { MetaBand } from "@/components/MetaBand";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
 import { EventiList } from "@/components/EventiList";
+import { VideoGrid } from "@/components/VideoGrid";
 import { getEventi } from "@/lib/eventi";
+import { getVideos } from "@/lib/youtube";
 import { site } from "@/lib/site";
 
 export const revalidate = 3600;
@@ -63,10 +65,43 @@ const quickLinks = [
 ];
 
 export default async function HomePage() {
-  const eventi = (await getEventi()).slice(0, 4);
+  const [eventiAll, videos] = await Promise.all([getEventi(), getVideos()]);
+  const eventi = eventiAll.slice(0, 4);
 
   return (
     <>
+      {/* PROSSIMI APPUNTAMENTI */}
+      <section className="border-b-2 border-ink bg-paper-2 py-14 md:py-16">
+        <Container className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
+          <div>
+            <p className="kicker mb-4 text-verde">Eventi — biglietti</p>
+            <h2 className="text-[clamp(2rem,5.5vw,3rem)]">
+              I prossimi
+              <br />
+              appuntamenti
+            </h2>
+            <p className="mt-5 max-w-[32ch]">
+              Spettacoli e lezioni aperte, sempre aggiornati. Il calendario completo, con i
+              biglietti, vive nella pagina Eventi.
+            </p>
+            <p className="mt-5">
+              <Link
+                href="/eventi"
+                className="font-display text-sm font-semibold uppercase tracking-[0.1em] text-verde"
+              >
+                Tutti gli eventi →
+              </Link>
+            </p>
+          </div>
+          <div className="self-center">
+            <EventiList
+              eventi={eventi}
+              emptyLabel="Nessuna data in programma. Torna presto — o iscriviti alla newsletter."
+            />
+          </div>
+        </Container>
+      </section>
+
       {/* HERO */}
       <Container className="grid items-center gap-10 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
         <div>
@@ -151,6 +186,26 @@ export default async function HomePage() {
         </Reveal>
       </Container>
 
+      {/* VIDEO */}
+      {videos.length > 0 && (
+        <section className="border-t-2 border-ink py-[70px]">
+          <Container>
+            <SectionHeading kicker="Sul palco" color="rosso">
+              Guardaci in azione
+            </SectionHeading>
+            <VideoGrid videos={videos} limit={3} />
+            <p className="mt-8">
+              <Link
+                href="/video"
+                className="font-display text-sm font-semibold uppercase tracking-[0.1em] text-rosso"
+              >
+                Tutti i video →
+              </Link>
+            </p>
+          </Container>
+        </section>
+      )}
+
       {/* QUICK LINKS */}
       <section className="border-y-2 border-ink bg-paper-2 py-[70px]">
         <Container>
@@ -176,35 +231,6 @@ export default async function HomePage() {
           </div>
         </Container>
       </section>
-
-      {/* PROSSIME DATE */}
-      <Container className="grid gap-14 py-[74px] md:grid-cols-[0.8fr_1.2fr]">
-        <div>
-          <p className="kicker mb-4 text-verde">Prossime date</p>
-          <h2 className="text-[clamp(2rem,5vw,2.75rem)]">
-            Quando
-            <br />
-            ci si vede
-          </h2>
-          <p className="mt-5 max-w-[32ch]">
-            Il calendario completo, con i biglietti, vive nella pagina Eventi.
-          </p>
-          <p className="mt-5">
-            <Link
-              href="/eventi"
-              className="font-display text-sm font-semibold uppercase tracking-[0.1em] text-verde"
-            >
-              Tutti gli eventi →
-            </Link>
-          </p>
-        </div>
-        <div className="self-center">
-          <EventiList
-            eventi={eventi}
-            emptyLabel="Nessuna data in programma. Torna presto — o iscriviti alla newsletter."
-          />
-        </div>
-      </Container>
 
       {/* NEWSLETTER */}
       <section className="bg-ink py-16 text-paper">
