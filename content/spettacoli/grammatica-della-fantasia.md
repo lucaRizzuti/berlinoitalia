@@ -1,7 +1,7 @@
 ---
 title: Grammatica della Fantasia
 slug: grammatica-della-fantasia
-order: 7
+order: 8
 published: true
 tagline: Rodari sul palco — spettacolo interattivo per le scuole, prenotabile con il laboratorio.
 lingua: [it]

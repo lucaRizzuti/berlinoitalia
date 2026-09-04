@@ -1,7 +1,7 @@
 ---
 title: Berlino Babel
 slug: babel
-order: 6
+order: 7
 published: true
 tagline: Lo show multilingua nato con le scuole tedesca, spagnola, francese e inglese di Berlino.
 lingua: [it, de, en, es, fr]
