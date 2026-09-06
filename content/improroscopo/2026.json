@@ -129,6 +129,201 @@
           "personaggio": "il tassista che ha un'opinione su tutto"
         }
       }
+    },
+    {
+      "start": "2026-09-21",
+      "segni": {
+        "ariete": {
+          "titolo": "Il timbro che dice avanti",
+          "testo": "Ariete, tu al sì ci arrivi, ma spesso è un sì con la controproposta allegata: accetto, però facciamo a modo mio. Questa settimana prova ad accogliere l'idea del partner intera, senza limarla. In scena, se il collega dice che siete due speleologi, sei uno speleologo felice, non uno speleologo che veramente voleva fare il sommelier. Il sì pieno è un motore: parte subito e porta lontano. Fuori dal palco, di' di sì al ristorante scelto da un altro, al film che non avresti messo tu, alla gita decisa all'ultimo. Guidare va bene, ma ogni tanto è bello scoprire dove ti porta qualcun altro.",
+          "personaggio": "la bibliotecaria che shusha"
+        },
+        "toro": {
+          "titolo": "La crepa dove entra la luce",
+          "testo": "Toro, quando sbagli in scena ti irrigidisci e cerchi di tornare al piano originale, come se nessuno avesse visto. Questa settimana prova a fare pace con l'errore nel momento esatto in cui capita: un sorriso, una scrollata di spalle, avanti. Il pubblico si affeziona a chi cade e si rialza senza fare drammi. Un inciampo dichiarato con calma diventa spesso la cosa più vera della serata. Nella vita: brucia la cena e ordina la pizza ridendo, sbaglia il nome di un collega e correggiti senza scusarti per dieci minuti. La solidità non è non rompersi mai, è rompersi bene.",
+          "personaggio": "il prete di campagna"
+        },
+        "gemelli": {
+          "titolo": "Passare la linea agli altri",
+          "testo": "Gemelli, tu in scena sei brillante e veloce, e a volte ti ritrovi ad aver fatto tu le ultime otto battute. Questa settimana il gioco è smistare: prendi la palla e passala, fai la domanda che apre lo spazio al compagno più silenzioso. La squadra che sembra magica è quella dove nessuno tiene la cornetta per sé. Scoprirai che alzare gli altri è più divertente che avere sempre ragione. Fuori dal teatro: alla riunione, cita l'idea del collega e digli di svilupparla lui; alla cena, chiedi all'amico timido di raccontare quella storia. La conversazione più bella è un centralino, non un monologo.",
+          "personaggio": "la centralinista degli anni '80"
+        },
+        "cancro": {
+          "titolo": "Le mani sanno la scena",
+          "testo": "Cancro, tu vivi molto dentro: l'emozione la senti tutta, ma resta lì, sotto la pelle. Questa settimana falla uscire attraverso il corpo. Entra in scena e lascia che una postura, un passo pesante, una mano che trema ti dicano chi sei, prima ancora di parlare. Il pubblico legge la tensione delle spalle molto prima di una frase. Fuori dal palco: quando sei nervoso, cammina invece di rimuginare seduto; abbraccia davvero, non con la punta delle dita. Domare le proprie emozioni non vuol dire chiuderle in gabbia: vuol dire dargli una forma da mostrare.",
+          "personaggio": "il domatore di leoni senza leoni"
+        },
+        "leone": {
+          "titolo": "Il momento in cui smetti di intrattenere",
+          "testo": "Leone, tu il silenzio lo vivi come un vuoto di pubblico da riempire subito, con una battuta, un gesto, un sorriso. Questa settimana prova a stare zitto un secondo di troppo e a reggere lo sguardo. Quel silenzio non è noia: è il momento in cui il pubblico si sporge in avanti per capire cosa succede. Chi non ha paura delle pause sembra padrone della stanza. Fuori dal teatro: alla domanda difficile, non tappare il buco con comunque, andiamo avanti; ascolta l'amico fino in fondo prima di rilanciare. Non devi essere sempre in servizio.",
+          "personaggio": "la hostess con il sorriso stampato"
+        },
+        "vergine": {
+          "titolo": "Il tempo della scena non è la tua lista",
+          "testo": "Vergine, tu tieni il ritmo con il metronomo interno dell'ordine: prima questo, poi quello. Questa settimana ascolta invece il tempo che la scena si dà da sola. Se il dialogo accelera, corri anche tu; se si posa, resta nella calma senza aver fretta di concludere il punto. La bellezza sta spesso nel cambio di passo, non nella regolarità. Fuori dal palco: fai una pausa vera a metà giornata anche se la lista non è finita, cammina piano al parco, rispondi al messaggio quando hai qualcosa da dire e non appena arriva. Anche raccogliere la spazzatura ha un suo ritmo, se lo ascolti.",
+          "personaggio": "il netturbino poeta"
+        },
+        "bilancia": {
+          "titolo": "Accendere la luce nella hall",
+          "testo": "Bilancia, per non scontentare nessuno tendi a restare nella zona neutra: in scena aspetti che sia un altro a fare la scelta forte. Questa settimana rischia tu per primo. Dichiara l'emozione, prendi posizione, di' io me ne vado invece di vediamo come ci sentiamo. Il rischio nell'impro è impegnarsi al cento per cento in una direzione qualsiasi, e la scena te ne sarà grata. Fuori dal palco: esprimi la preferenza vera al ristorante, di' che qualcosa non ti è piaciuto, chiedi quel favore. Restare svegli tutta la notte in guardia stanca più che fare una mossa.",
+          "personaggio": "il portiere di notte insonne"
+        },
+        "scorpione": {
+          "titolo": "Prendere sul serio una sciocchezza",
+          "testo": "Scorpione, tu porti intensità: anche a un gioco stupido dai un sottotesto drammatico. Questa settimana prova la leggerezza pura. Insegui una battuta assurda per il gusto di vederla crescere, fai finta di vendere un oggetto immaginario con entusiasmo totale, gioca senza cercare il significato nascosto. Il gioco è una cosa seria proprio perché non serve a niente: è lì che nasce l'inaspettato. Fuori dal teatro: fai una battuta scema e non spiegarla, gioca a un gioco da tavolo mettendoci l'anima, ridi di gusto di qualcosa di innocuo. Non tutto deve avere profondità: certe cose devono solo far ridere.",
+          "personaggio": "la maga delle televendite"
+        },
+        "sagittario": {
+          "titolo": "Misurare la stanza dell'altro",
+          "testo": "Sagittario, tu guardi lontano: il grande disegno, la meta. Questa settimana abbassa lo sguardo sulla persona che hai davanti. In scena, invece di spingere la trama verso il tuo finale, ferma il piano e senti cosa prova il tuo partner adesso: se è ferito, resta lì con lui un momento. Il pubblico si commuove quando due personaggi condividono la stessa emozione. Fuori dal palco: quando l'amico ti racconta un problema, non proporgli subito l'itinerario per uscirne; chiedi come si sente e ascolta. Le distanze grandi si percorrono meglio se prima misuri bene il metro quadro dove sei.",
+          "personaggio": "il geometra innamorato"
+        },
+        "capricorno": {
+          "titolo": "La stanza che lasci vuota apposta",
+          "testo": "Capricorno, tu riempi: ogni spazio libero diventa un progetto, ogni ora vuota un compito. Questa settimana difendi un po' di vuoto. In scena, entra su un palco spoglio e non arredarlo subito con dettagli: fai un gesto, guarda, aspetta che la scena chieda qualcosa. Il vuoto non è tempo perso, è spazio dove gli altri possono entrare. Fuori dal teatro: tieni un cassetto vuoto, un pomeriggio senza agenda, una parete senza niente. Una casa piena di gatti è calda, ma anche una poltrona libera ha il suo perché: è lì che si siede l'ospite inaspettato.",
+          "personaggio": "la zia zitella con i gatti"
+        },
+        "acquario": {
+          "titolo": "Lo sportello resta aperto un minuto in più",
+          "testo": "Acquario, tu ascolti, ma spesso ascolti per catalogare: ah, ecco che tipo è. Questa settimana ascolta senza archiviare. In scena, prendi le parole precise del partner e rispondi a quelle, non alla tua teoria su di lui. L'ascolto vero è meno intelligente e più generoso di quanto ti aspetti: è lasciare che l'altro ti cambi la battuta che avevi in mente. Fuori dal palco: quando qualcuno parla, non guardare l'orologio; ripeti quello che ha detto prima di rispondere. La saracinesca che si abbassa un attimo dopo è quella che la gente ricorda.",
+          "personaggio": "il bancario allo sportello che chiude alle 13 in punto"
+        },
+        "pesci": {
+          "titolo": "Essere nella sala, non nella tua playlist",
+          "testo": "Pesci, tu sei spesso altrove: in un ricordo, in un'atmosfera, in un film interiore. Questa settimana prova a essere del tutto dove sei. In scena: senti i piedi sul palco, guarda davvero la faccia del partner, rispondi a quello che sta succedendo ora e non a quello che stai sognando. La presenza vera è poco romantica e molto concreta: qui, adesso, con questa persona. Fuori dal teatro: a cena, metti via il telefono e ascolta la storia fino alla fine; per strada, guarda le cose invece di attraversarle. Chi mette il disco giusto è quello che sta guardando la pista, non quello perso nelle cuffie.",
+          "personaggio": "il dj di matrimoni"
+        }
+      }
+    },
+    {
+      "start": "2026-09-28",
+      "segni": {
+        "ariete": {
+          "titolo": "La carta storta si gioca lo stesso",
+          "testo": "Ariete, tu l'errore lo vivi come una sconfitta personale da riscattare subito, magari alzando la voce. Questa settimana prova a trattarlo come un colpo di fortuna. Sbagli l'entrata, dimentichi il nome, rovesci la sedia: bene, adesso la scena ha una novità che nessuno aveva previsto. Ridici sopra e cavalcala. Il pubblico non aspetta la tua perfezione, aspetta di vedere come reagisci all'imprevisto. Fuori dal palco: prenota il treno sbagliato e fai quella tappa in più, manda il messaggio a metà e completa l'idea con una telefonata. Non tutte le carte storte sono cattive notizie: alcune sono solo un'altra strada.",
+          "personaggio": "la cartomante al telefono"
+        },
+        "toro": {
+          "titolo": "Dirigere il traffico senza clacson",
+          "testo": "Toro, tu in scena sei affidabile come un muro portante, ma a volte ti pianti sulla tua idea e la difendi anche quando la scena è andata da un'altra parte. Questa settimana metti la squadra prima della tua trama. Segui la proposta del collega anche se non è quella che avevi in testa, rilancia il suo dettaglio invece del tuo. Un gruppo che si fida di sé stesso vale più di qualsiasi buona idea singola. Fuori dal teatro: al lavoro, appoggia il piano di un altro con convinzione; a casa, lascia che stavolta scelga qualcun altro. Reggere il traffico non vuol dire mandarlo tutto dove dici tu.",
+          "personaggio": "il vigile urbano sotto la pioggia"
+        },
+        "gemelli": {
+          "titolo": "La voce viene dopo la schiena",
+          "testo": "Gemelli, tu vivi nelle parole: la battuta pronta, il gioco verbale, il doppio senso. Questa settimana fai partire tutto dal corpo. Entra con una postura decisa e lascia che sia quella a suggerirti chi sei, prima che la lingua si metta in moto. Un personaggio si riconosce da come sta in piedi molto prima che apra bocca. Fuori dal palco: quando parli al telefono, alzati e cammina; prima di una cosa importante, sistema le spalle. Applaudire dal loggione è bello, ma la cosa vera succede sul palco, con tutto il peso addosso.",
+          "personaggio": "la signora della lirica in loggione"
+        },
+        "cancro": {
+          "titolo": "Il motore che ogni tanto va spento",
+          "testo": "Cancro, tu il silenzio lo riempi di premure: tutto bene?, ti va un tè?, dico io o dici tu?. Questa settimana prova a lasciarlo intero. In scena, dopo una battuta importante del partner, non aggiungere niente: guardalo e reggi la pausa. Quel vuoto è dove il pubblico sente il peso di quello che è appena successo. Fuori dal teatro: siediti accanto all'amico in silenzio invece di cercare la frase giusta, ascolta senza subito consolare. A volte la cosa più gentile è non dire niente e restare lì col motore spento.",
+          "personaggio": "il meccanico che parla solo per metafore"
+        },
+        "leone": {
+          "titolo": "Consegnare al tempo giusto",
+          "testo": "Leone, tu hai un tempo comico naturale, ma quando la scena rallenta ti agiti e spingi per riaccenderla. Questa settimana ascolta il ritmo che c'è, invece di imporre il tuo. Se il momento è lento e tenero, stacci dentro; se è veloce, non fermarlo per fare la battuta a effetto. La bravura è sapere che tipo di scena stai vivendo. Fuori dal palco: non anticipare la risposta a chi parla piano, non accelerare la cena perché ti annoi. Una buona notizia consegnata nel momento sbagliato conta la metà.",
+          "personaggio": "il postino che legge le cartoline"
+        },
+        "vergine": {
+          "titolo": "Lasciare la presa per un attimo",
+          "testo": "Vergine, tu il rischio lo neutralizzi con la preparazione: se hai previsto tutto, non c'è pericolo. Questa settimana prova a fare la mossa che non hai pianificato. In scena, di' la cosa strana per prima, dichiara un segreto alla seconda battuta, scegli senza sapere dove porta. Il rischio nell'impro non è l'imprudenza, è impegnarsi prima di avere tutte le informazioni. Fuori dal palco: prenota il viaggio senza l'itinerario minuto per minuto, di' quello che pensi senza la premessa lunga. Prendersi cura di tutto va bene, ma ogni tanto qualcuno deve badare anche a te, e devi lasciarglielo fare.",
+          "personaggio": "la badante santa"
+        },
+        "bilancia": {
+          "titolo": "Governare una piazza vuota, per divertimento",
+          "testo": "Bilancia, tu pesi ogni battuta per vedere se è equilibrata, e a volte il gioco muore mentre lo valuti. Questa settimana butta il bilancino. Insegui l'assurdo, di' la cosa buffa senza chiederti se è di buon gusto, gioca a fare qualcosa di inutile con impegno totale. Il gioco è il posto dove non serve avere ragione. Fuori dal teatro: fai una battuta stupida senza scusarti, gioca a nascondino coi nipoti come se fosse una finale, ridi di qualcosa di innocuo. Anche un paese di dodici abitanti può fare la sua sagra.",
+          "personaggio": "il sindaco di un paese di dodici abitanti"
+        },
+        "scorpione": {
+          "titolo": "Restare fermi nell'emozione dell'altro",
+          "testo": "Scorpione, tu le emozioni le conosci bene, ma tendi a usarle come strumento: sai dove premere. Questa settimana prova a sentire senza calcolare. In scena, se il partner è triste, lascia che la sua tristezza ti arrivi addosso davvero, senza pensare a come sfruttarla per la trama. Il pubblico si scioglie quando vede due persone provare la stessa cosa insieme. Fuori dal palco: quando qualcuno si confida, stai nel suo momento senza portarlo subito verso di te. Posare per ore è noioso, ma se guardi davvero chi hai davanti, il tempo passa diverso.",
+          "personaggio": "la modella di pittura annoiata"
+        },
+        "sagittario": {
+          "titolo": "La pentola vuota sul fuoco spento",
+          "testo": "Sagittario, tu la scena la riempi di trama, di destinazioni, di e poi succede questo. Questa settimana prova a partire dal niente e a difenderlo. Entra su un palco spoglio e non correre a dire dove siete: fai un gesto, respira, lascia che la scena chieda. Il vuoto iniziale non è pigrizia, è la rincorsa. Fuori dal teatro: lascia una serata libera senza programma, non riempire ogni pausa con un progetto di viaggio. Una cucina che urla sempre non sente più il bollore: ogni tanto conviene spegnere e ascoltare.",
+          "personaggio": "il cuoco che urla in cucina"
+        },
+        "capricorno": {
+          "titolo": "Le informazioni migliori arrivano se stai zitto",
+          "testo": "Capricorno, tu ascolti per decidere: raccogli i dati e passi all'azione. Questa settimana prova ad ascoltare senza il passo successivo già pronto. In scena, prendi l'ultima frase del partner e rispondi a quella, non al tuo piano. L'ascolto vero è lasciare che l'altro modifichi la rotta che avevi in testa. Fuori dal palco: alla riunione, prendi appunti prima di controbattere; con la famiglia, chiedi e aspetta la risposta lunga. Anche in pensione, chi ha fatto la spia lo sa: si capisce di più stando in ascolto che parlando.",
+          "personaggio": "la spia in pensione"
+        },
+        "acquario": {
+          "titolo": "Esserci senza fare la diagnosi",
+          "testo": "Acquario, tu spesso sei un passo fuori dalla scena, a osservarla come un caso interessante. Questa settimana prova a entrarci con tutto il peso. Senti i piedi sul palco, guarda davvero il partner, reagisci a quello che fa adesso invece di spiegare cosa significa. La presenza non è capire la situazione, è abitarla. Fuori dal teatro: a cena, sii al tavolo e non sopra al tavolo; ascolta l'amico senza dirgli sai, quello che hai è tipico. Non tutto va analizzato: certe volte devi solo essere nella stanza.",
+          "personaggio": "il farmacista che diagnostica tutto"
+        },
+        "pesci": {
+          "titolo": "Aprire il portone a chi bussa",
+          "testo": "Pesci, tu il sì lo senti nel cuore ma poi ti perdi in un forse gentile, in un vediamo, in un sogno alternativo. Questa settimana prova ad accettare la proposta del partner subito e per intero. Se dice che siete naufraghi, siete naufraghi: non naufraghi che forse stanno sognando. Il sì pieno dà alla scena un pavimento su cui camminare. Fuori dal palco: di' sì all'invito dell'ultimo minuto, alla gita, alla richiesta di aiuto, senza rimandare a quando ti senti pronto. Chi tiene la portineria apre a chi suona, non gli fa la predica dal citofono.",
+          "personaggio": "la portinaia con il grembiule"
+        }
+      }
+    },
+    {
+      "start": "2026-10-05",
+      "segni": {
+        "ariete": {
+          "titolo": "La rete la si tira in due",
+          "testo": "Ariete, tu in scena parti forte e trascini, ma a volte trascini da solo e il resto della squadra corre dietro senza entrare davvero. Questa settimana rallenta e includi. Fai la proposta e poi aspetta che un altro la raccolga, costruisci sul dettaglio del collega invece di sfornarne uno tuo. La scena più bella sembra opera di un gruppo, non di un capitano. Fuori dal teatro: al lavoro, lascia finire il progetto a chi l'ha iniziato; a casa, chiedi prima di decidere per tutti. La pesca miracolosa si racconta meglio se c'era qualcun altro sulla barca a confermarla.",
+          "personaggio": "il pescatore che racconta la pesca miracolosa"
+        },
+        "toro": {
+          "titolo": "Assaggiare la scena con tutto il corpo",
+          "testo": "Toro, tu sei radicato, ma a volte quella radice diventa immobilità: stai fermo e parli. Questa settimana muoviti prima di pensare. Entra con un'andatura precisa, tocca gli oggetti immaginari con le mani vere, lascia che una postura ti riveli il personaggio. Il pubblico capisce chi sei da come cammini, molto prima che tu lo spieghi. Fuori dal palco: cucina sentendo gli odori invece di seguire la ricetta al grammo, cammina fino al negozio invece di ordinare. Il gusto vero passa dai sensi, non dalla scheda di valutazione.",
+          "personaggio": "il critico gastronomico incognito"
+        },
+        "gemelli": {
+          "titolo": "La pausa tra un passo e l'altro",
+          "testo": "Gemelli, tu parli veloce e riempi ogni battuta di parole: il silenzio ti sembra un buco nel discorso. Questa settimana prova a lasciarne uno intero. In scena, dopo una frase importante, non aggiungere la spiegazione: fermati, guarda il partner, conta fino a due. Quel silenzio dice al pubblico guarda bene, qui succede qualcosa. Fuori dal palco: alla domanda difficile, respira prima di rispondere; ascolta l'amico senza già preparare la replica. Nel ballo liscio il bello non è la corsa, è la sospensione un attimo prima di girare.",
+          "personaggio": "la insegnante di ballo liscio"
+        },
+        "cancro": {
+          "titolo": "Il passo della scena, non quello della paura",
+          "testo": "Cancro, quando sei in ansia acceleri: parli in fretta per chiudere il momento scomodo. Questa settimana ascolta il tempo reale della scena. Se è lenta e delicata, resta nella lentezza; se è vivace, non rallentarla per proteggerti. Il ritmo giusto lo detta quello che sta succedendo tra te e il partner, non il tuo battito. Fuori dal palco: non riempire i silenzi imbarazzanti con scuse veloci, cammina al passo di chi ti accompagna. Fare rispettare le regole va bene, ma non serve mettere la sirena a ogni curva.",
+          "personaggio": "il poliziotto zelante"
+        },
+        "leone": {
+          "titolo": "Rompere un piatto di proposito",
+          "testo": "Leone, tu ami la scena ma il rischio lo prendi solo quando sei sicuro che ti farà bella figura. Questa settimana rischia anche quando potrebbe andare storto. Fai la scelta scomoda all'inizio, dichiara la cosa imbarazzante, prendi la strada che non sai dove porta. Il rischio nell'impro non è il numero spettacolare, è l'impegno totale in qualcosa di incerto. Fuori dal palco: di' la verità che rimandi da settimane, chiedi quel favore, ammetti che ti sei sbagliato. Ogni tanto conviene rompere il servizio buono e vedere che l'ospite ride lo stesso.",
+          "personaggio": "la casalinga disperata anni '50"
+        },
+        "vergine": {
+          "titolo": "Servire assurdità con la faccia seria",
+          "testo": "Vergine, tu vuoi che le cose abbiano senso, e il gioco puro ti sembra disordine. Questa settimana concediti l'inutile. Insegui una battuta scema, fai un'azione priva di scopo con dedizione totale, gioca a inventare le regole di un gioco che non esiste. Il gioco non è il contrario del rigore: è rigore messo al servizio del divertimento. Fuori dal teatro: fai una cosa buffa senza motivo, gioca con un bambino ai suoi giochi assurdi senza correggerli. Dietro il bancone si può filosofeggiare, ma anche shakerare qualcosa solo perché fa un bel rumore.",
+          "personaggio": "il barista filosofo"
+        },
+        "bilancia": {
+          "titolo": "Guardare dalla finestra giusta",
+          "testo": "Bilancia, tu percepisci gli altri con precisione, ma spesso da spettatrice: sai come sta ognuno e resti sulla soglia. Questa settimana entra nell'emozione, non limitarti a riconoscerla. In scena, se il partner è arrabbiato, arrabbiati con lui per qualche secondo vero. Il pubblico si commuove quando due persone sul palco sentono la stessa cosa nello stesso istante. Fuori dal teatro: quando l'amico si sfoga, non fargli il riassunto oggettivo della situazione; stai dalla sua parte per un momento. Sapere tutto del vicinato non serve a niente se non entri mai in nessuna casa.",
+          "personaggio": "la vicina impicciona"
+        },
+        "scorpione": {
+          "titolo": "Non apparecchiare prima degli ospiti",
+          "testo": "Scorpione, tu in scena arrivi con il sottotesto già pronto, la stanza già piena di storia. Questa settimana prova a partire dal vuoto e a tenerlo un momento in più. Entra su un palco spoglio, non dichiarare subito il segreto: guarda, respira, lascia che la scena chieda cosa manca. Il vuoto è dove il partner può portare qualcosa di suo. Fuori dal palco: non pianificare ogni dettaglio di una serata, lascia una stanza libera, entra in una conversazione senza copione. Il maggiordomo migliore non arreda la festa prima che arrivino gli invitati.",
+          "personaggio": "il maggiordomo che sa tutto"
+        },
+        "sagittario": {
+          "titolo": "La battuta dell'altro come copione",
+          "testo": "Sagittario, tu ascolti a grandi linee: prendi il senso e vai verso la tua idea. Questa settimana ascolta le parole esatte. In scena, ripeti mentalmente l'ultima frase del partner e costruisci il tuo passo da lì, non dal finale che immagini. L'ascolto vero è accettare che la scena la scrivete in due. Fuori dal palco: prima di rispondere, riassumi quello che ha detto l'altro; alla riunione, ascolta il giro completo prima di lanciare la visione. Nessun grande monologo funziona se hai smesso di sentire chi ti dà la battuta.",
+          "personaggio": "la diva del teatro sul viale del tramonto"
+        },
+        "capricorno": {
+          "titolo": "Essere qui, senza aprire l'agenda",
+          "testo": "Capricorno, mentre sei in scena una parte di te sta già calcolando la prossima mossa. Questa settimana prova a esserci del tutto. Senti i piedi sul palco, guarda davvero il partner, rispondi a quello che fa adesso e non al piano. La presenza è il contrario della pianificazione: è stare nel momento senza uscita d'emergenza. Fuori dal teatro: a cena, chiudi il telefono e ascolta la storia intera; in coda, guardati intorno invece di lavorare mentalmente. Anche i conti tornano meglio se ogni tanto stai fermo un attimo.",
+          "personaggio": "il commercialista in crisi esistenziale"
+        },
+        "acquario": {
+          "titolo": "Il timbro rosso resta nel cassetto",
+          "testo": "Acquario, tu al sì arrivi, ma spesso con la variante intelligente allegata: accetto e miglioro. Questa settimana accogli la proposta così com'è. Se il collega dice che siete astronauti, sei un astronauta contento, non un astronauta che in realtà rappresenta l'alienazione moderna. Il sì pieno tiene la scena, il sì corretto la ferma per una lezione. Fuori dal palco: di' sì all'idea di un altro senza aggiungere la postilla, prova il piano altrui prima di spiegare come si fa meglio. Non tutto va corretto in rosso: certe cose vanno solo lasciate crescere.",
+          "personaggio": "la maestra in pensione severissima"
+        },
+        "pesci": {
+          "titolo": "Suonare al campanello sbagliato e restare",
+          "testo": "Pesci, quando sbagli in scena ti dispiace davvero, e quel dispiacere si vede e frena tutta la squadra. Questa settimana prova a trattare l'errore come una porta che si apre. Dimentichi una battuta, sbagli il nome, perdi il filo: sorridi, dillo, e usa quello che è successo. Il pubblico ama chi cade e ci gioca. Fuori dal palco: manda la mail imperfetta, canta la nota stonata, presentati alla festa sbagliata e fai due chiacchiere lo stesso. Un porta a porta è fatto di porte in faccia: quello bravo suona quella dopo sorridendo.",
+          "personaggio": "il venditore porta a porta troppo entusiasta"
+        }
+      }
     }
   ]
 }
