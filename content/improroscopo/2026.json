@@ -324,6 +324,201 @@
           "personaggio": "il venditore porta a porta troppo entusiasta"
         }
       }
+    },
+    {
+      "start": "2026-10-12",
+      "segni": {
+        "ariete": {
+          "titolo": "Le gambe decidono prima di te",
+          "testo": "Ariete, tu il personaggio lo scegli con la testa e poi pretendi che il corpo obbedisca. Prova a rovesciare l'ordine: entra con un passo, una curvatura, un gesto, e scopri chi sei da lì. Un corpo impegnato racconta più di dieci battute spiegate bene. Se sei bloccato in scena, cambia posizione fisica e vedrai che cambia anche l'idea. Nella vita di tutti i giorni, quando ti gira storto, esci e cammina per venti minuti prima di prendere decisioni. Come il turista che si perde nei vicoli, a volte ti ritrovi solo muovendoti a caso.",
+          "personaggio": "il turista tedesco perso a Napoli"
+        },
+        "toro": {
+          "titolo": "Non serve prevedere per riempire",
+          "testo": "Toro, quando cala il silenzio ti sembra un guasto da riparare, e ci butti dentro una frase qualsiasi. Lascia che il vuoto resti vuoto: dopo una battuta forte, guarda il partner e conta due secondi prima di rispondere. Quella pausa non è imbarazzo, è il momento in cui il pubblico capisce cosa è appena successo. Chi regge il silenzio sembra sapere qualcosa. A tavola con gli amici, prova a non tappare ogni buco della conversazione. La sfera di cristallo è tutta scena: la parte vera è stare zitti abbastanza a lungo da far parlare l'altro.",
+          "personaggio": "la veggente con la sfera di cristallo"
+        },
+        "gemelli": {
+          "titolo": "L'orario lo detta il treno, non la lancetta",
+          "testo": "Gemelli, tu vai veloce di natura e imponi quel passo a ogni scena, anche a quelle che vorrebbero respirare. Ascolta il tempo che la scena si è data: se è lenta, non spingerla; se corre, non frenarla per la battuta a effetto. Il ritmo giusto nasce tra te e il partner, non dal tuo motore. Alla cena, prova a rispondere al tempo di chi parla piano invece di anticiparlo. Un capostazione bravo non fa partire il treno perché sono le nove in punto: lo fa partire quando tutti sono saliti.",
+          "personaggio": "il capostazione pignolo"
+        },
+        "cancro": {
+          "titolo": "Suonare al citofono senza preavviso",
+          "testo": "Cancro, tu il rischio lo eviti con mille cautele: prima di esporti vuoi essere sicuro che l'altro ti accoglierà. In scena, prova a dichiarare subito la cosa vera: mi sei mancato, ho paura, me ne vado. Il rischio nell'impro è impegnarsi prima di sapere come finisce. Il pubblico si fida di chi si scopre per primo. Nella vita, manda tu il messaggio, di' che ci tieni senza aspettare conferme, presentati a casa dell'amico senza avvisare. A volte l'accoglienza arriva proprio perché non hai chiesto il permesso.",
+          "personaggio": "la suocera che arriva senza avvisare"
+        },
+        "leone": {
+          "titolo": "Alzarsi dalla sedia per una sciocchezza",
+          "testo": "Leone, tu il gioco lo trasformi in numero: appena qualcosa fa ridere, ci costruisci sopra il tuo assolo. Prova invece il gioco senza pubblico: insegui l'assurdo per il gusto di vedere dove va, gioca con un oggetto immaginario finché diventa buffo, senza chiederti se rende. Il gioco puro è dove nascono le idee che nessuno aveva previsto. Fuori dal teatro, fai una cosa inutile e divertente e non raccontarla a nessuno. Anche il bagnino più annoiato, ogni tanto, si tuffa solo perché l'acqua è bella.",
+          "personaggio": "il bagnino annoiato"
+        },
+        "vergine": {
+          "titolo": "Perdere il filo dell'analisi per seguire l'altro",
+          "testo": "Vergine, tu leggi le persone come si legge un testo: precisa, un po' a distanza. Prova a chiudere il libro e a sentire. In scena, se il partner è disperato, disperati con lui per qualche secondo vero, senza catalogare l'emozione. Il pubblico si commuove quando due personaggi provano insieme la stessa cosa. Con un amico che sta male, resisti alla voglia di spiegargli cosa gli sta succedendo: stagli semplicemente vicino. Come il professore che dimentica gli appunti ma ricorda il nome di ogni studente, a volte l'attenzione al singolo vale più del programma.",
+          "personaggio": "il professore distratto"
+        },
+        "bilancia": {
+          "titolo": "La poltrona libera prima del cliente",
+          "testo": "Bilancia, tu riempi i vuoti con gentilezze e mezze frasi, perché il silenzio ti sembra scortese. Prova a lasciare la scena spoglia un momento in più: entra, guardati intorno, non arredare subito con dettagli e spiegazioni. Il vuoto è dove il partner può portare qualcosa di suo. Non è maleducazione, è ospitalità. Nella vita, tieni un pomeriggio senza piani, una parete senza niente, una conversazione senza scaletta. Anche il salone più chiacchierone, prima che entri qualcuno, è solo una poltrona vuota piena di possibilità.",
+          "personaggio": "la parrucchiera confidente"
+        },
+        "scorpione": {
+          "titolo": "Prendere l'ordine, non piazzarlo",
+          "testo": "Scorpione, tu ascolti tantissimo, ma spesso ascolti per capire dove colpire. Prova ad ascoltare senza secondi fini: prendi le parole precise del partner e rispondi a quelle, non alla tua strategia. L'ascolto vero è lasciare che l'altro ti cambi la battuta che avevi pronta. Alla riunione, ripeti quello che ha detto il collega prima di ribattere. Un cameriere che ascolta davvero non ti rifila il piatto più caro: ti porta quello che avevi chiesto, e torni.",
+          "personaggio": "il cameriere che consiglia sempre il piatto più caro"
+        },
+        "sagittario": {
+          "titolo": "Sedersi allo stesso tavolo ogni giorno",
+          "testo": "Sagittario, tu con la testa sei già al prossimo viaggio mentre il corpo è ancora qui. Prova a stare del tutto dove sei: senti la sedia, guarda il partner in faccia, rispondi a quello che succede adesso. La presenza non è eccitante come una partenza, ma è dove le cose accadono davvero. Con gli amici, resta nella conversazione invece di raccontare dove andrai il mese prossimo. Il pensionato che occupa sempre lo stesso tavolo del bar ha capito una cosa: a volte esserci tutti i giorni vale più di un grande altrove.",
+          "personaggio": "il pensionato al bar sport"
+        },
+        "capricorno": {
+          "titolo": "Accettare il fiore che porta un altro",
+          "testo": "Capricorno, tu il sì lo concedi dopo aver verificato che il piano regga. In scena, prova ad accogliere la proposta del partner appena arriva, senza istruttoria: se dice che siete pasticceri, sei pasticcere e basta. Il sì pieno costruisce, il sì con riserva rallenta. Nella vita, di' sì alla gita organizzata da un altro, al ristorante che non avresti scelto, al cambio di programma. Anche l'evento più curato, a un certo punto, va lasciato succedere senza controllare ogni tovagliolo.",
+          "personaggio": "la wedding planner sull'orlo di una crisi di nervi"
+        },
+        "acquario": {
+          "titolo": "Sbattere contro il muro e scusarsi con garbo",
+          "testo": "Acquario, quando sbagli in scena fai finta di niente e vai avanti, come se l'errore fosse sotto la tua dignità concettuale. Prova a farci pace subito: un sorriso, un ops, e usalo. L'errore ammesso con leggerezza è il regalo più grosso alla squadra, perché tutti possono giocarci. Nella vita, manda la mail con il refuso e non riscriverla tre volte, inciampa nelle scale e ridi. Anche il fantasma più educato, prima o poi, rovescia un vaso: l'importante è restare nella stanza a raccogliere i cocci.",
+          "personaggio": "il fantasma che infesta educatamente"
+        },
+        "pesci": {
+          "titolo": "Il caso si risolve in squadra",
+          "testo": "Pesci, tu in scena ti isoli spesso in un mondo tuo, poetico e nebbioso, dove il partner fatica a entrare. Questa settimana lega tutto agli altri: raccogli il dettaglio che un compagno ha lasciato cadere, passagli la battuta, costruisci sul suo pezzo. La scena più bella sembra fatta da un gruppo che si vuole bene. Al lavoro, dai il merito ad alta voce; a casa, chiedi prima di decidere. Anche il detective solitario, alla fine, ha bisogno di qualcuno che gli tenga la torcia.",
+          "personaggio": "il detective con l'impermeabile"
+        }
+      }
+    },
+    {
+      "start": "2026-10-19",
+      "segni": {
+        "ariete": {
+          "titolo": "Il salone vuoto ha ancora la sua eco",
+          "testo": "Ariete, il silenzio ti mette fretta: se nessuno parla, parli tu, più forte. Prova a reggerlo. Dopo una battuta importante, non aggiungere niente: guarda il partner e lascia che il vuoto lavori. Il pubblico usa quei due secondi per capire cosa è successo. Chi non teme le pause sembra il più sicuro sul palco. Nella vita, alla domanda scomoda rispondi dopo un respiro, non tappando il buco. Anche una casa senza più mobili, se ci stai in silenzio, racconta tutto quello che c'è stato.",
+          "personaggio": "la contessa decaduta"
+        },
+        "toro": {
+          "titolo": "Contare il tempo giusto, non il più veloce",
+          "testo": "Toro, tu hai un passo tuo, solido e regolare, e lo tieni anche quando la scena vorrebbe accelerare o fermarsi. Prova ad ascoltare il ritmo del momento: se il dialogo scatta, scatta anche tu; se si posa, resta nella quiete senza fretta di concludere. La maestria è sapere in che tempo sei. Con gli altri, adatta il passo a chi cammina con te per un isolato. Un buon allenatore non urla sempre lo stesso conteggio: cambia ritmo quando serve.",
+          "personaggio": "il personal trainer motivazionale"
+        },
+        "gemelli": {
+          "titolo": "Dire la cosa vera al primo semaforo",
+          "testo": "Gemelli, tu il rischio lo giri con l'ironia: dici la cosa importante e subito la annacqui con una battuta. Prova a lasciarla lì, nuda. In scena, dichiara l'emozione alla seconda battuta e non ritirarla. Il rischio nell'impro è impegnarsi al cento per cento in una direzione. Nella vita, di' quello che pensi senza la premessa che lo smorza, fai la domanda diretta. Come il tassista che ti dice in faccia cosa pensa del traffico: scomodo, ma almeno sai dove sei.",
+          "personaggio": "il tassista che ha un'opinione su tutto"
+        },
+        "cancro": {
+          "titolo": "Ridere forte tra gli scaffali",
+          "testo": "Cancro, tu il gioco lo carichi di significato: anche una scena buffa diventa occasione per dire qualcosa di profondo. Prova la leggerezza senza scopo: insegui l'assurdo, gioca con un oggetto immaginario finché non fa ridere te per primo. Il gioco è serio proprio perché è inutile: lì nasce l'imprevisto. Nella vita, fai una cosa sciocca e non giustificarla. Anche la bibliotecaria più severa, ogni tanto, ha voglia di far rumore.",
+          "personaggio": "la bibliotecaria che shusha"
+        },
+        "leone": {
+          "titolo": "Ascoltare la confessione senza dare la penitenza",
+          "testo": "Leone, tu sul palco vuoi dare: energia, battute, presenza. Prova a ricevere. Se il partner è triste, lascia che la sua tristezza ti entri davvero per qualche secondo, senza trasformarla subito in occasione per brillare. Il pubblico si scioglie quando vede due persone sentire la stessa cosa. Con un amico che si sfoga, non offrire la soluzione: stai nel suo momento. Come il prete di paese che ascolta tutti senza dare consigli: a volte basta esserci.",
+          "personaggio": "il prete di campagna"
+        },
+        "vergine": {
+          "titolo": "Non passare subito la chiamata",
+          "testo": "Vergine, tu il vuoto lo compili: appena c'è uno spazio, lo riempi di dettaglio e ordine. Prova a lasciarlo aperto. Entra su un palco spoglio e non arredarlo: fai un gesto, guarda, aspetta che la scena chieda. Il vuoto è dove entra il partner. Nella vita, tieni un'ora libera senza compiti, un cassetto vuoto, una parete nuda. Anche il centralino più efficiente, ogni tanto, lascia squillare un attimo prima di rispondere.",
+          "personaggio": "la centralinista degli anni '80"
+        },
+        "bilancia": {
+          "titolo": "Comandare la scena stando in ascolto",
+          "testo": "Bilancia, tu ascolti tutti e per questo esiti: senti troppe ragioni. Prova ad ascoltare per agire, non per pesare. Prendi l'ultima frase del partner e rispondi a quella, decisa. L'ascolto vero non ti paralizza, ti dà la mossa. Alla riunione, riassumi e poi prendi posizione. Un domatore senza leoni ha solo la sedia e la voce: e funziona solo se ascolta la stanza.",
+          "personaggio": "il domatore di leoni senza leoni"
+        },
+        "scorpione": {
+          "titolo": "Esserci davvero dietro il sorriso",
+          "testo": "Scorpione, tu in scena a volte reciti la presenza: sguardo intenso, posa magnetica, ma la testa altrove a preparare la mossa. Prova a esserci sul serio: senti i piedi, guarda il partner, reagisci a quello che fa adesso. La presenza vera non si mette in posa, accade. Con gli altri, ascolta senza già pensare alla risposta. Il sorriso di servizio si vede: quello vero costa di più ma vale.",
+          "personaggio": "la hostess con il sorriso stampato"
+        },
+        "sagittario": {
+          "titolo": "Raccogliere quello che ti passano",
+          "testo": "Sagittario, tu il sì lo dici e poi lo dirotti verso la tua idea, più grande. Prova ad accettare la proposta del partner così com'è: se dice che state pulendo una strada, sei uno spazzino contento, non uno spazzino che sogna la savana. Il sì pieno costruisce. Nella vita, di' sì al piano di un altro senza migliorarlo. Anche raccogliendo spazzatura si può guardare le stelle, ma prima raccogli la spazzatura.",
+          "personaggio": "il netturbino poeta"
+        },
+        "capricorno": {
+          "titolo": "Sbagliare turno e riderci su",
+          "testo": "Capricorno, l'errore per te è un fallimento del sistema, e lo vivi male. Prova a trattarlo come materiale: sbagli il nome del personaggio, ottimo, adesso ne ha due. Un errore accolto con calma diventa spesso la cosa più viva della serata. Nella vita, manda la mail imperfetta e vai avanti, brucia la torta e ordina i pasticcini. Anche il portiere che non dorme mai, a un certo punto, si addormenta al banco: e il mondo gira lo stesso.",
+          "personaggio": "il portiere di notte insonne"
+        },
+        "acquario": {
+          "titolo": "Vendere l'idea di un altro con entusiasmo",
+          "testo": "Acquario, tu hai sempre l'idea più originale e la porti forte, a volte schiacciando quelle degli altri. Questa settimana fai brillare la proposta di un compagno: rilancia il suo dettaglio, non il tuo. La squadra che sembra magica è quella dove nessuno tiene tutto per sé. Al lavoro, sostieni il piano di un altro con convinzione vera. Anche in televendita, il prodotto migliore lo vende chi ci crede: prova a crederci in quello che ha portato qualcun altro.",
+          "personaggio": "la maga delle televendite"
+        },
+        "pesci": {
+          "titolo": "Misurare la scena con i piedi",
+          "testo": "Pesci, tu vivi nell'atmosfera e dimentichi di avere un corpo sul palco. Prova a partire da lì: un passo, una postura, una mano che tocca l'oggetto immaginario per davvero. Il pubblico capisce chi sei da come stai in piedi, prima che tu parli. Nella vita, quando sei confuso, alzati e cammina invece di rimuginare. Anche il geometra più innamorato, prima di sognare la casa, prende le misure della stanza.",
+          "personaggio": "il geometra innamorato"
+        }
+      }
+    },
+    {
+      "start": "2026-10-26",
+      "segni": {
+        "ariete": {
+          "titolo": "Il passo della stanza, non quello della fretta",
+          "testo": "Ariete, tu entri sempre in quarta, e a volte la scena voleva solo camminare. Ascolta il tempo che c'è: se è lento e tenero, resta lì; se corre, non frenarlo per la battuta. Il ritmo giusto è quello tra te e il partner, non quello dei tuoi nervi. Con gli altri, non anticipare chi parla piano. Come chi vive con dodici gatti e impara che ognuno ha il suo orario, a volte devi solo adeguarti al ritmo della casa.",
+          "personaggio": "la zia zitella con i gatti"
+        },
+        "toro": {
+          "titolo": "Lasciare lo sportello aperto e vedere che succede",
+          "testo": "Toro, tu il rischio lo eviti restando dietro il bancone delle certezze. Prova a esporti: in scena, di' la cosa strana per prima, scegli senza sapere dove porta. Il rischio nell'impro è impegnarsi prima di avere tutte le garanzie. Nella vita, proponi tu il posto, di' per primo che ti sei divertito, chiedi quel favore. Anche l'impiegato più preciso, un giorno, resta cinque minuti oltre l'orario per finire una cosa: e non crolla niente.",
+          "personaggio": "il bancario allo sportello che chiude alle 13 in punto"
+        },
+        "gemelli": {
+          "titolo": "Mettere il pezzo assurdo solo perché fa ballare",
+          "testo": "Gemelli, tu il gioco lo usi per fare colpo: la battuta pronta, il tempo perfetto. Prova il gioco fine a sé stesso: insegui l'assurdo senza sapere dove va, fai una cosa priva di scopo con impegno totale. Lì nascono le idee che nessun piano prevede. Nella vita, fai una sciocchezza senza spiegarla. Anche il dj più navigato, ogni tanto, mette il pezzo che non c'entra niente solo perché la pista si accende.",
+          "personaggio": "il dj di matrimoni"
+        },
+        "cancro": {
+          "titolo": "Sentire davvero prima di leggere le carte",
+          "testo": "Cancro, tu senti tutto, ma spesso trasformi l'emozione dell'altro in preoccupazione tua. Questa settimana prova a stare nella sua, di emozione, senza portarla verso di te. In scena, se il partner è arrabbiato, arrabbiati con lui per qualche secondo vero. Il pubblico si commuove quando due persone provano la stessa cosa insieme. Con un amico, ascolta senza già consolare. Una cartomante brava non ti dice cosa provare: sente cosa provi e parte da lì.",
+          "personaggio": "la cartomante al telefono"
+        },
+        "leone": {
+          "titolo": "Un incrocio libero, per un istante",
+          "testo": "Leone, tu il palco lo riempi subito: voce, gesto, presenza. Prova a lasciarlo vuoto un momento in più. Entra, guardati intorno, non dichiarare subito chi sei: aspetta che la scena chieda qualcosa. Il vuoto è dove il partner può portare la sua parte. Nella vita, tieni una serata senza programma, una stanza sgombra. Anche il vigile all'incrocio, quando non passa nessuno, per un attimo abbassa le braccia e lascia che la strada respiri.",
+          "personaggio": "il vigile urbano sotto la pioggia"
+        },
+        "vergine": {
+          "titolo": "Sentire l'aria intera, non solo le stonature",
+          "testo": "Vergine, tu ascolti benissimo, ma spesso ascolti per correggere: cogli l'errore, l'incoerenza, il dettaglio fuori posto. Prova ad ascoltare per accogliere. Prendi l'ultima frase del partner e falla diventare il tuo passo, senza sistemarla. L'ascolto vero è lasciare che l'altro scriva metà della scena. Con le persone, ripeti quello che hanno detto prima di rispondere. Anche la spettatrice più esigente, quando l'aria è giusta, smette di contare le note e si commuove.",
+          "personaggio": "la signora della lirica in loggione"
+        },
+        "bilancia": {
+          "titolo": "Stare nel cofano, non nel manuale",
+          "testo": "Bilancia, tu spesso sei mezzo passo fuori dalla scena, a valutare se tutto è in equilibrio. Prova a entrarci con il peso intero: senti i piedi, guarda il partner, rispondi a quello che fa adesso. La presenza non è giudicare la situazione, è starci dentro. Con gli altri, ascolta senza preparare la sintesi diplomatica. Il meccanico che parla per immagini alla fine mette comunque le mani nel motore: le parole vengono dopo.",
+          "personaggio": "il meccanico che parla solo per metafore"
+        },
+        "scorpione": {
+          "titolo": "Consegnare il messaggio senza riscriverlo",
+          "testo": "Scorpione, tu il sì lo dai, ma ti tieni un margine: accetto, e intanto controllo dove va a parare. Prova ad accogliere la proposta del partner piena: se dice che siete due astronauti, siete due astronauti. Il sì con riserva raffredda la scena. Nella vita, di' sì al piano altrui senza correggerlo, prova prima di spiegare come si fa meglio. Un postino non riscrive le cartoline che consegna: le legge, magari, ma poi le porta così come sono.",
+          "personaggio": "il postino che legge le cartoline"
+        },
+        "sagittario": {
+          "titolo": "Cadere e restare di buon umore",
+          "testo": "Sagittario, tu quando sbagli tendi a minimizzare e a puntare subito all'obiettivo, come se l'errore rallentasse il viaggio. Prova a fermarti sull'inciampo e a usarlo: hai dato due nomi allo stesso personaggio? Ora è un mistero. Il pubblico ama chi cade e ci gioca. Nella vita, canta stonato, sbaglia strada e guarda cosa c'è in quella via. Chi si prende cura degli altri lo sa: si sbaglia di continuo, e si va avanti con dolcezza.",
+          "personaggio": "la badante santa"
+        },
+        "capricorno": {
+          "titolo": "Governare senza tenere tutte le deleghe",
+          "testo": "Capricorno, tu in scena porti struttura, ma a volte la struttura è solo la tua idea imposta con garbo. Questa settimana segui la squadra: appoggia la proposta di un altro, sviluppa il suo dettaglio, lascia che la scena non sia tua. Un gruppo che si fida di sé vale più di ogni piano singolo. Al lavoro, dai una responsabilità vera a qualcuno e non ricontrollarla ogni ora. Anche il sindaco di dodici abitanti, se vuole che il paese viva, deve lasciar decidere anche gli altri undici.",
+          "personaggio": "il sindaco di un paese di dodici abitanti"
+        },
+        "acquario": {
+          "titolo": "Il personaggio parte dalla posa",
+          "testo": "Acquario, tu il personaggio lo concepisci come idea e poi lo abiti male, come un cappotto preso in prestito. Prova a partire dal corpo: una postura, un'andatura, un peso diverso, e lascia che ti dicano chi sei. Il pubblico legge la fisicità in mezzo secondo. Nella vita, raddrizza le spalle prima di una telefonata difficile, fai le scale, balla in cucina. Anche stare fermi in posa è un lavoro fisico: il corpo, se lo ascolti, ha già la storia.",
+          "personaggio": "la modella di pittura annoiata"
+        },
+        "pesci": {
+          "titolo": "Spegnere i fornelli e ascoltare il bollore",
+          "testo": "Pesci, tu il silenzio lo copri di musica interiore e atmosfera. Prova a lasciarlo pulito: dopo una frase importante del partner, non aggiungere niente, reggi la pausa e guardalo. Quel vuoto fa sentire al pubblico il peso di quello che è successo. Con gli amici, stai accanto a chi soffre senza cercare la frase giusta. Anche la cucina più rumorosa, se abbassi la fiamma e taci, ti fa sentire finalmente cosa sta cuocendo.",
+          "personaggio": "il cuoco che urla in cucina"
+        }
+      }
     }
   ]
 }
