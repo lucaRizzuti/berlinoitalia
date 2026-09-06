@@ -909,6 +909,201 @@
           "personaggio": "il professore distratto"
         }
       }
+    },
+    {
+      "start": "2026-12-14",
+      "segni": {
+        "ariete": {
+          "titolo": "Accettare il taglio che ti propone un altro",
+          "testo": "Ariete, sotto Natale ti arrivano mille inviti e a ognuno rispondi sì, però organizzo io. Prova ad accogliere il piano di qualcun altro senza ritoccarlo: la cena dai cugini, il regalo a sorpresa, la gita fuori porta decisa senza di te. In scena è lo stesso: prendi l'offerta del partner intera e costruisci da lì. Il sì pieno apre stanze, il sì con correzione le richiude. Come quando ti siedi dalla parrucchiera e per una volta dici faccia lei: a volte esce meglio di quello che avevi in mente.",
+          "personaggio": "la parrucchiera confidente"
+        },
+        "toro": {
+          "titolo": "Il cenone bruciato si racconta per anni",
+          "testo": "Toro, quando qualcosa va storto nei preparativi delle feste ti chiudi e cerchi di rimediare in silenzio. Prova a dichiararlo e a riderci: il panettone caduto, il brindisi sbagliato, il nome del cognato dimenticato. L'errore ammesso con leggerezza diventa il ricordo più caldo della serata. In scena vale uguale: sbagli, sorridi, vai avanti e usalo. Il cameriere che ti ha consigliato il piatto più caro e poi lo porta freddo, se se ne scusa ridendo, torni lo stesso: è la reazione che conta, non l'errore.",
+          "personaggio": "il cameriere che consiglia sempre il piatto più caro"
+        },
+        "gemelli": {
+          "titolo": "Il brindisi lo si fa in cerchio",
+          "testo": "Gemelli, alle feste sei quello che intrattiene tutti, e a fine serata ti accorgi di aver parlato solo tu. Questa settimana passa la parola: fai la domanda che permette allo zio silenzioso di raccontare la sua storia, monta la battuta di un altro invece della tua. Il tavolo più bello è quello dove gira tutto. In scena, alza i compagni invece di avere sempre ragione. Al bar sport, la partita la commentano in dieci: nessuno tiene il microfono per sé, e per questo funziona.",
+          "personaggio": "il pensionato al bar sport"
+        },
+        "cancro": {
+          "titolo": "Le mani in pasta, letteralmente",
+          "testo": "Cancro, con l'ansia delle feste rimugini seduto e ti agiti dentro. Prova a far uscire tutto dal corpo: impasta, apparecchia, incarta i regali con le mani, cammina per la casa invece di preoccuparti fermo. Il movimento scioglie quello che il pensiero annoda. In scena è lo stesso: quando sei bloccato, cambia postura e cambia l'idea. L'organizzatrice sull'orlo della crisi si calma solo quando smette di controllare la lista e comincia a sistemare le sedie con le proprie mani.",
+          "personaggio": "la wedding planner sull'orlo di una crisi di nervi"
+        },
+        "leone": {
+          "titolo": "Il momento prima che si aprano i regali",
+          "testo": "Leone, alle feste vuoi tenere alta l'atmosfera e riempi ogni pausa con una battuta o un aneddoto. Prova a reggere un silenzio: quello prima del brindisi, quello dopo una frase importante di qualcuno. Quel vuoto è dove le persone sentono davvero il momento. In scena, dopo una battuta forte del partner, non aggiungere niente: guardalo e conta due. Il fantasma educato non si fa notare di continuo: appare un istante, e proprio per questo lo ricordi.",
+          "personaggio": "il fantasma che infesta educatamente"
+        },
+        "vergine": {
+          "titolo": "Seguire l'indagine al passo dei testimoni",
+          "testo": "Vergine, sotto le feste vorresti tenere tutto in orario: pranzo alle 13, regali alle 17, come da tabella. Prova ad ascoltare il ritmo della giornata: se la conversazione a tavola si dilata, lasciala dilatare; se i bambini accelerano tutto, seguili. Il tempo giusto è quello della stanza, non della tua agenda. In scena, entra sull'attacco della scena, non sul tuo. Il detective bravo non incalza il testimone lento: lo lascia raccontare al suo passo, ed è lì che salta fuori il dettaglio.",
+          "personaggio": "il detective con l'impermeabile"
+        },
+        "bilancia": {
+          "titolo": "Dire cosa vuoi davvero per Natale",
+          "testo": "Bilancia, per non scontentare nessuno alle feste dici sempre per me va bene tutto. Questa settimana rischia una preferenza vera: il posto dove passare la vigilia, il regalo che ti farebbe piacere, l'argomento che non vuoi affrontare a tavola. Il rischio nell'impro, come nella vita, è impegnarsi in una direzione invece di restare nel forse. La contessa decaduta ha perso il castello ma non la schiena dritta: dice quello che pensa, con eleganza, senza chiedere scusa.",
+          "personaggio": "la contessa decaduta"
+        },
+        "scorpione": {
+          "titolo": "La tombola presa sul serio",
+          "testo": "Scorpione, anche ai giochi di Natale porti intensità: vuoi vincere la tombola come se fosse una resa dei conti. Prova la leggerezza pura: gioca per il gusto di giocare, fai il gioco stupido con impegno totale ma senza posta in palio. Il gioco è dove esce l'imprevisto, non dove si regolano i conti. In scena, insegui l'assurdo senza cercargli un significato. Anche l'allenatore più agonista, alla cena di squadra, gioca a nascondino con i figli degli altri e ride di gusto.",
+          "personaggio": "il personal trainer motivazionale"
+        },
+        "sagittario": {
+          "titolo": "Ascoltare lo zio invece di correggerlo",
+          "testo": "Sagittario, a tavola per le feste hai una risposta pronta per ogni opinione discutibile dei parenti. Questa settimana prova a sentire da dove viene chi parla, prima di ribattere: la paura, la nostalgia, la solitudine dietro la frase. Il pubblico si commuove quando due persone si capiscono davvero, e anche un cenone funziona così. In scena, entra nell'emozione del partner invece di commentarla. Il tassista che ha un'opinione su tutto, se lo ascolti fino in fondo, di solito ti sta raccontando un dispiacere.",
+          "personaggio": "il tassista che ha un'opinione su tutto"
+        },
+        "capricorno": {
+          "titolo": "Un giorno delle feste senza programma",
+          "testo": "Capricorno, anche le vacanze le riempi: liste di regali, cene incastrate, cose da sistemare già che ci sono. Questa settimana difendi un giorno vuoto: niente in agenda, nessun obiettivo, solo spazio. Il vuoto non è tempo perso, è dove rientra tutto il resto. In scena, entra su un palco spoglio e non arredarlo subito: aspetta che chieda qualcosa. La bibliotecaria a fine turno spegne le luci e resta un minuto nella sala vuota e silenziosa: è la sua parte preferita della giornata.",
+          "personaggio": "la bibliotecaria che shusha"
+        },
+        "acquario": {
+          "titolo": "La confessione di fine anno",
+          "testo": "Acquario, ascolti i parenti alle feste come un antropologo a un rito interessante. Prova ad ascoltare senza catalogare: prendi le parole precise di chi ti parla e rispondi a quelle, non alla tua teoria sulla famiglia. L'ascolto vero è lasciare che l'altro ti sposti. In scena, fai della frase del partner il tuo passo. Il prete di campagna, a fine anno, ascolta le stesse storie di sempre: ma le ascolta come se fosse la prima volta, e per questo la gente torna.",
+          "personaggio": "il prete di campagna"
+        },
+        "pesci": {
+          "titolo": "Rispondere davvero a chi ti chiama",
+          "testo": "Pesci, durante le feste sei fisicamente a tavola ma con la testa in un ricordo, in un'atmosfera, in un anno passato. Prova a essere del tutto qui: senti la sedia, guarda in faccia chi racconta, rispondi a quello che succede ora. La presenza è poco nostalgica e molto concreta. In scena, reagisci a quello che fa il partner adesso. La centralinista degli anni '80 non poteva sognare a occhi aperti: quando entrava una chiamata, era tutta lì, con quella persona, in quel momento.",
+          "personaggio": "la centralinista degli anni '80"
+        }
+      }
+    },
+    {
+      "start": "2026-12-21",
+      "segni": {
+        "ariete": {
+          "titolo": "Il numero salta e il pubblico ride lo stesso",
+          "testo": "Ariete, quando un piano delle feste va a monte lo vivi come una sconfitta da raddrizzare a forza. Prova a trattarlo come una scena nuova: il regalo arrivato in ritardo, l'ospite in più, il menù stravolto. Ridici sopra e adàttati. In scena, l'errore accolto con gioia è il regalo più grosso alla squadra. Il domatore che entra nella gabbia e scopre che i leoni non ci sono può impanicarsi o fare comunque il suo numero con una sedia e tanta convinzione: il pubblico applaude quello.",
+          "personaggio": "il domatore di leoni senza leoni"
+        },
+        "toro": {
+          "titolo": "Il cenone è di tutti, non tuo",
+          "testo": "Toro, quando organizzi tu le feste vuoi che vada tutto secondo la tua idea, e ti irrigidisci se qualcuno cambia qualcosa. Questa settimana lascia entrare gli altri: accetta il contorno portato dalla cognata, il gioco proposto dai nipoti, la playlist scelta da un altro. Una serata riuscita sembra opera di tutti. In scena, segui la proposta del compagno anche se non è la tua. La hostess col sorriso stampato fa funzionare il volo perché si fida dell'equipaggio, non perché tiene tutto in mano lei.",
+          "personaggio": "la hostess con il sorriso stampato"
+        },
+        "gemelli": {
+          "titolo": "Ballare in cucina mentre si cucina",
+          "testo": "Gemelli, alle feste vivi nelle parole: battute, brindisi, giochi di parole sotto l'albero. Prova a passare per il corpo: impasta, porta i piatti, abbraccia davvero, balla mentre apparecchi. Il pubblico, come i parenti, sente la tua energia da come ti muovi prima che da cosa dici. In scena, fai nascere il personaggio da un'andatura. Il netturbino poeta, la mattina di Natale, spinge il carrello per le strade vuote e a un certo punto si mette a canticchiare e a muoversi a tempo: il corpo festeggia da solo.",
+          "personaggio": "il netturbino poeta"
+        },
+        "cancro": {
+          "titolo": "La casa che dorme la notte di Natale",
+          "testo": "Cancro, quando cala il silenzio alle feste ti sembra che manchi qualcosa, e lo riempi di premure. Prova a lasciarlo: il momento dopo che gli ospiti sono andati via, la casa quieta, le luci dell'albero accese. Quel vuoto non è tristezza, è dove senti davvero l'anno che finisce. In scena, dopo una battuta importante, reggi la pausa e guarda il partner. Il portiere di notte, la vigilia, resta solo nella hall silenziosa: e scopre che quel silenzio ha un suo calore.",
+          "personaggio": "il portiere di notte insonne"
+        },
+        "leone": {
+          "titolo": "Non accelerare l'apertura dei regali",
+          "testo": "Leone, alle feste vuoi mantenere il ritmo alto e spingi perché si passi subito alla parte spettacolare. Prova ad ascoltare il tempo della giornata: se i bambini vogliono aprire i regali piano, uno alla volta, lascia che sia lento; se la tavolata accelera con le risate, seguila. Il ritmo giusto è quello della stanza. In scena, senti se è un adagio o un allegro. La maga delle televendite ha sempre solo pochi minuti ancora: ma le cose belle, a Natale, vanno al loro tempo.",
+          "personaggio": "la maga delle televendite"
+        },
+        "vergine": {
+          "titolo": "Fare un regalo che non sai se piacerà",
+          "testo": "Vergine, per non sbagliare il regalo chiedi la lista, prendi il buono, vai sul sicuro. Questa settimana rischia: scegli tu qualcosa, senza garanzie, mettendoci un pensiero personale. Il rischio nell'impro, come sotto l'albero, è impegnarsi prima di sapere come sarà accolto. In scena, di' la cosa strana per prima. Il geometra innamorato calcola tutto, ma prima o poi deve dire quello che prova senza sapere la risposta: e quella frase, imperfetta, vale più di mille misure precise.",
+          "personaggio": "il geometra innamorato"
+        },
+        "bilancia": {
+          "titolo": "Il gioco di società senza arbitro",
+          "testo": "Bilancia, ai giochi di Natale ti preoccupi che le regole siano giuste per tutti e il divertimento muore mentre fai da giudice. Lascia perdere l'equità perfetta: gioca, sbaglia, ridi, fai il gioco assurdo senza chiederti se è di buon gusto. Il gioco è il posto dove non serve avere ragione. In scena, insegui l'assurdo senza cercargli un senso. La zia con dodici gatti, la sera della vigilia, tira fuori un gioco inventato da lei con regole impossibili: ed è il momento più divertente della serata.",
+          "personaggio": "la zia zitella con i gatti"
+        },
+        "scorpione": {
+          "titolo": "Chi è solo alle feste lo si sente",
+          "testo": "Scorpione, tu percepisci gli stati d'animo con precisione, ma spesso li tieni come informazioni. Questa settimana usali per stare vicino: nota chi alle feste è più silenzioso, chi ride un po' forzato, e siediti accanto senza chiedere spiegazioni. Il pubblico si commuove quando due persone sentono la stessa cosa insieme. In scena, prova l'emozione del partner invece di leggerla. Anche l'impiegato che chiude lo sportello alle 13 in punto, se vede qualcuno in difficoltà sulla porta, ogni tanto lo fa entrare lo stesso.",
+          "personaggio": "il bancario allo sportello che chiude alle 13 in punto"
+        },
+        "sagittario": {
+          "titolo": "La settimana tra Natale e Capodanno",
+          "testo": "Sagittario, tu quei giorni vuoti tra le feste li riempi subito di viaggi, propositi, progetti per l'anno nuovo. Prova a lasciarli vuoti: nessun programma, nessuna meta, solo tempo da guardare. Il vuoto è la rincorsa, non la pigrizia. In scena, entra sul palco spoglio e non correre a dire dove siete. Il dj di matrimoni, tra una festa e l'altra, ha qualche giorno senza serate: all'inizio non sa che farsene, poi capisce che è lì che gli tornano le idee.",
+          "personaggio": "il dj di matrimoni"
+        },
+        "capricorno": {
+          "titolo": "Ascoltare i propositi degli altri senza correggerli",
+          "testo": "Capricorno, quando qualcuno racconta i suoi propositi per l'anno nuovo tu stai già preparando il piano operativo per lui. Prova solo ad ascoltare: prendi le sue parole esatte e rispondi a quelle, senza il calendario. L'ascolto vero è lasciare che l'altro dica la sua cosa, intera. In scena, fai della frase del partner il tuo passo. La cartomante al telefono, anche se è tutta scena, una cosa la fa bene: sta zitta e ascolta finché non capisce cosa la persona spera davvero.",
+          "personaggio": "la cartomante al telefono"
+        },
+        "acquario": {
+          "titolo": "Esserci al veglione, non commentarlo",
+          "testo": "Acquario, a Capodanno tendi a guardare la festa dall'esterno, come un fenomeno sociologico curioso. Prova a entrarci: balla, brinda, guarda in faccia le persone allo scoccare della mezzanotte, senti i piedi per terra. La presenza non analizza il momento, lo vive. In scena, reagisci a quello che fa il partner adesso. Il vigile all'incrocio sotto la pioggia potrebbe pensare ad altro: invece è tutto lì, mani, fischietto, sguardo, dentro quei trenta secondi di traffico.",
+          "personaggio": "il vigile urbano sotto la pioggia"
+        },
+        "pesci": {
+          "titolo": "Accettare l'invito dell'ultimo minuto",
+          "testo": "Pesci, il sì lo senti nel cuore ma poi lo sfumi in un vediamo come mi sento. Questa settimana di' sì subito: al veglione a cui non pensavi di andare, al giro in centro a vedere le luci, alla proposta improvvisa. Il sì pieno dà alla serata un pavimento su cui camminare. In scena, accetta l'offerta del partner intera. La signora che ama l'opera, quando le offrono un biglietto last minute per il loggione, non ci pensa due volte: mette il cappotto e va.",
+          "personaggio": "la signora della lirica in loggione"
+        }
+      }
+    },
+    {
+      "start": "2026-12-28",
+      "segni": {
+        "ariete": {
+          "titolo": "L'anno nuovo si comincia in squadra",
+          "testo": "Ariete, tu i buoni propositi li fai in grande e da solo: quest'anno faccio, quest'anno divento. Prova a legarli agli altri: un proposito che coinvolge un amico, un progetto in cui non sei tu il capitano. In scena vale uguale: lancia l'idea e aspetta che un compagno la raccolga, costruisci sul suo pezzo. La scena bella sembra opera di un gruppo. Il meccanico che parla per metafore te lo direbbe così: da soli si va veloci, ma il motore ha bisogno di tutti i pistoni.",
+          "personaggio": "il meccanico che parla solo per metafore"
+        },
+        "toro": {
+          "titolo": "Camminare nel primo giorno dell'anno",
+          "testo": "Toro, l'anno nuovo lo pensi seduto, con la lista dei propositi in mano. Prova a cominciarlo con il corpo: una camminata lunga il primo gennaio, una stanza riordinata con le mani, un movimento invece di un pensiero. Il corpo, quando si muove, capisce cose che la lista non prevede. In scena, fai nascere il personaggio da un'andatura. Il postino il primo dell'anno non lavora, ma esce lo stesso a camminare per il paese: dice che le gambe sanno già dove vuole andare la testa.",
+          "personaggio": "il postino che legge le cartoline"
+        },
+        "gemelli": {
+          "titolo": "Il primo giorno dell'anno, a voce bassa",
+          "testo": "Gemelli, dopo il rumore del veglione ti sembra che il silenzio del primo gennaio vada riempito subito di piani e chiamate. Prova a lasciarlo: una mattinata quieta, senza parole di troppo. Quel vuoto è dove senti davvero cosa vuoi da quest'anno. In scena, dopo una battuta importante del partner, reggi la pausa. La badante santa, la mattina di Capodanno, siede accanto alla persona che assiste senza dire niente: certe presenze non hanno bisogno di parole.",
+          "personaggio": "la badante santa"
+        },
+        "cancro": {
+          "titolo": "Non avere fretta di ripartire",
+          "testo": "Cancro, a fine anno senti la pressione di rimettersi in moto e acceleri per non restare indietro. Ascolta il ritmo reale di questi giorni: sono lenti, sospesi, ed è giusto così. Non forzare l'allegro quando la stagione chiede un adagio. In scena, senti in che tempo sei prima di muoverti. Il sindaco di dodici abitanti, tra Natale e l'Epifania, non convoca riunioni: sa che il paese ha bisogno di un po' di calma prima di ricominciare.",
+          "personaggio": "il sindaco di un paese di dodici abitanti"
+        },
+        "leone": {
+          "titolo": "Il proposito che ti espone davvero",
+          "testo": "Leone, i propositi che annunci sono quelli sicuri, quelli che fanno bella figura. Questa settimana scegline uno che ti mette a rischio: dire una verità che rimandi, chiedere una cosa che potrebbero negarti, provare qualcosa in cui potresti fallire in pubblico. Il rischio nell'impro è l'impegno totale in qualcosa di incerto. La modella che posa annoiata da anni, un giorno, decide di provare a dipingere lei: è goffa, si espone, e per la prima volta da tempo si diverte.",
+          "personaggio": "la modella di pittura annoiata"
+        },
+        "vergine": {
+          "titolo": "Cucinare gli avanzi per gioco",
+          "testo": "Vergine, in cucina segui la ricetta al grammo e il piacere si perde nella precisione. Questa settimana gioca con quello che c'è: inventa un piatto con gli avanzi delle feste senza ricetta, senza sapere se verrà buono. Il gioco non è il contrario del rigore, è rigore al servizio del divertimento. In scena, insegui l'assurdo con dedizione. Anche il cuoco che urla in cucina, il 28 dicembre, si mette a improvvisare con i resti del cenone e ride da solo dei risultati.",
+          "personaggio": "il cuoco che urla in cucina"
+        },
+        "bilancia": {
+          "titolo": "Il bilancio dell'anno di qualcun altro",
+          "testo": "Bilancia, a fine anno ascolti i bilanci degli amici e resti sulla soglia, con un commento equilibrato. Questa settimana entra: se l'amico racconta un anno difficile, stai un momento nella sua fatica invece di trovargli il lato positivo. Il pubblico, come gli amici, si commuove quando qualcuno sente insieme a loro. In scena, prova l'emozione del partner. La spia in pensione ha imparato a leggere le persone: ma solo da quando è andata in pensione le capisce davvero, perché adesso si ferma ad ascoltarle.",
+          "personaggio": "la spia in pensione"
+        },
+        "scorpione": {
+          "titolo": "L'anno nuovo è una pagina bianca",
+          "testo": "Scorpione, davanti a un anno nuovo lo riempi subito di intenzioni, strategie, obiettivi con scadenza. Prova a lasciarlo vuoto qualche giorno in più: nessun piano, solo lo spazio aperto di dodici mesi ancora da scrivere. Il vuoto è dove entra quello che non avevi previsto. In scena, entra sul palco spoglio e aspetta che chieda qualcosa. Il farmacista che ha una diagnosi per tutto, il primo gennaio, per una volta non sa dire cosa porterà l'anno: ed è la cosa più onesta che possa fare.",
+          "personaggio": "il farmacista che diagnostica tutto"
+        },
+        "sagittario": {
+          "titolo": "Chiedere all'altro com'è andato l'anno, e ascoltare",
+          "testo": "Sagittario, tu guardi già avanti, al prossimo viaggio, al prossimo anno. Questa settimana fermati ad ascoltare com'è andato l'anno a chi ti sta vicino: le parole precise, non il riassunto che immagini tu. L'ascolto vero è accettare la storia dell'altro così com'è. In scena, fai della sua frase il tuo passo. La portinaia con il grembiule, a fine anno, sa di ogni condòmino cosa è successo davvero: non perché indaga, ma perché quando le raccontano qualcosa smette di spazzare e ascolta.",
+          "personaggio": "la portinaia con il grembiule"
+        },
+        "capricorno": {
+          "titolo": "Stare nell'ultimo giorno dell'anno",
+          "testo": "Capricorno, il 31 dicembre sei già mentalmente dentro il piano del nuovo anno. Prova a stare tutto in quest'ultimo giorno: guarda le persone con cui sei, senti dove sei, non trattarlo come una vigilia della produttività. La presenza è il contrario della pianificazione. In scena, reagisci a quello che c'è adesso. Il pescatore che racconta la pesca miracolosa, quella pesca, l'ha vissuta perché era tutto lì, sulla barca, in quel momento: se avesse pensato al giorno dopo, non l'avrebbe nemmeno vista.",
+          "personaggio": "il pescatore che racconta la pesca miracolosa"
+        },
+        "acquario": {
+          "titolo": "Accettare il brindisi come viene proposto",
+          "testo": "Acquario, anche al veglione al tuo sì aggiungi la variante intelligente: brindiamo, ma facciamolo in modo diverso. Questa settimana accetta la proposta così com'è: il posto scelto da un altro, il rito un po' kitsch, la tradizione che non avresti messo tu. Il sì pieno tiene insieme la serata. In scena, prendi l'offerta del partner intera. Il critico gastronomico in incognito, a Capodanno, non riscrive il menù di casa altrui: si siede e mangia quello che gli mettono nel piatto, con gratitudine.",
+          "personaggio": "il critico gastronomico incognito"
+        },
+        "pesci": {
+          "titolo": "Inciampare sul primo passo dell'anno",
+          "testo": "Pesci, se il primo gennaio parte storto, sveglia tardi, proposito già rotto, giornata storta, ci rimani male e lo prendi come un presagio. Prova a riderci: un anno, come una scena, non si gioca sul primo passo. Sbagli, sorridi, vai avanti e usa quello che è successo. In scena, l'errore accolto con gioia è un regalo alla squadra. Il maestro di ballo liscio lo dice ai principianti: chi non pesta mai un piede non sta ballando davvero; l'importante è continuare a muoversi.",
+          "personaggio": "la insegnante di ballo liscio"
+        }
+      }
     }
   ]
 }
