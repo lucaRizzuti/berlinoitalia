@@ -14,6 +14,12 @@ export function Footer() {
             height={114}
             className="h-16 w-auto invert"
           />
+          <Link
+            href="/improroscopo"
+            className="kicker mt-5 inline-block text-paper/70 hover:text-paper"
+          >
+            ImprOroscopo
+          </Link>
         </div>
 
         <div className="text-sm leading-8 text-paper/75">
