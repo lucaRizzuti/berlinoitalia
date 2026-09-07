@@ -26,6 +26,38 @@ export const SEGNO_BY_SLUG = Object.fromEntries(
   SEGNI.map((s) => [s.slug, s]),
 ) as Record<SegnoSlug, Segno>;
 
+/** I dodici concetti di improvvisazione, nell'ordine della rotazione settimanale. */
+export const CONCETTI = [
+  "ascolto",
+  "presenza",
+  "dire di sì",
+  "fallire con gioia",
+  "il gruppo prima dell'ego",
+  "il corpo",
+  "il silenzio",
+  "il ritmo",
+  "il rischio",
+  "il gioco",
+  "l'empatia",
+  "lo spazio vuoto",
+] as const;
+
+/** Lunedì della settimana 0 della rotazione (2026-09-07). */
+const SETTIMANA_ZERO = Date.UTC(2026, 8, 7);
+
+/**
+ * Il concetto di improvvisazione assegnato a un segno in una data settimana.
+ * Rotazione: `CONCETTI[(indiceSegno + indiceSettimana) % 12]`, con l'indice
+ * settimana contato dal 2026-09-07. Coerente con i testi in content/improroscopo.
+ */
+export function concettoDi(weekStart: string, segno: SegnoSlug): string {
+  const w = Math.round(
+    (Date.parse(`${weekStart}T00:00:00Z`) - SETTIMANA_ZERO) / (7 * 86_400_000),
+  );
+  const s = SEGNI.findIndex((x) => x.slug === segno);
+  return CONCETTI[(((s + w) % 12) + 12) % 12];
+}
+
 const previsione = z.object({
   titolo: z.string().min(1),
   testo: z.string().min(1),
