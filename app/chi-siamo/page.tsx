@@ -32,7 +32,7 @@ const pilastri = [
   },
 ];
 
-// Bozze — testi provvisori, da sostituire con le versioni definitive.
+// Foto ancora provvisorie (iniziali). Bio di Luca da confermare.
 const team = [
   {
     nome: "Luca Rizzuti",
@@ -42,15 +42,15 @@ const team = [
   },
   {
     nome: "Maddalena Zoli",
-    ruolo: "Insegnante · improvvisatrice",
+    ruolo: "Attrice · improvvisatrice · organizzatrice di festival",
     iniziali: "MZ",
-    bio: "Attrice e improvvisatrice, insegna nei corsi e porta gli spettacoli in teatro. Lavora sull'ascolto e sulla costruzione di storie insieme.",
+    bio: "Le piace lavorare sulle categorie cinematografiche, l'ascolto e reazione in scena, la profondità dei personaggi.",
   },
   {
     nome: "Pierpaolo Pantone",
-    ruolo: "Insegnante · improvvisatore",
+    ruolo: "Improvvisatore · insegnante",
     iniziali: "PP",
-    bio: "Improvvisatore e insegnante, accompagna chi comincia dai primi passi fino al palco, con attenzione al gioco e alla fiducia nel gruppo.",
+    bio: "Ama esplorare mondi alternativi, i momenti di vulnerabilità, e le connessioni che essi creano tra i personaggi e gli improvvisatori.",
   },
 ];
 
@@ -148,7 +148,7 @@ export default function ChiSiamoPage() {
       <Container className="py-16">
         <SectionHeading kicker="Gli insegnanti">Il team</SectionHeading>
         <p className="mb-8 -mt-3 font-display text-xs uppercase tracking-[0.12em] text-blu">
-          Foto e testi provvisori — da sostituire
+          Foto provvisorie — da sostituire
         </p>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {team.map((m) => (
