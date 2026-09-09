@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Corsi",
   description:
-    "Corsi di improvvisazione teatrale in italiano a Berlino: tre livelli, ogni lunedì e sabato. La prima lezione è libera, senza iscrizione. Workshop con ospiti dall'Italia.",
+    "Corsi di improvvisazione teatrale in italiano a Berlino: tre livelli, ogni lunedì e sabato. Si può partecipare anche a una singola lezione, senza iscrizione. Workshop con ospiti dall'Italia.",
   alternates: { canonical: "/corsi" },
 };
 
@@ -89,7 +89,7 @@ export default function CorsiPage() {
       </Container>
 
       <MetaBand color="blu">
-        La prima lezione è libera · senza iscrizione · senza impegno
+        Anche una lezione singola · senza iscrizione · senza impegno
       </MetaBand>
 
       {/* LIVELLI */}

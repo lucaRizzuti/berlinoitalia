@@ -19,7 +19,7 @@ const quickLinks = [
     href: "/corsi",
     accent: "bg-blu",
     go: "text-blu",
-    text: "Ogni lunedì e sabato. Tre livelli. La prima lezione è libera, senza iscrizione. I workshop con gli ospiti dall'Italia sono qui dentro.",
+    text: "Ogni lunedì e sabato. Tre livelli. Puoi venire anche a una lezione singola, senza iscriverti. I workshop con gli ospiti dall'Italia sono qui dentro.",
     cta: "Vai ai corsi →",
   },
   {

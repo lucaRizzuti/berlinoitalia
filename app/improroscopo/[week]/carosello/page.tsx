@@ -57,7 +57,7 @@ function buildCaption(settimana: Settimana, range: string) {
     "",
     "Il tuo oroscopo completo, segno per segno → berlinoitalia.com/improroscopo (link in bio)",
     "",
-    "Corsi di improvvisazione teatrale in italiano a Berlino, ogni lunedì e sabato. La prima lezione è libera.",
+    "Corsi di improvvisazione teatrale in italiano a Berlino, ogni lunedì e sabato. Si può venire anche a una lezione singola, senza iscrizione.",
     "",
     "#improvvisazione #improv #teatro #oroscopo #segnizodiacali #berlino #italianiaberlino #berlinoitalia #scuoladiteatro #improvcomedy #teatroinitaliano #comicità",
   ].join("\n");
@@ -157,8 +157,8 @@ function ClosingSlide() {
         <div className="grow" />
         <div className="rule" style={{ background: "rgba(240,231,220,0.35)" }} />
         <p className="close-line">
-          Corsi di improvvisazione in italiano a Berlino, ogni lunedì e sabato. La prima
-          lezione è libera.
+          Corsi di improvvisazione in italiano a Berlino, ogni lunedì e sabato. Vieni
+          anche a una sola lezione.
         </p>
         <p className="close-handle">@berlinoitalia · newsletter dal sito</p>
       </div>
