@@ -1,0 +1,12 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1440, "h": 3620, "title": "Home" },
+    { "file": "Corsi.dc.html", "x": 1560, "y": 0, "w": 1440, "h": 3100, "title": "Corsi + Workshop" },
+    { "file": "Spettacoli.dc.html", "x": 3120, "y": 0, "w": 1440, "h": 2640, "title": "Spettacoli — indice" },
+    { "file": "SpettacoloDetail.dc.html", "x": 4680, "y": 0, "w": 1440, "h": 2360, "title": "Scheda spettacolo" }
+  ],
+  "annotations": [
+    { "id": "sistema", "x": 0, "y": -230, "w": 900, "text": "SISTEMA VISIVO — da design_sito.pptx\nCarta #F0E7DC · Inchiostro #181717 · Oswald (display, maiuscolo) + Archivo (testo)\nColore semantico: Blu #02379C = Corsi · Rosso #D4161E = Spettacoli · Verde #6E8A33 = Eventi/Rodari\nCollage B/N + retino, forme ad arco, nastro washi, puntini mezzatinta, payoff «IMPROVVISAZIONE. TEATRO. GIOCO. ASCOLTO. PRESENZA.»\nMockup statici a 1440px. Le immagini collage sono estratte dal .pptx; i riquadri tratteggiati blu segnano contenuti/placeholder da definire." }
+  ],
+  "launch": { "view": "canvas" }
+}
