@@ -11,11 +11,7 @@ export const metadata: Metadata = {
 
 export default function ImpressumPage() {
   return (
-    <LegalPage
-      title="Impressum"
-      updated="Stand: September 2026"
-      note="Dati del Vereinsregister verificati (set. 2026). Una revisione legale del testo resta consigliata prima della pubblicazione."
-    >
+    <LegalPage title="Impressum" updated="Stand: September 2026">
       <h2>Angaben gemäß § 5 DDG</h2>
       <p>
         Berlino Italia e.V.

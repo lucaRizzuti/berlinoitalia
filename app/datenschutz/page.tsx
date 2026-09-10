@@ -10,11 +10,7 @@ export const metadata: Metadata = {
 
 export default function DatenschutzPage() {
   return (
-    <LegalPage
-      title="Datenschutzerklärung"
-      updated="Stand: September 2026"
-      note="Dati del Vereinsregister verificati (set. 2026). Una revisione legale del testo resta consigliata prima della pubblicazione."
-    >
+    <LegalPage title="Datenschutzerklärung" updated="Stand: September 2026">
       <h2>1. Verantwortlicher</h2>
       <p>
         Verantwortlich für die Datenverarbeitung auf dieser Website ist:
