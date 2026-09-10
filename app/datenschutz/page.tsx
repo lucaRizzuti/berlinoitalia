@@ -91,8 +91,7 @@ export default function DatenschutzPage() {
         (yesticket.org). Termindaten werden serverseitig über den öffentlichen iCal-Feed
         abgerufen; dabei werden keine personenbezogenen Daten unserer Besucher übermittelt.
         Der Kauf von Tickets erfolgt ausschließlich auf der Website von YesTicket, deren
-        Datenschutzbestimmungen dann gelten. [Anpassen, falls YesTicket per iframe
-        eingebunden wird.]
+        Datenschutzbestimmungen dann gelten.
       </p>
 
       <h2>9. Eingebundene Videos (YouTube)</h2>
