@@ -21,7 +21,7 @@ export default function DatenschutzPage() {
         <br />
         Berlino Italia e.V., Kiefholzstraße 26, 12435 Berlin
         <br />
-        Vertreten durch den Präsidenten Luca Rizzuti
+        Vertreten durch den Vorsitzenden Luca Rizzuti
         <br />
         E-Mail: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
       </p>

@@ -28,7 +28,10 @@ export default function ImpressumPage() {
       </p>
 
       <h2>Vertreten durch</h2>
-      <p>Luca Rizzuti (Präsident), vertretungsberechtigter Vorstand gemäß § 26 BGB.</p>
+      <p>
+        Luca Rizzuti (Vorsitzender). Der Verein wird gemäß § 26 BGB und Vereinssatzung vom
+        Vorsitzenden allein vertreten.
+      </p>
 
       <h2>Registereintrag</h2>
       <p>
