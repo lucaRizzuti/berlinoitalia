@@ -14,7 +14,7 @@ export default function ImpressumPage() {
     <LegalPage
       title="Impressum"
       updated="Stand: September 2026"
-      note="Bozza — consigliata una revisione legale prima della pubblicazione."
+      note="Dati del Vereinsregister verificati (set. 2026). Una revisione legale del testo resta consigliata prima della pubblicazione."
     >
       <h2>Angaben gemäß § 5 DDG</h2>
       <p>
@@ -29,15 +29,24 @@ export default function ImpressumPage() {
 
       <h2>Vertreten durch</h2>
       <p>
-        Luca Rizzuti (Vorsitzender). Der Verein wird gemäß § 26 BGB und Vereinssatzung vom
-        Vorsitzenden allein vertreten.
+        Vorstand gemäß § 26 BGB:
+        <br />
+        Luca Rizzuti (Vorsitzender)
+        <br />
+        Federica Spinello (stellvertretende Vorsitzende)
+        <br />
+        Maddalena Zoli (stellvertretende Vorsitzende)
+      </p>
+      <p>
+        Der Verein wird gerichtlich und außergerichtlich durch den Vorsitzenden allein oder
+        durch zwei stellvertretende Vorsitzende gemeinsam vertreten.
       </p>
 
       <h2>Registereintrag</h2>
       <p>
-        Eintragung im Vereinsregister.
+        Eingetragener Verein.
         <br />
-        Registergericht: Amtsgericht Charlottenburg (Berlin)
+        Registergericht: Amtsgericht Charlottenburg
         <br />
         Registernummer: VR 39653 B
       </p>

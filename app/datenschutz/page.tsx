@@ -13,7 +13,7 @@ export default function DatenschutzPage() {
     <LegalPage
       title="Datenschutzerklärung"
       updated="Stand: September 2026"
-      note="Bozza — consigliata una revisione legale prima della pubblicazione."
+      note="Dati del Vereinsregister verificati (set. 2026). Una revisione legale del testo resta consigliata prima della pubblicazione."
     >
       <h2>1. Verantwortlicher</h2>
       <p>
@@ -21,7 +21,8 @@ export default function DatenschutzPage() {
         <br />
         Berlino Italia e.V., Kiefholzstraße 26, 12435 Berlin
         <br />
-        Vertreten durch den Vorsitzenden Luca Rizzuti
+        Vertreten durch den Vorstand: Luca Rizzuti (Vorsitzender), Federica Spinello und
+        Maddalena Zoli (stellvertretende Vorsitzende)
         <br />
         E-Mail: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
       </p>
