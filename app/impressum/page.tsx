@@ -13,18 +13,30 @@ export default function ImpressumPage() {
   return (
     <LegalPage
       title="Impressum"
-      updated="Angaben gemäß § 5 DDG"
+      updated="Stand: September 2026"
       note="Bozza — consigliata una revisione legale prima della pubblicazione."
     >
-      <h2>Diensteanbieter</h2>
+      <h2>Angaben gemäß § 5 DDG</h2>
       <p>
-        Luca Rizzuti
+        Berlino Italia e.V.
         <br />
         Kiefholzstraße 26
         <br />
         12435 Berlin
         <br />
         Deutschland
+      </p>
+
+      <h2>Vertreten durch</h2>
+      <p>Luca Rizzuti (Präsident), vertretungsberechtigter Vorstand gemäß § 26 BGB.</p>
+
+      <h2>Registereintrag</h2>
+      <p>
+        Eintragung im Vereinsregister.
+        <br />
+        Registergericht: Amtsgericht Charlottenburg (Berlin)
+        <br />
+        Registernummer: VR 39653 B
       </p>
 
       <h2>Kontakt</h2>
@@ -35,7 +47,7 @@ export default function ImpressumPage() {
       </p>
 
       <h2>Redaktionell verantwortlich (§ 18 Abs. 2 MStV)</h2>
-      <p>Luca Rizzuti (Anschrift wie oben)</p>
+      <p>Luca Rizzuti, Anschrift wie oben</p>
 
       <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
       <p>

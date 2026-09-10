@@ -11,6 +11,7 @@ export const organizationLd = {
   "@id": ORG_ID,
   name: site.name,
   alternateName: "Berlino Italia",
+  legalName: "Berlino Italia e.V.",
   url: site.url,
   logo: `${site.url}/brand/logo.png`,
   image: `${site.url}/collage/collage-people.webp`,
