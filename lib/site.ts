@@ -5,7 +5,7 @@
 
 export const site = {
   name: "Berlino Italia Improv",
-  url: "https://berlinoitalia.com",
+  url: "https://www.berlinoitalia.com",
   description:
     "Scuola di improvvisazione teatrale in italiano a Berlino. Corsi per adulti e bambini, workshop e spettacoli dal vivo ogni mese. Membri dell'International Theatresports Institute dal 2017.",
   locale: "it_IT",

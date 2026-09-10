@@ -32,7 +32,6 @@ const pilastri = [
   },
 ];
 
-// Foto ancora provvisorie (iniziali). Bio di Luca da confermare.
 const team = [
   {
     nome: "Luca Rizzuti",
@@ -147,9 +146,6 @@ export default function ChiSiamoPage() {
       {/* TEAM */}
       <Container className="py-16">
         <SectionHeading kicker="Gli insegnanti">Il team</SectionHeading>
-        <p className="mb-8 -mt-3 font-display text-xs uppercase tracking-[0.12em] text-blu">
-          Foto provvisorie — da sostituire
-        </p>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {team.map((m) => (
             <div key={m.nome} className="border-2 border-ink bg-paper-3">
