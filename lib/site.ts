@@ -1,6 +1,5 @@
 /**
  * Configurazione centrale del sito.
- * Contatti e sedi vanno confermati con Luca prima del go-live.
  */
 
 export const site = {
