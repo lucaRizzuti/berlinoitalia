@@ -32,7 +32,14 @@ export async function generateMetadata(
     openGraph: {
       title: `${show.title} — ${site.name}`,
       description: show.seo.description ?? show.tagline,
-      images: show.seo.ogImage ? [show.seo.ogImage] : undefined,
+      // Il layout ha un og:image di default, ma definire qui `openGraph` lo
+      // sovrascrive del tutto: senza fallback esplicito, gli show privi di
+      // seo.ogImage restavano senza immagine di anteprima.
+      images: [show.seo.ogImage ?? "/og.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [show.seo.ogImage ?? "/og.png"],
     },
   };
 }

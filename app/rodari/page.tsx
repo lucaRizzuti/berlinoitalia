@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "Laboratorio e spettacolo di improvvisazione teatrale ispirati a Gianni Rodari, per scuole italiane, corsi di lingua e ragazzi a Berlino. In italiano.",
   alternates: { canonical: "/rodari" },
+  openGraph: {
+    title: "Grammatica della Fantasia — Berlino Italia Improv",
+    description:
+      "Laboratorio e spettacolo di improvvisazione teatrale ispirati a Gianni Rodari, per scuole italiane, corsi di lingua e ragazzi a Berlino. In italiano.",
+    images: [{ url: "/og/rodari.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/og/rodari.jpg"] },
 };
 
 const steps = [
