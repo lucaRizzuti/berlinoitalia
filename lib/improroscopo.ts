@@ -106,9 +106,22 @@ export const getCoppie = cache((): { week: string; segno: SegnoSlug }[] =>
   ),
 );
 
-/** Il lunedì (in UTC) della settimana che contiene `d`, come stringa YYYY-MM-DD. */
+const fmtDataBerlino = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/Berlin",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+});
+
+/**
+ * Il lunedì della settimana che contiene `d`, come stringa YYYY-MM-DD.
+ * `d` viene prima letta nel fuso di Berlino (non in UTC del server): altrimenti,
+ * nelle ~2 ore tra la mezzanotte di Berlino e quella UTC, il sito crederebbe
+ * di essere ancora nel giorno/settimana precedente.
+ */
 export function lunediDi(d: Date): string {
-  const t = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+  const [y, m, day] = fmtDataBerlino.format(d).split("-").map(Number);
+  const t = new Date(Date.UTC(y, m - 1, day));
   const dow = (t.getUTCDay() + 6) % 7; // 0 = lunedì
   t.setUTCDate(t.getUTCDate() - dow);
   return t.toISOString().slice(0, 10);
