@@ -78,7 +78,7 @@ export default function ImprOroscopoPage() {
                           {s.periodo}
                         </span>
                       </span>
-                      <span className="min-w-0 truncate text-[13.5px] text-ink/75">
+                      <span className="line-clamp-3 min-w-0 text-[13.5px] leading-[1.45] text-ink/75">
                         <span className="font-semibold text-ink">{p.titolo}.</span>{" "}
                         {p.testo.replace(/\s+/g, " ")}
                       </span>
