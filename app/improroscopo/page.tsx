@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Container } from "@/components/Container";
-import { SEGNI, settimanaCorrente, rangeSettimana } from "@/lib/improroscopo";
+import {
+  SEGNI,
+  ELEMENTO_COLORE,
+  settimanaCorrente,
+  rangeSettimana,
+} from "@/lib/improroscopo";
 
 export const metadata: Metadata = {
   title: "ImprOroscopo",
@@ -41,34 +47,53 @@ export default function ImprOroscopoPage() {
             <p className="kicker mb-6 text-ink/60">
               Settimana del {rangeSettimana(settimana.start)}
             </p>
-            <ul className="border-t-2 border-ink">
-              {SEGNI.map((s) => {
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {SEGNI.map((s, i) => {
                 const p = settimana.segni[s.slug];
                 if (!p) return null;
+                const colore = ELEMENTO_COLORE[s.elemento];
                 return (
-                  <li key={s.slug} className="border-b-2 border-ink">
-                    <Link
-                      href={`/improroscopo/${settimana.start}/${s.slug}`}
-                      className="group grid grid-cols-[6.5rem_1fr_auto] items-baseline gap-4 py-3.5 text-ink hover:text-rosso sm:grid-cols-[9rem_1fr_auto] sm:gap-6"
-                    >
-                      <span className="font-display text-base font-semibold uppercase sm:text-lg">
-                        {s.nome}
+                  <Link
+                    key={s.slug}
+                    href={`/improroscopo/${settimana.start}/${s.slug}`}
+                    className="group flex flex-col border-2 border-ink bg-paper-3 transition-transform hover:-translate-y-1"
+                    style={{ transform: `rotate(${(i % 2 === 0 ? -1 : 1) * 0.4}deg)` }}
+                  >
+                    <span className="h-[6px] w-full shrink-0" style={{ background: colore }} />
+                    <span className="relative block aspect-square w-full overflow-hidden border-b-2 border-ink">
+                      <Image
+                        src={`/images/oroscopo/${s.slug}.webp`}
+                        alt={s.nome}
+                        fill
+                        sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+                        className="u-riso object-cover"
+                      />
+                    </span>
+                    <span className="flex flex-1 flex-col gap-1.5 p-4">
+                      <span className="flex items-baseline justify-between gap-2">
+                        <span className="font-display text-xl font-semibold uppercase leading-none">
+                          {s.nome}
+                        </span>
+                        <span className="font-display text-[10px] uppercase tracking-[0.1em] text-ink/50">
+                          {s.periodo}
+                        </span>
                       </span>
-                      <span className="min-w-0 truncate text-[14px] text-ink/70 group-hover:text-rosso/80">
-                        <span className="font-semibold text-ink group-hover:text-rosso">
-                          {p.titolo}.
-                        </span>{" "}
+                      <span className="line-clamp-3 min-w-0 text-[13.5px] leading-[1.45] text-ink/75">
+                        <span className="font-semibold text-ink">{p.titolo}.</span>{" "}
                         {p.testo.replace(/\s+/g, " ")}
                       </span>
-                      <span className="font-display text-[12px] font-semibold uppercase tracking-[0.12em] text-rosso">
+                      <span
+                        className="mt-auto pt-1 font-display text-[11px] font-semibold uppercase tracking-[0.12em]"
+                        style={{ color: colore }}
+                      >
                         Leggi →
                       </span>
-                    </Link>
-                  </li>
+                    </span>
+                  </Link>
                 );
               })}
-            </ul>
-            <p className="mt-8 max-w-[52ch] text-[14px] text-ink/60">
+            </div>
+            <p className="mt-10 max-w-[52ch] text-[14px] text-ink/60">
               Ogni previsione è legata a un concetto di improvvisazione — ascolto,
               presenza, dire di sì, fallire con gioia, il silenzio, il ritmo, il rischio,
               il gioco, l&apos;empatia, lo spazio vuoto. Cambiano di segno in segno e di

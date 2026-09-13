@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
   SEGNI,
+  ELEMENTO_COLORE,
   getSettimane,
   getSettimana,
   rangeSettimana,
@@ -21,13 +22,6 @@ export const metadata: Metadata = {
 export function generateStaticParams() {
   return getSettimane().map((w) => ({ week: w.start }));
 }
-
-const ELEMENTO_COLORE: Record<Segno["elemento"], string> = {
-  Fuoco: "#d4161e",
-  Terra: "#6e8a33",
-  Aria: "#02379c",
-  Acqua: "#0b307a",
-};
 
 const ZODIAC: Record<string, string> = {
   ariete: "♈",
