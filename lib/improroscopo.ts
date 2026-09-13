@@ -26,6 +26,14 @@ export const SEGNO_BY_SLUG = Object.fromEntries(
   SEGNI.map((s) => [s.slug, s]),
 ) as Record<SegnoSlug, Segno>;
 
+/** Colore d'accento per elemento del segno — usato nella card, nel dettaglio e nel carosello. */
+export const ELEMENTO_COLORE: Record<Segno["elemento"], string> = {
+  Fuoco: "#d4161e",
+  Terra: "#6e8a33",
+  Aria: "#02379c",
+  Acqua: "#0b307a",
+};
+
 /** I dodici concetti di improvvisazione, nell'ordine della rotazione settimanale. */
 export const CONCETTI = [
   "ascolto",
