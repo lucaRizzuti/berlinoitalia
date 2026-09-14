@@ -47,7 +47,7 @@ export default function SpettacoliPage() {
             </Button>
           </div>
         </div>
-        <div className="relative min-h-[320px] sm:min-h-[420px]">
+        <div className="relative mx-auto aspect-[95/96] w-full max-w-[380px] lg:mx-0 lg:max-w-none">
           <div className="u-arch u-halftone absolute right-10 top-2 h-[85%] w-[55%] text-ink opacity-50" />
           <Image
             src="/collage/collage-mouth.webp"

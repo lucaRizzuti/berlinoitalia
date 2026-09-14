@@ -134,7 +134,7 @@ export default async function HomePage() {
           </div>
         </div>
 
-        <div className="relative min-h-[420px] sm:min-h-[520px]">
+        <div className="relative mx-auto aspect-[650/713] w-full max-w-[520px] lg:mx-0 lg:max-w-none">
           <div className="u-arch u-halftone absolute right-0 top-5 h-[75%] w-[62%] text-ink/50 opacity-50" />
           <div className="u-arch absolute right-8 top-0 h-[82%] w-[54%] bg-rosso" />
           <Image

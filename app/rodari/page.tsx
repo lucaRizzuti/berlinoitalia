@@ -87,7 +87,7 @@ export default function RodariPage() {
             </Button>
           </div>
         </div>
-        <div className="relative min-h-[300px] sm:min-h-[420px]">
+        <div className="relative mx-auto aspect-[575/602] w-full max-w-[460px] lg:mx-0 lg:max-w-none">
           <div className="u-arch u-halftone absolute right-6 top-2 h-[85%] w-[58%] text-ink opacity-50" />
           <Image
             src="/collage/collage-berlin.webp"

@@ -7,7 +7,8 @@ tagline: Lo show multilingua nato con le scuole tedesca, spagnola, francese e in
 lingua: [it, de, en, es, fr]
 durata: 90′ + intervallo
 pubblico: Adulti e famiglie
-hero: /collage/collage-people.webp
+hero: /collage/collage-babel.webp
+heroColor: true
 gallery: []
 yesticket:
   match: ["Babel"]
