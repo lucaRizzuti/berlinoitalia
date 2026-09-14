@@ -75,7 +75,7 @@ export default function CorsiPage() {
             </Button>
           </div>
         </div>
-        <div className="relative min-h-[320px] sm:min-h-[440px]">
+        <div className="relative mx-auto aspect-[575/602] w-full max-w-[460px] lg:mx-0 lg:max-w-none">
           <div className="u-arch absolute right-5 top-0 h-[88%] w-[58%] bg-blu" />
           <Image
             src="/collage/collage-ear.webp"
