@@ -11,6 +11,8 @@ export const showFrontmatter = z.object({
   durata: z.string().optional(),
   pubblico: z.string().optional(),
   hero: z.string().optional(),
+  /** Se true, l'immagine hero resta a colori invece del trattamento B/N (u-riso). */
+  heroColor: z.boolean().default(false),
   gallery: z.array(z.string()).default([]),
   video: z.string().url().optional(),
   /**

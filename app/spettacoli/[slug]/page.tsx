@@ -103,7 +103,9 @@ export default async function ShowPage(props: PageProps<"/spettacoli/[slug]">) {
               width={420}
               height={520}
               priority
-              className="u-riso absolute right-[-6%] top-[-2%] w-[86%] max-w-none"
+              className={`absolute right-[-6%] top-[-2%] w-[86%] max-w-none ${
+                show.heroColor ? "" : "u-riso"
+              }`}
             />
           </div>
         )}
