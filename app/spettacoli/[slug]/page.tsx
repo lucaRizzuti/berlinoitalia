@@ -95,7 +95,7 @@ export default async function ShowPage(props: PageProps<"/spettacoli/[slug]">) {
           <p className="mt-6 max-w-lg text-lg italic">{show.tagline}</p>
         </div>
         {show.hero && (
-          <div className="relative min-h-[300px] sm:min-h-[400px]">
+          <div className="relative mx-auto aspect-[525/559] w-full max-w-[420px] lg:mx-0 lg:max-w-none">
             <div className="u-arch absolute right-8 top-0 h-[92%] w-[62%] bg-rosso" />
             <Image
               src={show.hero}
