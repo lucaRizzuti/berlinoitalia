@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/Container";
@@ -12,6 +13,15 @@ import { getVideos } from "@/lib/youtube";
 import { site } from "@/lib/site";
 
 export const revalidate = 3600;
+
+export const metadata: Metadata = {
+  openGraph: {
+    title: `${site.name} — Improvvisazione teatrale in italiano a Berlino`,
+    description: site.description,
+    images: [{ url: "/og/home.jpg", width: 1200, height: 675, alt: site.name }],
+  },
+  twitter: { card: "summary_large_image", images: ["/og/home.jpg"] },
+};
 
 const quickLinks = [
   {
