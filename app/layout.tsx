@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Oswald, Archivo } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { site } from "@/lib/site";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { WhatsappButton } from "@/components/WhatsappButton";
+import { AnalyticsGate } from "@/components/AnalyticsGate";
 import { JsonLd } from "@/components/JsonLd";
 import { organizationLd } from "@/lib/jsonld";
 
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <WhatsappButton />
         <div className="u-grain fixed" aria-hidden="true" />
-        <Analytics />
+        <AnalyticsGate />
         <JsonLd data={organizationLd} />
       </body>
     </html>
