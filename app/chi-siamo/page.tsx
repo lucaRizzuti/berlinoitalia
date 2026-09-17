@@ -37,7 +37,21 @@ const team = [
     nome: "Luca Rizzuti",
     ruolo: "Fondatore · formatore",
     iniziali: "LR",
-    bio: "Arrivato a Berlino nel 2016, nel 2017 fonda Berlino Italia Improv. Come formatore lavora sulle difese che impediscono di esporsi in scena — e nella vita.",
+    bio: (
+      <>
+        Arrivato a Berlino nel 2016, fonda Berlino Italia Improv nel 2017. Le stesse tecniche
+        di improvvisazione le applica anche ad aziende e team come facilitatore — ne parla su{" "}
+        <a
+          href="https://lucarizzuti.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-rosso"
+        >
+          lucarizzuti.com
+        </a>
+        .
+      </>
+    ),
   },
   {
     nome: "Maddalena Zoli",
