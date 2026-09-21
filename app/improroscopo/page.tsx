@@ -33,7 +33,7 @@ export default function ImprOroscopoPage() {
         }
         color="rosso"
       >
-        L&apos;oroscopo della settimana per chi fa teatro senza prendersi sul serio.
+        L&apos;oroscopo della settimana per chi fa teatro senza prendersi troppo sul serio.
         Niente amore, soldi e lavoro: solo dodici modi di stare in scena.
       </PageHeader>
 

@@ -147,7 +147,7 @@ export default async function SegnoSettimanaPage(
       </section>
 
       <Container className="py-14 text-center">
-        <p className="kicker mb-4 text-ink/55">Fare teatro senza prendersi sul serio</p>
+        <p className="kicker mb-4 text-ink/55">Fare teatro senza prendersi troppo sul serio</p>
         <h2 className="mx-auto max-w-[18ch] text-[clamp(1.5rem,4vw,2.1rem)]">
           Il modo migliore per crederci è provare una volta.
         </h2>
