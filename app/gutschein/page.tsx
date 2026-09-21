@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   description:
     "Il Berlino Impro Gutschein: un token di metallo da regalare, valido per una serata a teatro per due o una lezione di prova. Senza scadenza. Accettato dalle scuole partner di Berlino.",
   alternates: { canonical: "/gutschein" },
+  openGraph: {
+    title: "Berlino Impro Gutschein — Berlino Italia Improv",
+    description:
+      "Un token di metallo da regalare. Un teatro per due, o una lezione di prova. Senza scadenza.",
+    images: [{ url: "/og/gutschein.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/og/gutschein.jpg"] },
 };
 
 const come = [
