@@ -45,7 +45,7 @@ function buildCaption(settimana: Settimana, range: string) {
   return [
     `ImprOroscopo · la settimana del ${range} 🔮`,
     "",
-    "L'oroscopo per chi fa teatro senza prendersi sul serio: dodici segni, dodici modi di stare in scena. Niente amore, soldi e lavoro — solo improvvisazione, e un po' di vita.",
+    "L'oroscopo per chi fa teatro senza prendersi troppo sul serio: dodici segni, dodici modi di stare in scena. Niente amore, soldi e lavoro — solo improvvisazione, e un po' di vita.",
     "",
     righe,
     "",
@@ -81,7 +81,7 @@ function CoverSlide({ range }: { range: string }) {
         <p className="micro">Settimana del</p>
         <p className="cover-week">{range}</p>
         <div className="rule" />
-        <p className="payoff">Fare teatro senza prendersi sul serio</p>
+        <p className="payoff">Fare teatro senza prendersi troppo sul serio</p>
         <p className="cover-hint">Scorri i 12 segni →</p>
       </div>
     </div>
