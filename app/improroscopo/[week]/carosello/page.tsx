@@ -60,28 +60,9 @@ function buildCaption(settimana: Settimana, range: string) {
 function CoverSlide({ range }: { range: string }) {
   return (
     <div className="slide" data-slide="01-cover">
-      <span className="accent" style={{ background: "#d4161e" }} />
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="cover-zodiaco" src="/collage/collage-zodiaco.webp" alt="" />
-      <div className="pad">
-        <p className="kick">Berlino Italia Improv · settimanale</p>
-        <h1 className="cover-title">
-          Impro
-          <br />
-          <span style={{ color: "#d4161e" }}>Oroscopo</span>
-        </h1>
-        <p className="cover-sub">
-          L&apos;oroscopo della settimana
-          <br />
-          per improvvisatori
-        </p>
-        <div className="grow" />
-        <p className="micro">Settimana del</p>
-        <p className="cover-week">{range}</p>
-        <div className="rule" />
-        <p className="payoff">Fare teatro senza prendersi troppo sul serio</p>
-        <p className="cover-hint">Scorri i 12 segni →</p>
-      </div>
+      <img className="cover-base" src="/carosello/cover-base.webp" alt="" />
+      <p className="cover-week-overlay">{range}</p>
     </div>
   );
 }
@@ -192,37 +173,20 @@ const CSS = `
     font-family: var(--font-oswald), sans-serif; text-transform: uppercase;
     letter-spacing: 0.16em; font-size: 20px; margin: 0; color: rgba(24,23,23,0.6);
   }
-  .payoff {
-    font-family: var(--font-oswald), sans-serif; text-transform: uppercase;
-    letter-spacing: 0.06em; font-size: 27px; margin: 0;
-  }
   .halftone {
     background-image: radial-gradient(currentColor 2px, transparent 2.4px);
     background-size: 22px 22px; color: #181717; display: block;
   }
 
-  /* cover */
-  .cover-zodiaco {
-    position: absolute; right: 0; top: 445px; width: 600px; height: auto;
-    transform: rotate(-1.2deg); z-index: 1;
+  /* cover — immagine fissa (public/carosello/cover-base.webp), solo la data cambia */
+  .cover-base {
+    position: absolute; inset: 0; width: 1080px; height: 1350px; z-index: 0;
   }
-  .cover-title {
+  .cover-week-overlay {
+    position: absolute; left: 44px; top: 1078px; z-index: 1; white-space: nowrap;
     font-family: var(--font-oswald), sans-serif; font-weight: 600;
-    text-transform: uppercase; line-height: 0.82; letter-spacing: 0.005em;
-    font-size: 130px; margin: 0;
-  }
-  .cover-sub {
-    font-family: var(--font-oswald), sans-serif; font-weight: 500;
-    text-transform: uppercase; line-height: 1.05; letter-spacing: 0.02em;
-    font-size: 38px; margin: 32px 0 0;
-  }
-  .cover-week {
-    font-family: var(--font-oswald), sans-serif; font-weight: 600;
-    text-transform: uppercase; font-size: 60px; line-height: 1; margin: 8px 0 0;
-  }
-  .cover-hint {
-    font-family: var(--font-oswald), sans-serif; text-transform: uppercase;
-    letter-spacing: 0.12em; font-size: 22px; margin: 18px 0 0; color: #d4161e;
+    text-transform: uppercase; font-size: 64px; line-height: 1; letter-spacing: 0.005em;
+    color: #181717;
   }
 
   /* sign — image band */
