@@ -61,14 +61,12 @@ function CoverSlide({ range }: { range: string }) {
   return (
     <div className="slide" data-slide="01-cover">
       <span className="accent" style={{ background: "#d4161e" }} />
-      <span className="cover-arch" />
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="cover-collage" src="/collage/collage-berlin.webp" alt="" />
-      <span className="halftone cover-dots" />
+      <img className="cover-zodiaco" src="/collage/collage-zodiaco.webp" alt="" />
       <div className="pad">
         <p className="kick">Berlino Italia Improv · settimanale</p>
         <h1 className="cover-title">
-          Impr
+          Impro
           <br />
           <span style={{ color: "#d4161e" }}>Oroscopo</span>
         </h1>
@@ -204,17 +202,9 @@ const CSS = `
   }
 
   /* cover */
-  .cover-arch {
-    position: absolute; right: -150px; top: 320px; width: 600px; height: 600px;
-    border-radius: 600px 600px 0 0; background: #02379c; z-index: 1;
-  }
-  .cover-collage {
-    position: absolute; right: 30px; top: 360px; width: 500px; height: auto;
-    filter: grayscale(1) contrast(1.06); transform: rotate(-2deg); z-index: 2;
-  }
-  .cover-dots {
-    position: absolute; right: 96px; top: 268px; width: 150px; height: 95px;
-    opacity: 0.5; z-index: 2;
+  .cover-zodiaco {
+    position: absolute; right: 0; top: 445px; width: 600px; height: auto;
+    transform: rotate(-1.2deg); z-index: 1;
   }
   .cover-title {
     font-family: var(--font-oswald), sans-serif; font-weight: 600;
