@@ -17,6 +17,13 @@ export const dynamicParams = false;
 export const metadata: Metadata = {
   title: "ImprOroscopo — carosello",
   robots: { index: false, follow: false },
+  openGraph: {
+    title: "ImprOroscopo — Berlino Italia Improv",
+    description:
+      "L'oroscopo settimanale per improvvisatori: dodici segni, dodici modi di stare in scena.",
+    images: [{ url: "/og/improroscopo.jpg", width: 1200, height: 675 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/og/improroscopo.jpg"] },
 };
 
 export function generateStaticParams() {
