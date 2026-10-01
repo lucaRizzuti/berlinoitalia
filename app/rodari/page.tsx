@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Laboratorio e spettacolo di improvvisazione teatrale ispirati a Gianni Rodari, per scuole italiane, corsi di lingua e ragazzi a Berlino. In italiano.",
   alternates: { canonical: "/rodari" },
   openGraph: {
-    title: "Grammatica della Fantasia — Berlino Italia Improv",
+    title: "Grammatica della Fantasia · Berlino Italia Improv",
     description:
       "Laboratorio e spettacolo di improvvisazione teatrale ispirati a Gianni Rodari, per scuole italiane, corsi di lingua e ragazzi a Berlino. In italiano.",
     images: [{ url: "/og/rodari.jpg", width: 1200, height: 630 }],
@@ -55,7 +55,7 @@ const audience = [
   },
   {
     t: "Corsi di lingua italiana",
-    d: "Un'immersione totale: si ride, ci si stupisce, si capisce tutto — anche senza essere madrelingua.",
+    d: "Un'immersione totale: si ride, ci si stupisce, si capisce tutto, anche senza essere madrelingua.",
   },
   {
     t: "Progetti culturali ed educativi",
@@ -101,7 +101,7 @@ export default function RodariPage() {
       </Container>
 
       <MetaBand color="verde">
-        «La fantasia non è un lusso, è una necessità» — Gianni Rodari, 1973
+        «La fantasia non è un lusso, è una necessità» · Gianni Rodari, 1973
       </MetaBand>
 
       {/* IL PROGETTO */}
@@ -119,7 +119,7 @@ export default function RodariPage() {
             </p>
             <p>
               A Berlino Italia usiamo le sue idee come punto di partenza per portare ragazzi
-              e studenti a contatto con il teatro — trasformandole in esperienze vive,
+              e studenti a contatto con il teatro, trasformandole in esperienze vive,
               partecipate, in italiano. Non spieghiamo Rodari: lo mettiamo in scena.
             </p>
             <p>
@@ -152,14 +152,14 @@ export default function RodariPage() {
               <p>
                 Il laboratorio è un percorso continuativo di alcuni mesi, calibrato sul
                 programma scolastico. I ragazzi si incontrano ogni settimana e costruiscono
-                qualcosa insieme, sessione dopo sessione. Al termine è possibile — ma non
-                obbligatorio — una restituzione pubblica.
+                qualcosa insieme, sessione dopo sessione. Al termine è possibile (ma non
+                obbligatoria) una restituzione pubblica.
               </p>
               <p>
                 Si allena la concentrazione, la velocità di reazione, la capacità di
                 collaborare, la sospensione del giudizio. Si impara a fare scelte, a
                 lasciarsi sorprendere, ad accettare le idee degli altri, ad ascoltare, a
-                fidarsi del proprio intuito — e a rendersi conto di come un <strong>sì</strong>{" "}
+                fidarsi del proprio intuito, e a rendersi conto di come un <strong>sì</strong>{" "}
                 o un <strong>no</strong> possono cambiare il corso della storia.
               </p>
               <p>
@@ -208,7 +208,7 @@ export default function RodariPage() {
         <p className="mb-8 max-w-2xl text-lg">
           Un evento singolo con attori professionisti. Storie, parole e immagini prendono
           forma davanti agli occhi degli studenti, nel momento esatto in cui vengono viste.
-          I ragazzi non salgono sul palco — ma senza di loro lo spettacolo non esiste.
+          I ragazzi non salgono sul palco, ma senza di loro lo spettacolo non esiste.
         </p>
         <div className="grid gap-5 sm:grid-cols-2">
           {steps.map((s) => (
@@ -249,7 +249,7 @@ export default function RodariPage() {
                 Nel 2017 fonda Berlino Italia Improv, oggi membro dell&apos;International
                 Theatresports Institute. Come formatore non insegna tecniche: aiuta le
                 persone a riconoscere le difese che si costruiscono negli anni per evitare
-                il fallimento pubblico — e a smontarle, una per una.
+                il fallimento pubblico, e a smontarle, una per una.
               </p>
             </div>
           </div>

@@ -135,12 +135,12 @@
       "segni": {
         "ariete": {
           "titolo": "Il timbro che dice avanti",
-          "testo": "Ariete, tu al sì ci arrivi, ma spesso con la controproposta allegata: va bene, però a modo mio. Questa settimana accogli l'idea del partner per intero, senza limarla. In scena: se il collega dice che siete due speleologi, sei uno speleologo felice — non uno speleologo che avrebbe preferito essere sommelier. Il sì pieno è un motore: parte subito e porta lontano. Fuori dal palco, di' di sì al ristorante scelto da un altro, al film che non avresti messo tu, alla gita decisa all'ultimo momento. Guidare va bene, ma ogni tanto è bello scoprire dove ti porta qualcun altro.",
+          "testo": "Ariete, tu al sì ci arrivi, ma spesso con la controproposta allegata: va bene, però a modo mio. Questa settimana accogli l'idea del partner per intero, senza limarla. In scena: se il collega dice che siete due speleologi, sei uno speleologo felice, non uno speleologo che avrebbe preferito essere sommelier. Il sì pieno è un motore: parte subito e porta lontano. Fuori dal palco, di' di sì al ristorante scelto da un altro, al film che non avresti messo tu, alla gita decisa all'ultimo momento. Guidare va bene, ma ogni tanto è bello scoprire dove ti porta qualcun altro.",
           "personaggio": "la bibliotecaria che shusha"
         },
         "toro": {
           "titolo": "La crepa dove entra la luce",
-          "testo": "Toro, quando sbagli in scena ti irrigidisci e provi a tornare al piano originale, come se nessuno avesse visto. Questa settimana fai pace con l'errore nell'istante esatto in cui capita: un sorriso, una scrollata di spalle, avanti. Il pubblico si affeziona a chi cade e si rialza senza drammi — un inciampo preso con calma diventa spesso la cosa più vera della serata. Nella vita: se bruci la cena, ordina la pizza ridendo; se sbagli il nome di un collega, correggiti e vai avanti, senza scusarti per i successivi dieci minuti. La solidità non è non rompersi mai: è rompersi bene.",
+          "testo": "Toro, quando sbagli in scena ti irrigidisci e provi a tornare al piano originale, come se nessuno avesse visto. Questa settimana fai pace con l'errore nell'istante esatto in cui capita: un sorriso, una scrollata di spalle, avanti. Il pubblico si affeziona a chi cade e si rialza senza drammi. Un inciampo preso con calma diventa spesso la cosa più vera della serata. Nella vita: se bruci la cena, ordina la pizza ridendo; se sbagli il nome di un collega, correggiti e vai avanti, senza scusarti per i successivi dieci minuti. La solidità non è non rompersi mai: è rompersi bene.",
           "personaggio": "il prete di campagna"
         },
         "gemelli": {
@@ -155,7 +155,7 @@
         },
         "leone": {
           "titolo": "Il momento in cui smetti di intrattenere",
-          "testo": "Leone, il silenzio lo vivi come un vuoto di pubblico da riempire subito, con una battuta, un gesto, un sorriso. Questa settimana prova a restare zitto un secondo di troppo, e a reggere lo sguardo. Quel silenzio non è noia: è il momento in cui il pubblico si sporge in avanti per capire cosa succede. Chi non ha paura delle pause sembra padrone della stanza. Fuori dal teatro: davanti a una domanda difficile, non riempire il vuoto con una battuta di passaggio — lascia un attimo di silenzio prima di rispondere, e ascolta l'amico fino in fondo prima di rilanciare. Non devi essere sempre in servizio.",
+          "testo": "Leone, il silenzio lo vivi come un vuoto di pubblico da riempire subito, con una battuta, un gesto, un sorriso. Questa settimana prova a restare zitto un secondo di troppo, e a reggere lo sguardo. Quel silenzio non è noia: è il momento in cui il pubblico si sporge in avanti per capire cosa succede. Chi non ha paura delle pause sembra padrone della stanza. Fuori dal teatro: davanti a una domanda difficile, non riempire il vuoto con una battuta di passaggio: lascia un attimo di silenzio prima di rispondere, e ascolta l'amico fino in fondo prima di rilanciare. Non devi essere sempre in servizio.",
           "personaggio": "la hostess con il sorriso stampato"
         },
         "vergine": {
@@ -165,7 +165,7 @@
         },
         "bilancia": {
           "titolo": "Accendere la luce nella hall",
-          "testo": "Bilancia, per non scontentare nessuno resti nella zona neutra: in scena aspetti che sia un altro a fare la scelta forte. Questa settimana rischia tu per primo. Dichiara l'emozione, prendi posizione, di' me ne vado invece di vediamo come ci sentiamo. Il rischio, nell'impro, è impegnarsi al cento per cento in una direzione qualsiasi — e la scena te ne sarà grata. Fuori dal palco: esprimi la preferenza vera al ristorante, di' che qualcosa non ti è piaciuto, chiedi quel favore. Restare svegli tutta la notte di guardia stanca più che fare una mossa.",
+          "testo": "Bilancia, per non scontentare nessuno resti nella zona neutra: in scena aspetti che sia un altro a fare la scelta forte. Questa settimana rischia tu per primo. Dichiara l'emozione, prendi posizione, di' me ne vado invece di vediamo come ci sentiamo. Il rischio, nell'impro, è impegnarsi al cento per cento in una direzione qualsiasi, e la scena te ne sarà grata. Fuori dal palco: esprimi la preferenza vera al ristorante, di' che qualcosa non ti è piaciuto, chiedi quel favore. Restare svegli tutta la notte di guardia stanca più che fare una mossa.",
           "personaggio": "il portiere di notte insonne"
         },
         "scorpione": {

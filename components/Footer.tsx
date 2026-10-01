@@ -55,7 +55,7 @@ export function Footer() {
 
       <div className="mx-auto w-full max-w-[1240px] px-6 pb-12 sm:px-10 lg:px-[100px]">
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-paper/20 pt-4 font-display text-[11px] uppercase tracking-[0.1em] text-paper/50">
-          <span>© {new Date().getFullYear()} Berlino Italia Improv — Berlino, Germania</span>
+          <span>© {new Date().getFullYear()} Berlino Italia Improv · Berlino, Germania</span>
           <span className="flex gap-4">
             <Link href="/impressum" className="text-paper/50 hover:text-paper">
               Impressum

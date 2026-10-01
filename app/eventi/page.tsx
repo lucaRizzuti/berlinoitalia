@@ -21,7 +21,7 @@ export default async function EventiPage() {
   return (
     <>
       {eventi.length > 0 && <JsonLd data={eventi.map(eventLd)} />}
-      <PageHeader kicker="Eventi — biglietti" title={<>Tutte<br />le date</>} color="verde">
+      <PageHeader kicker="Eventi · biglietti" title={<>Tutte<br />le date</>} color="verde">
         Il calendario completo di spettacoli e lezioni aperte. Biglietti su YesTicket.
       </PageHeader>
       <Container className="pb-24">

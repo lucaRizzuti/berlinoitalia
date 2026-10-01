@@ -13,7 +13,7 @@ yesticket:
   match: ["Maestro"]
 external: null
 seo:
-  description: Maestro Impro a Berlino — il format ideato da Keith Johnstone. Scene estratte a sorte, guidate da un regista, votate dal pubblico fino all'ultimo improvvisatore rimasto.
+  description: Maestro Impro a Berlino · il format ideato da Keith Johnstone. Scene estratte a sorte, guidate da un regista, votate dal pubblico fino all'ultimo improvvisatore rimasto.
 ---
 
 Il format è stato ideato da uno dei padri dell'improvvisazione teatrale mondiale, il

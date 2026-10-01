@@ -13,7 +13,7 @@ yesticket:
   match: ["Stasera gioca", "gioca il pubblico"]
 external: null
 seo:
-  description: Stasera Gioca il Pubblico — una serata di improvvisazione teatrale in italiano a Berlino dove sono gli spettatori a salire sul palco con gli attori.
+  description: Stasera Gioca il Pubblico · una serata di improvvisazione teatrale in italiano a Berlino dove sono gli spettatori a salire sul palco con gli attori.
 ---
 
 Una serata di improvvisazione, in italiano, dove volontari dal pubblico sono chiamati sul

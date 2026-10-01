@@ -34,7 +34,7 @@ export const organizationLd = {
 export const courseLd = {
   "@context": "https://schema.org",
   "@type": "Course",
-  name: "Corso di Improvvisazione Teatrale in Italiano — Berlino",
+  name: "Corso di Improvvisazione Teatrale in Italiano · Berlino",
   description:
     "Corsi di livello principiante, intermedio e avanzato di improvvisazione teatrale in italiano a Berlino. Lezioni ogni lunedì e sabato.",
   inLanguage: "it",

@@ -3,7 +3,7 @@ title: Grammatica della Fantasia
 slug: grammatica-della-fantasia
 order: 8
 published: true
-tagline: Rodari sul palco — spettacolo interattivo per le scuole, prenotabile con il laboratorio.
+tagline: Rodari sul palco · spettacolo interattivo per le scuole, prenotabile con il laboratorio.
 lingua: [it]
 pubblico: Scuole e ragazzi
 hero: /collage/collage-mouth.webp
@@ -12,7 +12,7 @@ yesticket:
   match: ["Rodari", "Grammatica della fantasia"]
 external: /rodari
 seo:
-  description: Grammatica della Fantasia — spettacolo di improvvisazione teatrale per le scuole ispirato a Gianni Rodari, a Berlino, in italiano.
+  description: Grammatica della Fantasia · spettacolo di improvvisazione teatrale per le scuole ispirato a Gianni Rodari, a Berlino, in italiano.
 ---
 
 Attraverso le linee guida che Gianni Rodari ci ha lasciato in "Grammatica della fantasia,

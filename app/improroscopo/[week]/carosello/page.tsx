@@ -15,10 +15,10 @@ import {
 export const dynamicParams = false;
 
 export const metadata: Metadata = {
-  title: "ImprOroscopo — carosello",
+  title: "ImprOroscopo · carosello",
   robots: { index: false, follow: false },
   openGraph: {
-    title: "ImprOroscopo — Berlino Italia Improv",
+    title: "ImprOroscopo · Berlino Italia Improv",
     description:
       "L'oroscopo settimanale per improvvisatori: dodici segni, dodici modi di stare in scena.",
     images: [{ url: "/og/improroscopo.jpg", width: 1200, height: 675 }],
@@ -47,12 +47,12 @@ const ZODIAC: Record<string, string> = {
 
 function buildCaption(settimana: Settimana, range: string) {
   const righe = SEGNI.filter((s) => settimana.segni[s.slug])
-    .map((s) => `${ZODIAC[s.slug]} ${s.nome} — ${settimana.segni[s.slug]!.titolo}`)
+    .map((s) => `${ZODIAC[s.slug]} ${s.nome} · ${settimana.segni[s.slug]!.titolo}`)
     .join("\n");
   return [
     `ImprOroscopo · la settimana del ${range} 🔮`,
     "",
-    "L'oroscopo per chi fa teatro senza prendersi troppo sul serio: dodici segni, dodici modi di stare in scena. Niente amore, soldi e lavoro — solo improvvisazione, e un po' di vita.",
+    "L'oroscopo per chi fa teatro senza prendersi troppo sul serio: dodici segni, dodici modi di stare in scena. Niente amore, soldi e lavoro, solo improvvisazione, e un po' di vita.",
     "",
     righe,
     "",
@@ -185,7 +185,7 @@ const CSS = `
     background-size: 22px 22px; color: #181717; display: block;
   }
 
-  /* cover — immagine fissa (public/carosello/cover-base.webp), solo la data cambia */
+  /* cover - immagine fissa (public/carosello/cover-base.webp), solo la data cambia */
   .cover-base {
     position: absolute; inset: 0; width: 1080px; height: 1350px; z-index: 0;
   }
@@ -196,7 +196,7 @@ const CSS = `
     color: #181717;
   }
 
-  /* sign — image band */
+  /* sign - image band */
   .img-band {
     position: relative; width: 1080px; height: 452px; flex-shrink: 0;
     border-bottom: 3px solid #181717; overflow: hidden; background: #e7dbc8;
@@ -212,7 +212,7 @@ const CSS = `
     filter: grayscale(1) contrast(1.06); border: 3px solid #181717;
   }
 
-  /* sign — body */
+  /* sign - body */
   .sign-body {
     position: absolute; left: 0; right: 0; top: 452px; bottom: 0;
     padding: 52px 88px 74px; display: flex; flex-direction: column;

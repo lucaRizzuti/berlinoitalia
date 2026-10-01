@@ -40,13 +40,13 @@ export async function generateMetadata(
   const testo = previsione.testo.replace(/\s+/g, " ");
   const descr = testo.length > 200 ? `${testo.slice(0, 197).trimEnd()}…` : testo;
   return {
-    title: `${seg.nome} — ${previsione.titolo}`,
+    title: `${seg.nome} · ${previsione.titolo}`,
     description: descr,
     alternates: { canonical: `/improroscopo/${week}/${segno}` },
     openGraph: {
       type: "article",
       title: `ImprOroscopo · ${seg.nome} · ${range}`,
-      description: `${previsione.titolo} — ${descr}`,
+      description: `${previsione.titolo} · ${descr}`,
       url: `${site.url}/improroscopo/${week}/${segno}`,
       images: [{ url: `/images/oroscopo/${segno}.webp`, width: 512, height: 512 }],
     },

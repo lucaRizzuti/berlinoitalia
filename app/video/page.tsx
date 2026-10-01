@@ -9,7 +9,7 @@ import { videoLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "Video",
   description:
-    "Spettacoli, corsi e dietro le quinte di Berlino Italia Improv — la scuola di improvvisazione teatrale in italiano a Berlino, in video.",
+    "Spettacoli, corsi e dietro le quinte di Berlino Italia Improv, la scuola di improvvisazione teatrale in italiano a Berlino, in video.",
   alternates: { canonical: "/video" },
 };
 

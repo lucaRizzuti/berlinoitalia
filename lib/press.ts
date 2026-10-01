@@ -5,7 +5,7 @@ export type PressItem = {
   year: number;
 };
 
-/** Rassegna stampa — usata da /chi-siamo e /rodari. */
+/** Rassegna stampa, usata da /chi-siamo e /rodari. */
 export const press: PressItem[] = [
   {
     source: "The Theatre Times",
