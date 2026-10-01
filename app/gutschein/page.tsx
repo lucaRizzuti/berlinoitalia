@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Berlino Impro Gutschein · Berlino Italia Improv",
     description:
-      "Un token di metallo da regalare. Un teatro per due, o una lezione di prova. Senza scadenza.",
+      "Un token di metallo da regalare: un posto a teatro per due, o una lezione di improvvisazione senza impegno. Senza scadenza.",
     images: [{ url: "/og/gutschein.jpg", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image", images: ["/og/gutschein.jpg"] },
