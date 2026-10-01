@@ -56,8 +56,10 @@ export default function GutscheinPage() {
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
         <div>
           <p className="kicker mb-6 text-rosso">Berlino Italia Improv · da regalare</p>
-          <h1 className="text-[clamp(3rem,8vw,5.5rem)]">
-            Non un regalo.
+          <h1 className="text-[clamp(2.6rem,7vw,5.5rem)]">
+            Non solo
+            <br />
+            un regalo.
             <br />
             <span className="text-rosso">Un&apos;esperienza.</span>
           </h1>
