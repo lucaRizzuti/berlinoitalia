@@ -30,7 +30,7 @@ export async function generateMetadata(
     description: show.seo.description ?? show.tagline,
     alternates: { canonical: `/spettacoli/${show.slug}` },
     openGraph: {
-      title: `${show.title} — ${site.name}`,
+      title: `${show.title} · ${site.name}`,
       description: show.seo.description ?? show.tagline,
       // Il layout ha un og:image di default, ma definire qui `openGraph` lo
       // sovrascrive del tutto: senza fallback esplicito, gli show privi di

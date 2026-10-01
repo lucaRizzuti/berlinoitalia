@@ -16,7 +16,7 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   openGraph: {
-    title: `${site.name} — Improvvisazione teatrale in italiano a Berlino`,
+    title: `${site.name} · Improvvisazione teatrale in italiano a Berlino`,
     description: site.description,
     images: [{ url: "/og/home.jpg", width: 1200, height: 675, alt: site.name }],
   },
@@ -84,7 +84,7 @@ export default async function HomePage() {
       <section className="border-b-2 border-ink bg-paper-2 py-14 md:py-16">
         <Container className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
           <div>
-            <p className="kicker mb-4 text-verde">Eventi — biglietti</p>
+            <p className="kicker mb-4 text-verde">Eventi · biglietti</p>
             <h2 className="text-[clamp(2rem,5.5vw,3rem)]">
               I prossimi
               <br />
@@ -106,7 +106,7 @@ export default async function HomePage() {
           <div className="self-center">
             <EventiList
               eventi={eventi}
-              emptyLabel="Nessuna data in programma. Torna presto — o iscriviti alla newsletter."
+              emptyLabel="Nessuna data in programma. Torna presto, o iscriviti alla newsletter."
             />
           </div>
         </Container>
@@ -116,7 +116,7 @@ export default async function HomePage() {
       <Container className="grid items-center gap-10 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
         <div>
           <p className="kicker mb-6">
-            Scuola di improvvisazione teatrale — Berlino — dal 2016
+            Scuola di improvvisazione teatrale · Berlino · dal 2016
           </p>
           <h1 className="text-[clamp(3.5rem,9vw,6.5rem)]">
             Fare
@@ -182,7 +182,7 @@ export default async function HomePage() {
             Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2016. Facciamo
             formazione e spettacoli in italiano per adulti e bambini, con l&apos;obiettivo di
             diffondere la lingua e la cultura italiana a Berlino attraverso
-            l&apos;improvvisazione — in dialogo con le scuole tedesca, spagnola, francese e
+            l&apos;improvvisazione, in dialogo con le scuole tedesca, spagnola, francese e
             inglese della città.
           </p>
           <p className="mt-5">

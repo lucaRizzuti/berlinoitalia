@@ -29,7 +29,7 @@ export default function SpettacoliPage() {
     <>
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.15fr_0.85fr] lg:py-16">
         <div>
-          <p className="kicker mb-6 text-rosso">Spettacoli — Teatro Acud — Berlino</p>
+          <p className="kicker mb-6 text-rosso">Spettacoli · Teatro Acud · Berlino</p>
           <h1 className="text-[clamp(3rem,8vw,5.5rem)]">
             Ogni quarta
             <br />
@@ -38,7 +38,7 @@ export default function SpettacoliPage() {
             <span className="text-rosso">del mese</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
-            Appuntamento fisso al teatro Acud, Veteranenstraße 21. Sette format ricorrenti —
+            Appuntamento fisso al teatro Acud, Veteranenstraße 21. Sette format ricorrenti,
             normalmente in italiano, qualche volta multilingua. Mai due sere uguali.
           </p>
           <div className="mt-8">

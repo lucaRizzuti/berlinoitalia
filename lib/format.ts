@@ -14,7 +14,7 @@ const monthYear = new Intl.DateTimeFormat("it-IT", {
   timeZone: TZ,
 });
 
-/** { dow: "dom", day: "28", mon: "set" } — tutto minuscolo senza punto. */
+/** { dow: "dom", day: "28", mon: "set" }, tutto minuscolo senza punto. */
 export function dateParts(d: Date) {
   return {
     dow: dow.format(d).replace(".", ""),

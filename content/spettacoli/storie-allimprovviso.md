@@ -13,7 +13,7 @@ yesticket:
   match: ["Storie all"]
 external: null
 seo:
-  description: Storie all'Improvviso — spettacolo di improvvisazione teatrale in italiano a Berlino che unisce giochi classici e narrazione di storie ispirate dal pubblico.
+  description: Storie all'Improvviso · spettacolo di improvvisazione teatrale in italiano a Berlino che unisce giochi classici e narrazione di storie ispirate dal pubblico.
 ---
 
 Uno spettacolo di improvvisazione teatrale che mette insieme una raccolta di giochi

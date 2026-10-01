@@ -40,7 +40,7 @@ const team = [
     bio: (
       <>
         Arrivato a Berlino nel 2016, fonda Berlino Italia Improv nel 2017. Le stesse tecniche
-        di improvvisazione le applica anche ad aziende e team come facilitatore — ne parla su{" "}
+        di improvvisazione le applica anche ad aziende e team come facilitatore, ne parla su{" "}
         <a
           href="https://lucarizzuti.com"
           target="_blank"
@@ -70,7 +70,7 @@ const team = [
 const collaborazioni = [
   ["Die Gorillas", "Tedesco"],
   ["Berlín ES Impro", "Spagnolo"],
-  ["LIBER — Ligue d'Impro de Berlin", "Francese"],
+  ["LIBER · Ligue d'Impro de Berlin", "Francese"],
   ["Professionisti internazionali", "Inglese"],
 ];
 
@@ -80,7 +80,7 @@ export default function ChiSiamoPage() {
       {/* HERO */}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.15fr_0.85fr] lg:py-16">
         <div>
-          <p className="kicker mb-6">Chi siamo — Berlino — dal 2016</p>
+          <p className="kicker mb-6">Chi siamo · Berlino · dal 2016</p>
           <h1 className="text-[clamp(2.75rem,7vw,5rem)]">
             Non spieghiamo
             <br />

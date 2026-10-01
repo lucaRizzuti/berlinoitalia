@@ -54,7 +54,7 @@ export default function CorsiPage() {
       {/* HERO */}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
         <div>
-          <p className="kicker mb-6 text-blu">Corsi — Berlino — in italiano</p>
+          <p className="kicker mb-6 text-blu">Corsi · Berlino · in italiano</p>
           <h1 className="text-[clamp(3rem,8vw,5.5rem)]">
             Imparare
             <br />
@@ -62,7 +62,7 @@ export default function CorsiPage() {
           </h1>
           <p className="mt-7 max-w-lg text-lg">
             Corsi di improvvisazione teatrale in italiano, tre livelli. Si allena la
-            concentrazione, la velocità di reazione, la capacità di collaborare — e si
+            concentrazione, la velocità di reazione, la capacità di collaborare, e si
             scopre come un <strong>sì</strong> o un <strong>no</strong> cambiano tutta la
             storia.
           </p>
@@ -126,7 +126,7 @@ export default function CorsiPage() {
             ))}
           </div>
           <p className="mt-4 max-w-3xl text-sm leading-[1.6]">
-            Improvvisare in italiano significa pensare in italiano — senza tradurre, senza
+            Improvvisare in italiano significa pensare in italiano, senza tradurre, senza
             fermarsi. La velocità dell&apos;improvvisazione costringe a usare la lingua in
             modo istintivo, e col tempo quella fluidità si trasferisce fuori dalla scena.
           </p>
@@ -151,13 +151,13 @@ export default function CorsiPage() {
               Lunedì · livello base
             </dt>
             <dd>
-              19:30 – 22:00 · {site.venues.corsiLun.name} — {site.venues.corsiLun.address}
+              19:30 – 22:00 · {site.venues.corsiLun.name} · {site.venues.corsiLun.address}
             </dd>
           </div>
           <div className="grid gap-1 border-b-2 border-ink py-4 sm:grid-cols-[210px_1fr] sm:gap-5">
             <dt className="font-display font-semibold uppercase tracking-[0.08em]">Sabato</dt>
             <dd>
-              14:00 – 16:00 · {site.venues.corsiSab.name} — {site.venues.corsiSab.address}
+              14:00 – 16:00 · {site.venues.corsiSab.name} · {site.venues.corsiSab.address}
             </dd>
           </div>
           <div className="grid gap-1 border-b-2 border-ink py-4 sm:grid-cols-[210px_1fr] sm:gap-5">

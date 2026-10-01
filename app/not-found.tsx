@@ -11,7 +11,7 @@ export default function NotFound() {
         non trovata
       </h1>
       <p className="mx-auto mt-6 max-w-sm">
-        La pagina che cercavi non esiste — o è stata improvvisata via.
+        La pagina che cercavi non esiste, o è stata improvvisata via.
       </p>
       <div className="mt-8">
         <Button href="/" variant="ink">

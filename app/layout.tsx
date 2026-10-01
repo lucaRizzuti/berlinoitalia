@@ -24,8 +24,8 @@ const archivo = Archivo({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} — Scuola di Improvvisazione Teatrale in Italiano a Berlino`,
-    template: `%s — ${site.name}`,
+    default: `${site.name} · Scuola di Improvvisazione Teatrale in Italiano a Berlino`,
+    template: `%s · ${site.name}`,
   },
   description: site.description,
   alternates: { canonical: "/" },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     locale: site.locale,
     url: site.url,
-    title: `${site.name} — Improvvisazione teatrale in italiano a Berlino`,
+    title: `${site.name} · Improvvisazione teatrale in italiano a Berlino`,
     description: site.description,
     images: [{ url: "/og.png", width: 1200, height: 630, alt: site.name }],
   },

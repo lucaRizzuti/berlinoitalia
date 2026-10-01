@@ -9,7 +9,7 @@ const FLAG = "va-disabled";
  * Wrapper di <Analytics /> che permette di escludere il proprio browser dal
  * tracciamento: visitando /?notrack=1 si salva un segnalino in localStorage
  * (persiste su quel browser/dispositivo); /?notrack=0 lo rimuove.
- * Non è un filtro per IP — Vercel Web Analytics non registra IP — ma
+ * Non è un filtro per IP (Vercel Web Analytics non registra IP), ma
  * un opt-out per dispositivo, più stabile di un IP (che in Germania cambia
  * spesso sulle connessioni domestiche).
  */

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "L'oroscopo settimanale per improvvisatori di Berlino Italia Improv. Dodici segni, dodici concetti di improvvisazione teatrale, un personaggio della settimana a testa.",
   alternates: { canonical: "/improroscopo" },
   openGraph: {
-    title: "ImprOroscopo — Berlino Italia Improv",
+    title: "ImprOroscopo · Berlino Italia Improv",
     description:
       "L'oroscopo settimanale per improvvisatori: dodici segni, dodici modi di stare in scena.",
     images: [{ url: "/og/improroscopo.jpg", width: 1200, height: 675 }],
@@ -32,7 +32,7 @@ export default function ImprOroscopoPage() {
   return (
     <>
       <PageHeader
-        kicker="ImprOroscopo — settimanale"
+        kicker="ImprOroscopo · settimanale"
         title={
           <>
             Impr<span className="text-rosso">Oroscopo</span>
@@ -101,7 +101,7 @@ export default function ImprOroscopoPage() {
               })}
             </div>
             <p className="mt-10 max-w-[52ch] text-[14px] text-ink/60">
-              Ogni previsione è legata a un concetto di improvvisazione — ascolto,
+              Ogni previsione è legata a un concetto di improvvisazione: ascolto,
               presenza, dire di sì, fallire con gioia, il silenzio, il ritmo, il rischio,
               il gioco, l&apos;empatia, lo spazio vuoto. Cambiano di segno in segno e di
               settimana in settimana.

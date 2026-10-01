@@ -26,7 +26,7 @@ export const SEGNO_BY_SLUG = Object.fromEntries(
   SEGNI.map((s) => [s.slug, s]),
 ) as Record<SegnoSlug, Segno>;
 
-/** Colore d'accento per elemento del segno — usato nella card, nel dettaglio e nel carosello. */
+/** Colore d'accento per elemento del segno, usato nella card, nel dettaglio e nel carosello. */
 export const ELEMENTO_COLORE: Record<Segno["elemento"], string> = {
   Fuoco: "#d4161e",
   Terra: "#6e8a33",

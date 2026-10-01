@@ -22,7 +22,7 @@ export function Nav() {
   return (
     <header className="relative z-30 border-b-2 border-ink bg-paper">
       <div className="mx-auto flex w-full max-w-[1240px] items-center justify-between px-6 py-4 sm:px-10 lg:px-[100px]">
-        <Link href="/" className="flex items-center gap-3" aria-label="Berlino Italia Improv — home">
+        <Link href="/" className="flex items-center gap-3" aria-label="Berlino Italia Improv, home">
           <Image
             src="/brand/logo.webp"
             alt="Berlino Italia Improv"

@@ -13,7 +13,7 @@ yesticket:
   match: ["Improvvisa Chi"]
 external: null
 seo:
-  description: Improvvisa Chi? — format di improvvisazione teatrale a Berlino ispirato al classico gioco da tavolo. Vincitore di Pandora Festival 2016, ideato da Francesco De Vincenzi.
+  description: Improvvisa Chi? · format di improvvisazione teatrale a Berlino ispirato al classico gioco da tavolo. Vincitore di Pandora Festival 2016, ideato da Francesco De Vincenzi.
 ---
 
 La vittima ha gli occhiali? L'assassino è una donna? Chi non ha giocato almeno una volta

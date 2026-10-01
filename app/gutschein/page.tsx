@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Il Berlino Impro Gutschein: un token di metallo da regalare, valido per una serata a teatro per due o una lezione di prova. Senza scadenza. Accettato dalle scuole partner di Berlino.",
   alternates: { canonical: "/gutschein" },
   openGraph: {
-    title: "Berlino Impro Gutschein — Berlino Italia Improv",
+    title: "Berlino Impro Gutschein · Berlino Italia Improv",
     description:
       "Un token di metallo da regalare. Un teatro per due, o una lezione di prova. Senza scadenza.",
     images: [{ url: "/og/gutschein.jpg", width: 1200, height: 630 }],
@@ -29,7 +29,7 @@ const come = [
   {
     n: "02",
     t: "A lezione di prova",
-    d: "Oppure usalo per entrare a una lezione di improvvisazione senza impegno — nessuna esperienza richiesta.",
+    d: "Oppure usalo per entrare a una lezione di improvvisazione senza impegno: nessuna esperienza richiesta.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function GutscheinPage() {
           </h1>
           <p className="mt-7 max-w-lg text-lg">
             Un token di metallo che apre due porte: un posto a teatro per due, o una lezione
-            di improvvisazione senza impegno. Per chi non l&apos;ha mai provato — o per chi
+            di improvvisazione senza impegno. Per chi non l&apos;ha mai provato, o per chi
             non riesce più a starne senza.
           </p>
           <p className="mt-3 font-display text-xs uppercase tracking-[0.14em] text-ink/45">
@@ -111,7 +111,7 @@ export default function GutscheinPage() {
             Non un voucher. Un token.
           </SectionHeading>
           <p className="mb-8 max-w-2xl text-lg">
-            È un token di metallo fuso — fatto per essere tenuto in mano, regalato e usato.
+            È un token di metallo fuso, fatto per essere tenuto in mano, regalato e usato.
             Arriva montato su un cartoncino con laccetto, pronto da dare. Non è usa e getta.
             Ha un peso. Significa qualcosa.
           </p>
@@ -173,7 +173,7 @@ export default function GutscheinPage() {
           <p className="mb-8 max-w-xl">
             Il Gutschein è valido agli eventi di Berlino Italia Improv e accettato dalle
             scuole di improvvisazione partner. Per usarlo con noi o con un partner, è
-            necessario contattare in anticipo la scuola scelta — sia per una lezione sia per
+            necessario contattare in anticipo la scuola scelta, sia per una lezione sia per
             uno spettacolo.
           </p>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -201,7 +201,7 @@ export default function GutscheinPage() {
       <section className="bg-rosso py-16 text-paper">
         <Container>
           <p className="max-w-3xl font-display text-[clamp(1.5rem,3.5vw,2.5rem)] font-semibold uppercase leading-tight">
-            Il regalo migliore per chi non ha mai provato l&apos;improvvisazione — e per chi
+            Il regalo migliore per chi non ha mai provato l&apos;improvvisazione, e per chi
             non ne può più fare a meno.
           </p>
           <div className="mt-8">
