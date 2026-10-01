@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Container } from "@/components/Container";
 import { MetaBand } from "@/components/MetaBand";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -54,34 +55,31 @@ export default function GutscheinPage() {
       {/* HERO */}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
         <div>
-          <p className="kicker mb-6 text-rosso">Berlino Italia Improv</p>
+          <p className="kicker mb-6 text-rosso">Berlino Italia Improv · da regalare</p>
           <h1 className="text-[clamp(3rem,8vw,5.5rem)]">
-            Berlino
+            Non un regalo.
             <br />
-            Impro
-            <br />
-            <span className="text-rosso">Gutschein</span>
+            <span className="text-rosso">Un&apos;esperienza.</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
-            Un token di metallo. Un regalo che apre due porte: un posto a teatro per due, o
-            una lezione di improvvisazione senza impegno.
+            Un token di metallo che apre due porte: un posto a teatro per due, o una lezione
+            di improvvisazione senza impegno. Per chi non l&apos;ha mai provato — o per chi
+            non riesce più a starne senza.
           </p>
           <p className="mt-3 font-display text-xs uppercase tracking-[0.14em] text-ink/45">
-            Gutschein Impro Berlin · Buono regalo teatro Berlino · Originelles Geschenk
+            Berlino Impro Gutschein · Buono regalo teatro Berlino · Originelles Geschenk
           </p>
         </div>
-        <div className="relative flex min-h-[300px] items-center justify-center">
-          <div className="u-arch absolute right-10 top-2 h-[86%] w-[52%] bg-rosso" />
-          <div className="u-halftone absolute bottom-6 left-2 h-24 w-28 text-ink" />
-          <div className="relative w-52 border-2 border-ink bg-[linear-gradient(145deg,#9a9a9a,#5c5c5c)] px-5 py-6 text-center shadow-[5px_5px_0_var(--color-ink)]">
-            <span className="absolute -top-4 left-1/2 h-9 w-4 -translate-x-1/2 bg-rosso" />
-            <div className="font-display font-bold uppercase leading-none text-[#2f2f2f]">
-              <div className="text-[0.7rem] tracking-[0.1em] opacity-70">Berlino</div>
-              <div className="text-4xl">B</div>
-              <div className="text-[0.65rem] tracking-[0.08em] opacity-70">Italia</div>
-              <div className="text-sm">Improv</div>
-            </div>
-          </div>
+        <div className="relative mx-auto w-full max-w-[420px] lg:mx-0 lg:max-w-none">
+          <span className="u-tape left-8 top-[-14px] bg-rosso/40" />
+          <Image
+            src="/gutschein/token.webp"
+            alt="Il Berlino Impro Gutschein: un token di metallo nel suo astuccio, pronto da regalare"
+            width={1000}
+            height={908}
+            priority
+            className="w-full rotate-1 border-2 border-ink"
+          />
         </div>
       </Container>
 
