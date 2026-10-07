@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
+import { SocialLinks } from "@/components/SocialLinks";
 
 export function Footer() {
   return (
@@ -38,18 +39,7 @@ export function Footer() {
           </a>
           <br />
           WhatsApp {site.contact.whatsapp}
-          <br />
-          <span className="inline-flex gap-3">
-            <a href={site.social.instagram} className="text-paper/75 hover:text-paper" target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-            <a href={site.social.facebook} className="text-paper/75 hover:text-paper" target="_blank" rel="noopener noreferrer">
-              Facebook
-            </a>
-            <a href={site.social.youtube} className="text-paper/75 hover:text-paper" target="_blank" rel="noopener noreferrer">
-              YouTube
-            </a>
-          </span>
+          <SocialLinks variant="dark" className="mt-4" />
         </div>
       </div>
 

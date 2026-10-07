@@ -21,6 +21,7 @@ export const site = {
     instagram: "https://www.instagram.com/berlinoitalia",
     facebook: "https://www.facebook.com/berlino.italia",
     youtube: "https://www.youtube.com/@berlinoitaliaimprov1498",
+    meetup: "https://www.meetup.com/berlino-italia-improv/",
   },
 
   /** Modulo iscrizione newsletter ospitato su Brevo (sibforms). */
