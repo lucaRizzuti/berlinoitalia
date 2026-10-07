@@ -40,12 +40,6 @@ export const press: PressItem[] = [
     year: 2019,
   },
   {
-    source: "Berlin.de",
-    title: "Favole al telefono (Fabeln am Telefon)",
-    url: "https://www.berlin.de/stadtbibliothek-pankow/aktuelles/veranstaltungen/2020/fuer-kinder/favole-al-telefono-fabeln-am-telefon-1001936.php",
-    year: 2020,
-  },
-  {
     source: "Berlino Magazine",
     title: "Progetto VivArte arriva a Berlino: teatro, inclusione e improvvisazione",
     url: "https://berlinomagazine.com/progetto-vivarte-approda-a-berlino-2025/",
@@ -56,5 +50,11 @@ export const press: PressItem[] = [
     title: "Luca Rizzuti: l’improvvisazione teatrale in italiano a Berlino",
     url: "https://www.youtube.com/watch?v=OLe_sq-QoMI",
     year: 2026,
+  },
+  {
+    source: "Istituto Italiano di Cultura di Colonia",
+    title: "A tutto libro! Favole al telefono di Gianni Rodari",
+    url: "https://iiccolonia.esteri.it/de/gli_eventi/calendario/a-tutto-libro-festa-del-libro-italiano-2/",
+    year: 2019,
   },
 ];
