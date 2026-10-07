@@ -51,4 +51,10 @@ export const press: PressItem[] = [
     url: "https://www.youtube.com/watch?v=OLe_sq-QoMI",
     year: 2026,
   },
+  {
+    source: "Istituto Italiano di Cultura di Colonia",
+    title: "A tutto libro! Favole al telefono di Gianni Rodari",
+    url: "https://iiccolonia.esteri.it/de/gli_eventi/calendario/a-tutto-libro-festa-del-libro-italiano-2/",
+    year: 2019,
+  },
 ];
