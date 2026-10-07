@@ -48,7 +48,7 @@ export function VideoGrid({ videos, limit }: { videos: Video[]; limit?: number }
                 alt={v.title}
                 fill
                 sizes="(min-width:1024px) 360px, (min-width:640px) 50vw, 100vw"
-                className="u-riso object-cover"
+                className="object-cover"
               />
               <span className="absolute inset-0 grid place-items-center">
                 <span className="grid h-14 w-14 place-items-center rounded-full border-2 border-ink bg-rosso text-paper transition-transform group-hover:scale-110">
