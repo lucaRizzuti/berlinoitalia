@@ -40,12 +40,6 @@ export const press: PressItem[] = [
     year: 2019,
   },
   {
-    source: "Berlin.de",
-    title: "Favole al telefono (Fabeln am Telefon)",
-    url: "https://www.berlin.de/stadtbibliothek-pankow/aktuelles/veranstaltungen/2020/fuer-kinder/favole-al-telefono-fabeln-am-telefon-1001936.php",
-    year: 2020,
-  },
-  {
     source: "Berlino Magazine",
     title: "Progetto VivArte arriva a Berlino: teatro, inclusione e improvvisazione",
     url: "https://berlinomagazine.com/progetto-vivarte-approda-a-berlino-2025/",
