@@ -69,7 +69,13 @@ function CoverSlide({ range }: { range: string }) {
     <div className="slide" data-slide="01-cover">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img className="cover-base" src="/carosello/cover-base.webp" alt="" />
-      <p className="cover-week-overlay">{range}</p>
+      <div className="cover-footer">
+        <p className="cover-footer-kick">Settimana del</p>
+        <p className="cover-footer-date">{range}</p>
+        <div className="cover-footer-rule" />
+        <p className="cover-footer-payoff">Fare teatro senza prendersi troppo sul serio</p>
+        <p className="cover-footer-hint">Scorri i 12 segni →</p>
+      </div>
     </div>
   );
 }
@@ -189,11 +195,28 @@ const CSS = `
   .cover-base {
     position: absolute; inset: 0; width: 1080px; height: 1350px; z-index: 0;
   }
-  .cover-week-overlay {
-    position: absolute; left: 44px; top: 1078px; z-index: 1; white-space: nowrap;
+  .cover-footer {
+    position: absolute; left: 80px; top: 1038px; right: 80px; z-index: 1;
+    text-align: left;
+  }
+  .cover-footer-kick {
+    font-family: var(--font-oswald), sans-serif; text-transform: uppercase;
+    letter-spacing: 0.16em; font-size: 20px; margin: 0; color: rgba(24,23,23,0.6);
+  }
+  .cover-footer-date {
     font-family: var(--font-oswald), sans-serif; font-weight: 600;
     text-transform: uppercase; font-size: 64px; line-height: 1; letter-spacing: 0.005em;
+    margin: 6px 0 0; color: #181717; white-space: nowrap;
+  }
+  .cover-footer-rule { height: 3px; background: #181717; margin: 26px 0 22px; }
+  .cover-footer-payoff {
+    font-family: var(--font-oswald), sans-serif; text-transform: uppercase;
+    letter-spacing: 0.02em; font-size: 30px; line-height: 1.2; margin: 0;
     color: #181717;
+  }
+  .cover-footer-hint {
+    font-family: var(--font-oswald), sans-serif; text-transform: uppercase;
+    letter-spacing: 0.12em; font-size: 22px; margin: 18px 0 0; color: #d4161e;
   }
 
   /* sign - image band */

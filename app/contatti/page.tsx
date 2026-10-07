@@ -17,6 +17,7 @@ const cards = [
   { label: "Instagram", value: "instagram.com/berlinoitalia", href: site.social.instagram },
   { label: "Facebook", value: "facebook.com/berlino.italia", href: site.social.facebook },
   { label: "YouTube", value: "@berlinoitaliaimprov", href: site.social.youtube },
+  { label: "Meetup", value: "meetup.com/berlino-italia-improv", href: site.social.meetup },
 ];
 
 export default function ContattiPage() {

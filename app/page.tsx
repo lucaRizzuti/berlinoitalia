@@ -8,6 +8,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
 import { EventiList } from "@/components/EventiList";
 import { VideoGrid } from "@/components/VideoGrid";
+import { SocialLinks } from "@/components/SocialLinks";
 import { getEventi } from "@/lib/eventi";
 import { getVideos } from "@/lib/youtube";
 import { site } from "@/lib/site";
@@ -255,9 +256,7 @@ export default async function HomePage() {
             <Button href={site.newsletterUrl} external variant="rosso" className="border-rosso">
               Iscriviti alla newsletter
             </Button>
-            <p className="kicker tracking-[0.18em] text-paper/65">
-              Instagram · Facebook · YouTube · WhatsApp
-            </p>
+            <SocialLinks variant="dark" />
           </div>
         </Container>
       </section>
