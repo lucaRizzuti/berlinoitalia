@@ -47,7 +47,7 @@ const ZODIAC: Record<string, string> = {
 
 function buildCaption(settimana: Settimana, range: string) {
   const righe = SEGNI.filter((s) => settimana.segni[s.slug])
-    .map((s) => `${ZODIAC[s.slug]} ${s.nome} · ${settimana.segni[s.slug]!.titolo}`)
+    .map((s) => `${ZODIAC[s.slug]} ${s.nome} · ${settimana.segni[s.slug]!.personaggio}`)
     .join("\n");
   return [
     `ImprOroscopo · la settimana del ${range} 🔮`,
