@@ -490,7 +490,7 @@
         },
         "bilancia": {
           "titolo": "Stare nel cofano, non nel manuale",
-          "testo": "Bilancia, tu spesso sei mezzo passo fuori dalla scena, a valutare se tutto è in equilibrio. Prova a entrarci con il peso intero: senti i piedi, guarda il partner, rispondi a quello che fa adesso. La presenza non è giudicare la situazione, è starci dentro. Con gli altri, ascolta senza preparare la sintesi diplomatica. Il meccanico che parla per immagini alla fine mette comunque le mani nel motore: le parole vengono dopo.",
+          "testo": "Bilancia, tu spesso sei mezzo passo fuori dalla scena, a valutare se tutto è in equilibrio. Prova a entrarci con il peso intero: senti i piedi, guarda il partner, rispondi a quello che fa adesso. La presenza non è giudicare la situazione, è starci dentro. Con gli altri, ascolta senza preparare la sintesi diplomatica. Il meccanico che parla solo per metafore, alla fine, mette comunque le mani nel motore: le parole vengono dopo.",
           "personaggio": "il meccanico che parla solo per metafore"
         },
         "scorpione": {
@@ -500,7 +500,7 @@
         },
         "sagittario": {
           "titolo": "Cadere e restare di buon umore",
-          "testo": "Sagittario, tu quando sbagli tendi a minimizzare e a puntare subito all'obiettivo, come se l'errore rallentasse il viaggio. Prova a fermarti sull'inciampo e a usarlo: hai dato due nomi allo stesso personaggio? Ora è un mistero. Il pubblico ama chi cade e ci gioca. Nella vita, canta stonato, sbaglia strada e guarda cosa c'è in quella via. Chi si prende cura degli altri lo sa: si sbaglia di continuo, e si va avanti con dolcezza.",
+          "testo": "Sagittario, tu quando sbagli tendi a minimizzare e a puntare subito all'obiettivo, come se l'errore rallentasse il viaggio. Prova a fermarti sull'inciampo e a usarlo: hai dato due nomi allo stesso personaggio? Ora è un mistero. Il pubblico ama chi cade e ci gioca. Nella vita, canta stonato, sbaglia strada e guarda cosa c'è in quella via. Anche la badante più santa sbaglia l'orario della pillola ogni tanto, e va avanti lo stesso, con dolcezza.",
           "personaggio": "la badante santa"
         },
         "capricorno": {
