@@ -524,63 +524,63 @@
       "start": "2026-11-02",
       "segni": {
         "ariete": {
-          "titolo": "Uscire allo scoperto al primo minuto",
-          "testo": "Ariete, per te il rischio è quello grosso e vistoso, la sfida, il gesto plateale, e intanto nelle scene piccole giochi difensivo. Ribalta la cosa: rischia sul dettaglio. Nomina il segreto adesso, non tra dieci battute; scegli la direzione strana quando la scena è ancora fredda. Nell'impro rischiare non vuol dire fare l'acrobazia, vuol dire impegnarsi davvero in una cosa qualunque. Nella vita, di' tu per primo che una cosa ti è piaciuta, chiedi quello che dai per perso in partenza. Anche la spia in pensione, se vuole tornare utile, a un certo punto deve smettere di nascondersi.",
+          "titolo": "Togliersi gli occhiali scuri",
+          "testo": "Ariete, il coraggio non ti manca, ma spesso lo spendi nel gesto clamoroso: l'entrata urlata, la trovata che fa ridere subito. Il rischio vero in scena è un altro: mostrare qualcosa di tuo. Lascia che il personaggio si commuova, che confessi una paura, che si innamori sul serio. Il pubblico perdona tutto a chi si espone, molto meno a chi si protegge dietro la battuta. Nella vita, di' a qualcuno che ti è mancato, prima di cercare un modo spiritoso per dirlo. Anche la spia in pensione, dopo una vita sotto copertura, scopre che la missione più difficile è dire il proprio vero nome.",
           "personaggio": "la spia in pensione"
         },
         "toro": {
-          "titolo": "Nessuna ricetta per la prossima mezz'ora",
-          "testo": "Toro, tu il gioco lo vuoi con uno scopo: se non porta da qualche parte, ti sembra tempo perso. Concediti l'inutile per una scena intera: insegui l'assurdo, gioca con un oggetto immaginario finché non ridi tu. Il gioco è serio proprio perché non serve, è lì che spunta l'idea che nessuno aveva in programma. Nella vita, fai una cosa buffa senza spiegarne il senso, gioca a un gioco da tavolo mettendoci l'anima. Non ogni sintomo va curato: qualcuno va solo lasciato correre.",
+          "titolo": "Nessuna ricetta per divertirsi",
+          "testo": "Toro, tu ti diverti solo quando hai capito a cosa serve il gioco. In scena questo diventa un freno: il partner propone una cosa assurda e tu, prima di starci, cerchi la logica. Questa settimana entra nel gioco senza chiedere spiegazioni: se il pavimento è lava, salta; se si parla solo in rima, rima anche male. Il divertimento in scena nasce da come si gioca, non dal perché. Nella vita, accetta la serata karaoke o la partita a carte senza fare prima il bilancio della serata. Il farmacista che diagnostica tutto ha una pastiglia per ogni sintomo, ma per la voglia di giocare non esiste ricetta: bisogna solo cominciare.",
           "personaggio": "il farmacista che diagnostica tutto"
         },
         "gemelli": {
-          "titolo": "Fermarsi sul pianerottolo di qualcun altro",
-          "testo": "Gemelli, tu capisci le persone al volo e vai avanti, veloce. Prova a rallentare dentro l'emozione dell'altro. In scena, se il partner è ferito, resta ferito con lui per qualche secondo vero, senza correre alla battuta. Il pubblico si scioglie quando due personaggi sentono la stessa cosa insieme. Con un amico che si sfoga, non offrire subito il commento arguto: stagli accanto. La portinaia che conosce tutti i condòmini non è quella che sa i fatti: è quella che si ferma quando qualcuno ha la voce rotta.",
+          "titolo": "Sentire prima di commentare",
+          "testo": "Gemelli, tu capisci al volo cosa prova l'altro, e un secondo dopo hai già la battuta pronta per alleggerire. In scena prova a restare in quell'emozione un po' più a lungo: se il partner è triste, lasciati contagiare dalla sua tristezza prima di cercare la svolta comica. Il pubblico si emoziona quando due personaggi sentono la stessa cosa nello stesso momento. Nella vita, quando un amico ti racconta un problema, non sdrammatizzare subito: chiedigli come sta e ascolta la risposta. La portinaia con il grembiule sa tutto di tutti, ma la gente si fida di lei per un motivo solo: quando qualcuno rientra con la faccia scura, smette di spazzare e chiede com'è andata.",
           "personaggio": "la portinaia con il grembiule"
         },
         "cancro": {
-          "titolo": "Gettare la rete in un mare vuoto",
-          "testo": "Cancro, tu il vuoto lo riempi subito di calore, di premure, di ci penso io. Prova a lasciarlo aperto: entra su un palco spoglio, non arredarlo di emozioni prima ancora di sapere che scena è. Il vuoto è dove il partner può portare qualcosa di suo. Nella vita, tieni un pomeriggio senza programmi, non riempire ogni silenzio con una domanda affettuosa. Anche il pescatore aspetta ore su un mare piatto: la pesca miracolosa arriva solo se prima hai retto la calma del niente.",
+          "titolo": "Lasciare un posto libero sul palco",
+          "testo": "Cancro, quando entri in scena tendi ad arredarla subito: una cucina, una tovaglia, una nonna, tre ricordi d'infanzia. Ti fa sentire a casa, ma al partner lascia poco spazio. Questa settimana entra con un'idea sola e lascia vuoto il resto: il compagno potrà riempirlo con qualcosa che non avevi previsto. Una scena con meno oggetti ha più posto per le persone. Nella vita, lascia un pomeriggio senza programmi e guarda cosa propongono gli altri. Il pescatore che racconta la pesca miracolosa allunga la storia a ogni bicchiere, e al bar nessuno riesce più a dire una parola: una storia lasciata a metà, invece, la finiscono gli altri.",
           "personaggio": "il pescatore che racconta la pesca miracolosa"
         },
         "leone": {
-          "titolo": "Assaggiare la battuta dell'altro prima di giudicarla",
-          "testo": "Leone, tu ascolti mentre prepari la risposta migliore. Prova ad ascoltare senza il piatto pronto: prendi le parole esatte del partner e falle diventare il tuo passo, anche se non sono quelle che speravi. L'ascolto vero è lasciare che l'altro cambi la scena che avevi in testa. Con le persone, ripeti quello che hanno detto prima di rilanciare. Il critico che entra in incognito non ordina quello che ordina sempre: assaggia quello che gli portano e lo prende sul serio.",
+          "titolo": "Assaggiare prima di giudicare",
+          "testo": "Leone, mentre il partner parla tu stai già preparando la tua prossima grande battuta. Così però ti perdi il regalo che ti sta facendo: una parola, un nome, un dettaglio da cui partire. Questa settimana, prima di rispondere, ripeti dentro di te l'ultima frase che hai sentito e costruisci da lì. Le scene migliori nascono da due persone che si ascoltano, non da due monologhi alternati. Nella vita, in una discussione, riassumi quello che ha detto l'altro prima di dire la tua: vedrai cambiare la conversazione. Il critico gastronomico incognito non arriva con la recensione già scritta: assaggia ogni piatto con attenzione, ed è per questo che il suo giudizio vale qualcosa.",
           "personaggio": "il critico gastronomico incognito"
         },
         "vergine": {
-          "titolo": "Essere sulla pista, non a bordo pista",
-          "testo": "Vergine, mentre balli la scena una parte di te sta correggendo i passi da fuori. Prova a starci dentro tutta: senti i piedi, guarda il partner, rispondi al movimento che fa adesso. La presenza non è supervisionare la scena, è abitarla. Nella vita, a cena chiudi il telefono e ascolta la storia intera, in coda guardati intorno invece di sistemare la lista mentale. Un maestro di ballo può spiegare per ore, ma la lezione vera è quando prende per mano e balla.",
+          "titolo": "Ballare senza guardarsi i piedi",
+          "testo": "Vergine, anche mentre sei in scena una parte di te sta già giudicando come va: quella battuta era debole, quel gesto era storto. Ma mentre ti correggi, non ci sei. Questa settimana prova a stare tutta nel momento: guarda il partner negli occhi, ascolta la sua voce, rispondi a quello che succede adesso. La revisione la fai dopo, in camerino. Nella vita, a cena con qualcuno lascia il telefono in borsa e smetti di riorganizzare mentalmente la giornata di domani. L'insegnante di ballo liscio lo ripete a ogni lezione: finché ti guardi i piedi per controllare il passo, il valzer non comincia.",
           "personaggio": "la insegnante di ballo liscio"
         },
         "bilancia": {
-          "titolo": "Firmare l'idea di un altro senza rileggerla",
-          "testo": "Bilancia, tu il sì lo dai, ma spesso è un sì, valutiamo: lo sospendi in attesa di equilibrio. Prova ad accogliere la proposta del partner appena arriva: se dice che siete due ladri, siete due ladri, non due ladri che forse si stanno pentendo. Il sì pieno costruisce, il sì con riserva ferma tutto per un controllo documenti. Nella vita, di' sì al piano altrui senza emendamenti, prova prima di spiegare la regola. Un poliziotto zelante può sempre chiedere un altro documento: ma la scena parte solo quando smette di compilare il verbale e dice ok, andiamo.",
+          "titolo": "Lasciar passare senza chiedere i documenti",
+          "testo": "Bilancia, tu dici sì, ma prima pesi la proposta: è giusta, è equilibrata, conviene a tutti? In scena quel momento di esitazione basta a fermare tutto. Se il partner dice che siete due ladri in una banca, siete due ladri in una banca, non due ladri che si chiedono se sia il caso. Il sì pieno fa andare avanti la storia, e i dubbi del personaggio possono arrivare dopo, dentro la scena. Nella vita, accetta l'idea di un amico per il fine settimana senza proporre subito una versione migliore. Il poliziotto zelante chiede i documenti anche a chi gli porta il caffè: la scena, invece, ha bisogno di qualcuno che lasci passare.",
           "personaggio": "il poliziotto zelante"
         },
         "scorpione": {
-          "titolo": "Bruciare l'arrosto e servirlo lo stesso",
-          "testo": "Scorpione, l'errore lo vivi come una ferita e lo nascondi con un'espressione impenetrabile. Prova a mostrarlo con leggerezza: sbagli l'entrata, dimentichi il nome, e invece di irrigidirti sorridi e ci giochi. L'errore ammesso apre un varco che la squadra può usare. Nella vita, manda la mail con il refuso, canta la nota storta, presentati con la camicia macchiata e fai la tua serata. Anche l'arrosto bruciato, portato in tavola con disinvoltura, può diventare la cena più divertente dell'anno.",
+          "titolo": "Portare in tavola l'arrosto bruciato",
+          "testo": "Scorpione, quando sbagli in scena ti irrigidisci e speri che nessuno se ne sia accorto. Ma il pubblico se ne accorge sempre, e quello che vede è la tua tensione, non l'errore. Questa settimana, quando dimentichi un nome o inciampi in una frase, fallo diventare parte della scena: il personaggio si confonde, si vergogna, ci ride sopra. Un errore accolto con gioia diventa un regalo per tutti. Nella vita, se sbagli una ricetta o arrivi alla festa con il regalo sbagliato, raccontalo tu per primo, ridendo. La casalinga disperata anni '50 vive nel terrore che l'arrosto bruci: le basterebbe portarlo in tavola sorridendo per scoprire che gli ospiti ne parleranno per settimane, con affetto.",
           "personaggio": "la casalinga disperata anni '50"
         },
         "sagittario": {
-          "titolo": "Il bancone lo si tiene in due",
-          "testo": "Sagittario, tu in scena porti la visione, il grande arco, e a volte gli altri ti corrono dietro senza spazio per entrare. Rallenta e includi: lancia l'idea e aspetta che un compagno la raccolga, costruisci sul suo dettaglio. La scena bella sembra opera di un gruppo, non di un profeta. Nella vita, al lavoro lascia finire il progetto a chi l'ha iniziato; con gli amici, chiedi prima di decidere per tutti. Anche il barista che ha una teoria su tutto, dietro il bancone, deve pur lasciar parlare i clienti.",
+          "titolo": "Far parlare anche i clienti",
+          "testo": "Sagittario, in scena hai sempre una visione grande: sai dove deve andare la storia e ci porti tutti, anche di corsa. Il rischio è che gli altri diventino comparse del tuo viaggio. Questa settimana lancia un'idea e poi fermati: lascia che un compagno la sviluppi, anche in una direzione che non avresti scelto. Una scena costruita insieme diverte più di una scena guidata da uno solo. Nella vita, quando organizzi qualcosa con gli amici, chiedi prima cosa vogliono fare loro. Il barista filosofo ha una teoria su tutto, ma il suo bar è sempre pieno per un motivo: sa quando smettere di parlare e versare da bere a chi ha una storia da raccontare.",
           "personaggio": "il barista filosofo"
         },
         "capricorno": {
-          "titolo": "Sporgersi dal balcone con tutto il corpo",
-          "testo": "Capricorno, tu il personaggio lo progetti e poi lo esegui, un po' rigido. Prova a farlo nascere dal fisico: un'andatura, una curva della schiena, una mano che fruga tra le cose. Il pubblico capisce chi sei da come ti muovi, prima che parli. Nella vita, quando sei bloccato alzati e cammina, raddrizza le spalle prima di una chiamata difficile. La vicina che sa tutto del palazzo non lo sa dai documenti: lo sa perché si sporge, tende l'orecchio e non perde un dettaglio.",
+          "titolo": "Lasciare che il corpo parli per primo",
+          "testo": "Capricorno, tu costruisci il personaggio con la testa: chi è, cosa vuole, che lavoro fa. Poi lo reciti dal collo in su. Questa settimana prova il contrario: parti da una postura, da un'andatura, da un modo di tenere le mani, e lascia che sia il corpo a dirti chi sei. Il pubblico capisce un personaggio da come entra in scena, prima ancora che apra bocca. Nella vita, quando sei bloccato su un problema, alzati e fai due passi: spesso la soluzione arriva camminando. La vicina impicciona non ha bisogno di presentarsi: basta vederla affacciata al balcone, mezza fuori dalla ringhiera, per sapere esattamente chi è.",
           "personaggio": "la vicina impicciona"
         },
         "acquario": {
-          "titolo": "Servire il vuoto su un vassoio",
-          "testo": "Acquario, appena c'è un silenzio tu lo riempi con un'osservazione intelligente. Prova a lasciarlo intero: dopo una battuta importante del partner, non commentare, non spiegare, guardalo e conta due. Quel vuoto fa lavorare il pubblico meglio di qualsiasi tua teoria. Nella vita, alla domanda scomoda respira prima di rispondere, ascolta l'amico senza sfoderare l'analisi. Il maggiordomo migliore non anticipa: porta quello che serve, quando serve, e per il resto tace.",
+          "titolo": "Contare fino a due prima di rispondere",
+          "testo": "Acquario, appena in scena cala il silenzio tu lo riempi con un'osservazione brillante. Ma non tutti i silenzi sono vuoti da riempire: alcuni sono il momento in cui la scena respira. Questa settimana, dopo una battuta importante del partner, non rispondere subito: guardalo, lascia passare due secondi, fai arrivare il colpo. In quella pausa il pubblico capisce cosa è appena successo. Nella vita, davanti a una domanda difficile, prenditi un respiro prima di rispondere. Il maggiordomo che sa tutto non lo dice mai: un sopracciglio alzato, una pausa di troppo, e tutta la sala ha già capito.",
           "personaggio": "il maggiordomo che sa tutto"
         },
         "pesci": {
-          "titolo": "Il tempo della scena, non quello del ricordo",
-          "testo": "Pesci, tu segui un ritmo tutto interiore, spesso più lento e sognante di quello che la scena chiede. Ascolta il tempo reale: se il dialogo scatta, scatta; se si posa, resta nella quiete senza perderti. Il ritmo giusto lo detta lo scambio con il partner, non la tua colonna sonora. Nella vita, cammina al passo di chi ti accompagna, rispondi ai messaggi al tempo dell'altro. Una diva del passato canticchia ancora la sua vecchia aria: bello, ma l'orchestra stasera suona un altro pezzo.",
+          "titolo": "Seguire l'orchestra, non la propria aria",
+          "testo": "Pesci, in scena segui un ritmo tutto tuo, lento e sognante, anche quando intorno a te la scena corre. Ma il ritmo non si decide da soli: nasce dallo scambio. Se il partner incalza con battute brevi, rispondi breve; se rallenta, rallenta con lui. Una scena trova il suo tempo quando i due attori si ascoltano come due musicisti. Nella vita, prova ad adattarti al passo di chi cammina con te, invece di aspettare che sia l'altro a rallentare. La diva sul viale del tramonto recita ancora con i tempi del suo film di quarant'anni fa: bravissima, ma il pubblico di oggi è già uscito dalla sala.",
           "personaggio": "la diva del teatro sul viale del tramonto"
         }
       }
