@@ -3,7 +3,8 @@ import { PageHeader } from "@/components/PageHeader";
 import { Container } from "@/components/Container";
 import { EventiList } from "@/components/EventiList";
 import { JsonLd } from "@/components/JsonLd";
-import { getEventi } from "@/lib/eventi";
+import { SectionHeading } from "@/components/SectionHeading";
+import { getLezioni, getSpettacoli } from "@/lib/eventi";
 import { eventLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
@@ -16,16 +17,34 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function EventiPage() {
-  const eventi = await getEventi();
+  const [lezioni, spettacoli] = await Promise.all([getLezioni(), getSpettacoli()]);
+  const eventi = [...lezioni, ...spettacoli];
 
   return (
     <>
       {eventi.length > 0 && <JsonLd data={eventi.map(eventLd)} />}
       <PageHeader kicker="Eventi · biglietti" title={<>Tutte<br />le date</>} color="verde">
-        Il calendario completo di spettacoli e lezioni aperte. Biglietti su YesTicket.
+        Il calendario completo di lezioni aperte e spettacoli. Si prenota su YesTicket.
       </PageHeader>
-      <Container className="pb-24">
-        <EventiList eventi={eventi} grouped />
+      <Container className="flex flex-col gap-16 pb-24">
+        <section>
+          <SectionHeading color="blu" kicker="Vieni a provare">
+            Lezioni e workshop
+          </SectionHeading>
+          <EventiList
+            eventi={lezioni}
+            emptyLabel="Nessuna lezione in calendario in questo momento. Scrivici per sapere quando è la prossima."
+          />
+        </section>
+        <section>
+          <SectionHeading color="rosso" kicker="Vieni a vedere">
+            Spettacoli
+          </SectionHeading>
+          <EventiList
+            eventi={spettacoli}
+            emptyLabel="Nessuno spettacolo in programma al momento. Torna presto."
+          />
+        </section>
       </Container>
     </>
   );

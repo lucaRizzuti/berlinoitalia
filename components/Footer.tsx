@@ -29,7 +29,7 @@ export function Footer() {
           <br />
           Corsi · {site.venues.corsiSab.name}, {site.venues.corsiSab.address}
           <br />
-          Spettacoli · {site.venues.acud.name}, {site.venues.acud.address}
+          Spettacoli · {site.venues.acud.name}, {site.venues.acud.address}, e altri palchi
         </div>
 
         <div className="text-sm leading-8 text-paper/75">

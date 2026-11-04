@@ -4,8 +4,10 @@ import { Container } from "@/components/Container";
 import { MetaBand } from "@/components/MetaBand";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/Button";
+import { EventiList } from "@/components/EventiList";
 import { JsonLd } from "@/components/JsonLd";
-import { courseLd } from "@/lib/jsonld";
+import { getLezioni } from "@/lib/eventi";
+import { courseLd, eventLd } from "@/lib/jsonld";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -14,6 +16,8 @@ export const metadata: Metadata = {
     "Corsi di improvvisazione teatrale in italiano a Berlino: tre livelli, ogni lunedì e sabato. Si può partecipare anche a una singola lezione, senza iscrizione. Workshop con ospiti dall'Italia.",
   alternates: { canonical: "/corsi" },
 };
+
+export const revalidate = 3600;
 
 const livelli = [
   {
@@ -47,10 +51,13 @@ const skill = [
   "Creatività",
 ];
 
-export default function CorsiPage() {
+export default async function CorsiPage() {
+  const lezioni = await getLezioni();
+
   return (
     <>
       <JsonLd data={courseLd} />
+      {lezioni.length > 0 && <JsonLd data={lezioni.map(eventLd)} />}
       {/* HERO */}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
         <div>
@@ -91,6 +98,23 @@ export default function CorsiPage() {
       <MetaBand color="blu">
         Anche una lezione singola · senza iscrizione · senza impegno
       </MetaBand>
+
+      {/* PROSSIME LEZIONI */}
+      <section className="border-b-2 border-ink bg-paper-2 py-14">
+        <Container className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
+          <div>
+            <p className="kicker mb-4 text-blu">Vieni a provare</p>
+            <h2 className="text-[clamp(2rem,5vw,2.75rem)]">
+              Prossime lezioni
+              <br />e workshop
+            </h2>
+          </div>
+          <EventiList
+            eventi={lezioni}
+            emptyLabel="Nessuna data in calendario in questo momento. Scrivici su WhatsApp per sapere quando è la prossima lezione."
+          />
+        </Container>
+      </section>
 
       {/* LIVELLI */}
       <Container className="py-16">

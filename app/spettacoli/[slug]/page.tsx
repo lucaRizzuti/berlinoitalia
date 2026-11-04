@@ -64,7 +64,6 @@ export default async function ShowPage(props: PageProps<"/spettacoli/[slug]">) {
     { k: "Lingua", v: show.lingua.map((l) => langLabel[l]).join(" / ") },
     show.durata && { k: "Durata", v: show.durata },
     show.pubblico && { k: "Pubblico", v: show.pubblico },
-    { k: "Cadenza", v: "Ricorrente" },
   ].filter(Boolean) as { k: string; v: string }[];
 
   return (

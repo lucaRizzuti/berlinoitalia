@@ -9,7 +9,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Chi siamo",
   description:
-    "Berlino Italia Improv: scuola di improvvisazione e teatro nata a Berlino nel 2016. Formazione e spettacoli in italiano, membri dell'International Theatresports Institute dal 2017.",
+    "Berlino Italia Improv: scuola di improvvisazione e teatro nata a Berlino nel 2017. Formazione e spettacoli in italiano, membri dell'International Theatresports Institute dal 2017.",
   alternates: { canonical: "/chi-siamo" },
 };
 
@@ -80,7 +80,7 @@ export default function ChiSiamoPage() {
       {/* HERO */}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.15fr_0.85fr] lg:py-16">
         <div>
-          <p className="kicker mb-6">Chi siamo · Berlino · dal 2016</p>
+          <p className="kicker mb-6">Chi siamo · Berlino · dal 2017</p>
           <h1 className="text-[clamp(2.75rem,7vw,5rem)]">
             Non spieghiamo
             <br />
@@ -91,7 +91,7 @@ export default function ChiSiamoPage() {
             <span className="text-rosso">succedere.</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
-            Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2016. Facciamo
+            Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2017. Facciamo
             formazione e spettacoli in italiano per adulti e bambini, con l&apos;obiettivo
             di diffondere la lingua e la cultura italiana a Berlino attraverso
             l&apos;improvvisazione.
@@ -133,7 +133,7 @@ export default function ChiSiamoPage() {
             <p className="mt-4 max-w-md">
               Il network mondiale di scuole di improvvisazione fondato da Keith Johnstone. I
                 nostri corsi seguono tre livelli; gli spettacoli sono ogni quarta domenica
-              del mese al teatro Acud.
+              del mese al teatro Acud, e in altre date su altri palchi.
             </p>
           </div>
           <div>
