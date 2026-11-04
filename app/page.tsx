@@ -9,7 +9,7 @@ import { Reveal } from "@/components/Reveal";
 import { EventiList } from "@/components/EventiList";
 import { VideoGrid } from "@/components/VideoGrid";
 import { SocialLinks } from "@/components/SocialLinks";
-import { getEventi } from "@/lib/eventi";
+import { getLezioni, getSpettacoli } from "@/lib/eventi";
 import { getVideos } from "@/lib/youtube";
 import { site } from "@/lib/site";
 
@@ -38,7 +38,7 @@ const quickLinks = [
     href: "/spettacoli",
     accent: "bg-rosso",
     go: "text-rosso",
-    text: "Ogni quarta domenica del mese al teatro Acud. Sette format ricorrenti, mai due sere uguali.",
+    text: "Format diversi, mai due sere uguali. Ogni quarta domenica del mese al teatro Acud, e in altre date su altri palchi.",
     cta: "Vedi i format →",
   },
   {
@@ -76,39 +76,58 @@ const quickLinks = [
 ];
 
 export default async function HomePage() {
-  const [eventiAll, videos] = await Promise.all([getEventi(), getVideos()]);
-  const eventi = eventiAll.slice(0, 4);
+  const [lezioni, spettacoli, videos] = await Promise.all([
+    getLezioni(),
+    getSpettacoli(),
+    getVideos(),
+  ]);
 
   return (
     <>
       {/* PROSSIMI APPUNTAMENTI */}
       <section className="border-b-2 border-ink bg-paper-2 py-14 md:py-16">
-        <Container className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
-          <div>
-            <p className="kicker mb-4 text-verde">Eventi · biglietti</p>
-            <h2 className="text-[clamp(2rem,5.5vw,3rem)]">
-              I prossimi
-              <br />
-              appuntamenti
-            </h2>
-            <p className="mt-5 max-w-[32ch]">
-              Spettacoli e lezioni aperte, sempre aggiornati. Il calendario completo, con i
-              biglietti, vive nella pagina Eventi.
-            </p>
-            <p className="mt-5">
-              <Link
-                href="/eventi"
-                className="font-display text-sm font-semibold uppercase tracking-[0.1em] text-verde"
-              >
-                Tutti gli eventi →
-              </Link>
-            </p>
+        <Container>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="kicker mb-4 text-verde">Eventi · biglietti</p>
+              <h2 className="text-[clamp(2rem,5.5vw,3rem)]">I prossimi appuntamenti</h2>
+            </div>
+            <Link
+              href="/eventi"
+              className="font-display text-sm font-semibold uppercase tracking-[0.1em] text-verde"
+            >
+              Tutti gli eventi →
+            </Link>
           </div>
-          <div className="self-center">
-            <EventiList
-              eventi={eventi}
-              emptyLabel="Nessuna data in programma. Torna presto, o iscriviti alla newsletter."
-            />
+          <div className="mt-10 grid gap-12 lg:grid-cols-2">
+            <div>
+              <p className="kicker mb-3 text-blu">Vieni a provare</p>
+              <h3 className="mb-2 text-2xl">Lezioni e workshop</h3>
+              <EventiList
+                eventi={lezioni.slice(0, 3)}
+                emptyLabel="Nessuna lezione in calendario. Scrivici per sapere quando è la prossima."
+              />
+              <Link
+                href="/corsi"
+                className="mt-4 inline-block font-display text-sm font-semibold uppercase tracking-[0.1em] text-blu"
+              >
+                Scopri i corsi →
+              </Link>
+            </div>
+            <div>
+              <p className="kicker mb-3 text-rosso">Vieni a vedere</p>
+              <h3 className="mb-2 text-2xl">Spettacoli</h3>
+              <EventiList
+                eventi={spettacoli.slice(0, 3)}
+                emptyLabel="Nessuno spettacolo in programma. Torna presto, o iscriviti alla newsletter."
+              />
+              <Link
+                href="/spettacoli"
+                className="mt-4 inline-block font-display text-sm font-semibold uppercase tracking-[0.1em] text-rosso"
+              >
+                Scopri gli spettacoli →
+              </Link>
+            </div>
           </div>
         </Container>
       </section>
@@ -117,7 +136,7 @@ export default async function HomePage() {
       <Container className="grid items-center gap-10 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
         <div>
           <p className="kicker mb-6">
-            Scuola di improvvisazione teatrale · Berlino · dal 2016
+            Scuola di improvvisazione teatrale · Berlino · dal 2017
           </p>
           <h1 className="text-[clamp(3.5rem,9vw,6.5rem)]">
             Fare
@@ -180,7 +199,7 @@ export default async function HomePage() {
             Non spieghiamo il teatro. Lo facciamo succedere.
           </h2>
           <p className="mt-5 max-w-[46ch]">
-            Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2016. Facciamo
+            Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2017. Facciamo
             formazione e spettacoli in italiano per adulti e bambini, con l&apos;obiettivo di
             diffondere la lingua e la cultura italiana a Berlino attraverso
             l&apos;improvvisazione, in dialogo con le scuole tedesca, spagnola, francese e

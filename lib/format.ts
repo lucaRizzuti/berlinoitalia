@@ -8,11 +8,6 @@ const time = new Intl.DateTimeFormat("it-IT", {
   minute: "2-digit",
   timeZone: TZ,
 });
-const monthYear = new Intl.DateTimeFormat("it-IT", {
-  month: "long",
-  year: "numeric",
-  timeZone: TZ,
-});
 
 /** { dow: "dom", day: "28", mon: "set" }, tutto minuscolo senza punto. */
 export function dateParts(d: Date) {
@@ -24,8 +19,3 @@ export function dateParts(d: Date) {
 }
 
 export const formatTime = (d: Date) => time.format(d);
-
-export const monthKey = (d: Date) =>
-  new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "2-digit", timeZone: TZ }).format(d);
-
-export const monthLabel = (d: Date) => monthYear.format(d);

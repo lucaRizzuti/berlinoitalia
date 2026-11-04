@@ -16,7 +16,7 @@ export const organizationLd = {
   logo: `${site.url}/brand/logo.png`,
   image: `${site.url}/collage/collage-people.webp`,
   description: site.description,
-  foundingDate: "2016",
+  foundingDate: "2017",
   email: site.contact.email,
   inLanguage: "it",
   address: {
@@ -64,29 +64,13 @@ export function showLd(show: Show) {
         : undefined,
     organizer: { "@id": ORG_ID },
     performer: { "@id": ORG_ID },
-    eventSchedule: {
-      "@type": "Schedule",
-      repeatFrequency: "P1M",
-      byDay: "https://schema.org/Sunday",
-    },
-    location: {
-      "@type": "Place",
-      name: site.venues.acud.name,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Veteranenstraße 21",
-        addressLocality: "Berlin",
-        postalCode: "10119",
-        addressCountry: "DE",
-      },
-    },
   };
 }
 
 export function eventLd(e: Evento) {
   return {
     "@context": "https://schema.org",
-    "@type": "TheaterEvent",
+    "@type": e.tipo === "lezione" ? "EducationEvent" : "TheaterEvent",
     name: e.title,
     startDate: e.start.toISOString(),
     ...(e.end ? { endDate: e.end.toISOString() } : {}),

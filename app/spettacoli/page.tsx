@@ -5,14 +5,20 @@ import { Container } from "@/components/Container";
 import { MetaBand } from "@/components/MetaBand";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/Button";
+import { EventiList } from "@/components/EventiList";
+import { JsonLd } from "@/components/JsonLd";
+import { getSpettacoli } from "@/lib/eventi";
+import { eventLd } from "@/lib/jsonld";
 import { getShows } from "@/lib/spettacoli";
 
 export const metadata: Metadata = {
   title: "Spettacoli",
   description:
-    "Ogni quarta domenica del mese al teatro Acud di Berlino: sette format ricorrenti di improvvisazione teatrale, normalmente in italiano.",
+    "Spettacoli di improvvisazione teatrale a Berlino, normalmente in italiano. Ogni quarta domenica del mese al teatro Acud, e in altre date su altri palchi.",
   alternates: { canonical: "/spettacoli" },
 };
+
+export const revalidate = 3600;
 
 const langLabel: Record<string, string> = {
   it: "IT",
@@ -22,27 +28,30 @@ const langLabel: Record<string, string> = {
   fr: "FR",
 };
 
-export default function SpettacoliPage() {
+export default async function SpettacoliPage() {
   const shows = getShows();
+  const spettacoli = await getSpettacoli();
 
   return (
     <>
+      {spettacoli.length > 0 && <JsonLd data={spettacoli.map(eventLd)} />}
       <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.15fr_0.85fr] lg:py-16">
         <div>
-          <p className="kicker mb-6 text-rosso">Spettacoli · Teatro Acud · Berlino</p>
+          <p className="kicker mb-6 text-rosso">Spettacoli · Berlino</p>
           <h1 className="text-[clamp(3rem,8vw,5.5rem)]">
-            Ogni quarta
+            Mai due
             <br />
-            domenica
+            sere
             <br />
-            <span className="text-rosso">del mese</span>
+            <span className="text-rosso">uguali</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
-            Appuntamento fisso al teatro Acud, Veteranenstraße 21. Sette format ricorrenti,
-            normalmente in italiano, qualche volta multilingua. Mai due sere uguali.
+            Format diversi, normalmente in italiano, qualche volta multilingua. Ci trovi ogni
+            quarta domenica del mese al teatro Acud, Veteranenstraße 21, e in altre date su
+            altri palchi.
           </p>
           <div className="mt-8">
-            <Button href="/eventi" variant="rosso">
+            <Button href="#prossime-date" variant="rosso">
               Prossime date
             </Button>
           </div>
@@ -63,6 +72,23 @@ export default function SpettacoliPage() {
       <MetaBand color="rosso">
         Match · Maestro Impro · Storie all&apos;improvviso · Improvvisa Chi? · Babel
       </MetaBand>
+
+      <section id="prossime-date" className="scroll-mt-20 border-b-2 border-ink bg-paper-2 py-14">
+        <Container className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
+          <div>
+            <p className="kicker mb-4 text-rosso">Vieni a vedere</p>
+            <h2 className="text-[clamp(2rem,5vw,2.75rem)]">
+              Prossimi
+              <br />
+              spettacoli
+            </h2>
+          </div>
+          <EventiList
+            eventi={spettacoli}
+            emptyLabel="Nessuno spettacolo in programma al momento. Torna presto."
+          />
+        </Container>
+      </section>
 
       <Container className="py-[70px]">
         <SectionHeading>I format</SectionHeading>
