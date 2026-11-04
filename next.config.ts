@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
       { source: "/impro", destination: "/gutschein", permanent: true },
       { source: "/gutschein/", destination: "/gutschein", permanent: true },
       { source: "/babel", destination: "/spettacoli/babel", permanent: true },
+      // Indirizzi dei QR del pieghevole stampato: temporanei, così la destinazione può cambiare.
+      { source: "/prova", destination: "/corsi", permanent: false },
+      { source: "/guarda", destination: "/spettacoli", permanent: false },
     ];
   },
 };
