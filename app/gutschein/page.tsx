@@ -9,12 +9,12 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Gutschein",
   description:
-    "Il Berlino Impro Gutschein: un token di metallo da regalare, valido per una serata a teatro per due o una lezione di prova. Senza scadenza. Accettato dalle scuole partner di Berlino.",
+    "Il Berlino Impro Gutschein: un token di metallo da regalare, a 20 €, valido per una serata a teatro per due o una lezione. Senza scadenza. Accettato dalle scuole partner di Berlino.",
   alternates: { canonical: "/gutschein" },
   openGraph: {
     title: "Berlino Impro Gutschein · Berlino Italia Improv",
     description:
-      "Un token di metallo da regalare: un posto a teatro per due, o una lezione di improvvisazione senza impegno. Senza scadenza.",
+      "Un token di metallo da regalare, a 20 €: vale una serata a teatro per due oppure una lezione. Senza scadenza.",
     images: [{ url: "/og/gutschein.jpg", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image", images: ["/og/gutschein.jpg"] },
@@ -24,12 +24,12 @@ const come = [
   {
     n: "01",
     t: "A teatro, in due",
-    d: "Un Gutschein vale per assistere a uno dei nostri spettacoli portando qualcuno con te. Un token, due posti.",
+    d: "Vale due posti a uno dei nostri spettacoli.",
   },
   {
     n: "02",
-    t: "A lezione di prova",
-    d: "Oppure usalo per entrare a una lezione di improvvisazione senza impegno: nessuna esperienza richiesta.",
+    t: "A lezione",
+    d: "Oppure vale una lezione di improvvisazione. Non serve nessuna esperienza.",
   },
 ];
 
@@ -57,16 +57,15 @@ export default function GutscheinPage() {
         <div>
           <p className="kicker mb-6 text-rosso">Berlino Italia Improv · da regalare</p>
           <h1 className="text-[clamp(2.6rem,7vw,5.5rem)]">
-            Non solo
+            Regala
             <br />
-            un regalo.
+            una serata
             <br />
-            <span className="text-rosso">Un&apos;esperienza.</span>
+            <span className="text-rosso">a teatro</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
-            Un token di metallo che apre due porte: un posto a teatro per due, o una lezione
-            di improvvisazione senza impegno. Per chi non l&apos;ha mai provato, o per chi
-            non riesce più a starne senza.
+            Un token di metallo che vale una serata a teatro per due oppure una lezione di
+            improvvisazione. Costa 20 € e non scade.
           </p>
           <p className="mt-3 font-display text-xs uppercase tracking-[0.14em] text-ink/45">
             Berlino Impro Gutschein · Buono regalo teatro Berlino · Originelles Geschenk
@@ -85,7 +84,7 @@ export default function GutscheinPage() {
         </div>
       </Container>
 
-      <MetaBand color="rosso">Kein Ablaufdatum · Nessuna scadenza · No expiry</MetaBand>
+      <MetaBand color="rosso">20 € · Nessuna scadenza · Kein Ablaufdatum</MetaBand>
 
       {/* COME FUNZIONA */}
       <Container className="py-16">
@@ -108,12 +107,11 @@ export default function GutscheinPage() {
       <section className="border-y-2 border-ink bg-paper-2 py-16">
         <Container>
           <SectionHeading color="rosso" kicker="L'oggetto">
-            Non un voucher. Un token.
+            Un regalo da tenere in mano
           </SectionHeading>
           <p className="mb-8 max-w-2xl text-lg">
-            È un token di metallo fuso, fatto per essere tenuto in mano, regalato e usato.
-            Arriva montato su un cartoncino con laccetto, pronto da dare. Non è usa e getta.
-            Ha un peso. Significa qualcosa.
+            È un token di metallo fuso, montato su un cartoncino con laccetto, pronto da
+            regalare.
           </p>
           <dl className="grid gap-x-10 gap-y-5 sm:grid-cols-2">
             {fatti.map(([h, d]) => (

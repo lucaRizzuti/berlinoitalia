@@ -30,7 +30,7 @@ const quickLinks = [
     href: "/corsi",
     accent: "bg-blu",
     go: "text-blu",
-    text: "Ogni lunedì e sabato. Tre livelli. Puoi venire anche a una lezione singola, senza iscriverti. I workshop con gli ospiti dall'Italia sono qui dentro.",
+    text: "Ogni lunedì e sabato. Puoi venire anche a una lezione singola da 20 €, senza iscriverti.",
     cta: "Vai ai corsi →",
   },
   {
@@ -70,7 +70,7 @@ const quickLinks = [
     href: "/gutschein",
     accent: "bg-rosso",
     go: "text-rosso",
-    text: "Un token di metallo da regalare: una serata a teatro per due, o una lezione di prova.",
+    text: "Un token di metallo da regalare, a 20 €: vale una serata a teatro per due oppure una lezione.",
     cta: "Il buono regalo →",
   },
 ];
@@ -102,7 +102,7 @@ export default async function HomePage() {
           <div className="mt-10 grid gap-12 lg:grid-cols-2">
             <div>
               <p className="kicker mb-3 text-blu">Vieni a provare</p>
-              <h3 className="mb-2 text-2xl">Lezioni e workshop</h3>
+              <h3 className="mb-2 text-2xl">Lezioni</h3>
               <EventiList
                 eventi={lezioni.slice(0, 3)}
                 emptyLabel="Nessuna lezione in calendario. Scrivici per sapere quando è la prossima."
@@ -150,9 +150,8 @@ export default async function HomePage() {
             sul serio
           </h1>
           <p className="mt-7 max-w-md text-lg">
-            Corsi, workshop e spettacoli di improvvisazione{" "}
-            <strong>in italiano a Berlino</strong>. Per adulti e bambini, principianti e
-            curiosi. Membri dell&apos;International Theatresports Institute dal 2017.
+            Corsi e spettacoli di improvvisazione <strong>in italiano a Berlino</strong>. Non
+            devi saper recitare: puoi cominciare da una lezione singola.
           </p>
           <div className="mt-8 flex flex-wrap gap-3.5">
             <Button href="/corsi" variant="blu">
@@ -196,14 +195,12 @@ export default async function HomePage() {
         <Reveal delay={120}>
           <p className="kicker mb-4">Chi siamo</p>
           <h2 className="max-w-[12ch] text-[clamp(1.9rem,4.5vw,2.5rem)]">
-            Non spieghiamo il teatro. Lo facciamo succedere.
+            Una scuola di improvvisazione in italiano, a Berlino.
           </h2>
           <p className="mt-5 max-w-[46ch]">
-            Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2017. Facciamo
-            formazione e spettacoli in italiano per adulti e bambini, con l&apos;obiettivo di
-            diffondere la lingua e la cultura italiana a Berlino attraverso
-            l&apos;improvvisazione, in dialogo con le scuole tedesca, spagnola, francese e
-            inglese della città.
+            Siamo nati nel 2017. Facciamo lezioni e spettacoli per diffondere la lingua e la
+            cultura italiana a Berlino attraverso l&apos;improvvisazione, in dialogo con le
+            scuole tedesca, spagnola, francese e inglese della città.
           </p>
           <p className="mt-5">
             <Link
@@ -268,7 +265,7 @@ export default async function HomePage() {
           <div>
             <h2 className="text-[clamp(2rem,5vw,2.75rem)] text-paper">Resta nel giro</h2>
             <p className="mt-3.5 max-w-[38ch] text-paper/80">
-              Spettacoli, corsi e workshop. Una mail al mese, niente di più.
+              Spettacoli e corsi. Una mail al mese, niente di più.
             </p>
           </div>
           <div className="flex flex-col items-start gap-4">

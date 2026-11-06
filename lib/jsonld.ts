@@ -36,15 +36,17 @@ export const courseLd = {
   "@type": "Course",
   name: "Corso di Improvvisazione Teatrale in Italiano · Berlino",
   description:
-    "Corsi di livello principiante, intermedio e avanzato di improvvisazione teatrale in italiano a Berlino. Lezioni ogni lunedì e sabato.",
+    "Corsi di improvvisazione teatrale in italiano a Berlino, aperti a chi comincia. Lezioni ogni lunedì e sabato.",
   inLanguage: "it",
   provider: { "@id": ORG_ID },
   courseMode: "onsite",
   availableLanguage: "Italian",
-  educationalLevel: "Beginner, Intermediate, Advanced",
+  educationalLevel: "Beginner",
   offers: {
     "@type": "Offer",
     category: "Drop-in",
+    price: "20",
+    priceCurrency: "EUR",
     availability: "https://schema.org/InStock",
   },
 };

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 const pilastri = [
   {
-    t: "Uscire dalla comfort zone",
+    t: "Buttarsi",
     d: "Il teatro improvvisato porta storie a teatro senza un testo da imparare a memoria.",
   },
   {
@@ -27,7 +27,7 @@ const pilastri = [
     d: "Per chi ha voglia di fare teatro senza prendersi troppo sul serio.",
   },
   {
-    t: "Esperire la magia del momento",
+    t: "Vivere il momento",
     d: "L'arte di fare con quello che si ha, adesso: trarre il massimo dal possibile.",
   },
 ];
@@ -82,13 +82,11 @@ export default function ChiSiamoPage() {
         <div>
           <p className="kicker mb-6">Chi siamo · Berlino · dal 2017</p>
           <h1 className="text-[clamp(2.75rem,7vw,5rem)]">
-            Non spieghiamo
+            Una scuola di
             <br />
-            il teatro.
+            improvvisazione
             <br />
-            Lo facciamo
-            <br />
-            <span className="text-rosso">succedere.</span>
+            <span className="text-rosso">in italiano.</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
             Siamo una scuola di improvvisazione e teatro nata a Berlino nel 2017. Facciamo
@@ -107,7 +105,7 @@ export default function ChiSiamoPage() {
 
       {/* PILASTRI */}
       <Container className="py-16">
-        <SectionHeading kicker="Perché lo facciamo">Quattro idee fisse</SectionHeading>
+        <SectionHeading kicker="Perché lo facciamo">In cosa crediamo</SectionHeading>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {pilastri.map((p, i) => (
             <div
@@ -131,9 +129,8 @@ export default function ChiSiamoPage() {
               Membri dell&apos;International Theatresports Institute
             </h2>
             <p className="mt-4 max-w-md">
-              Il network mondiale di scuole di improvvisazione fondato da Keith Johnstone. I
-                nostri corsi seguono tre livelli; gli spettacoli sono ogni quarta domenica
-              del mese al teatro Acud, e in altre date su altri palchi.
+              Il network mondiale di scuole di improvvisazione fondato da Keith Johnstone. I nostri spettacoli sono ogni quarta
+              domenica del mese al teatro Acud, e in altre date su altri palchi.
             </p>
           </div>
           <div>

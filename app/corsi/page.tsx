@@ -13,32 +13,11 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Corsi",
   description:
-    "Corsi di improvvisazione teatrale in italiano a Berlino: tre livelli, ogni lunedì e sabato. Si può partecipare anche a una singola lezione, senza iscrizione. Workshop con ospiti dall'Italia.",
+    "Corsi di improvvisazione teatrale in italiano a Berlino, ogni lunedì e sabato. Puoi provare con una lezione singola a 20 €, senza iscrizione.",
   alternates: { canonical: "/corsi" },
 };
 
 export const revalidate = 3600;
-
-const livelli = [
-  {
-    n: "01",
-    titolo: "Principianti",
-    testo:
-      "I fondamenti: accettare le offerte, costruire insieme, non perdere la testa di fronte al vuoto. Nessuna esperienza richiesta, si può entrare in qualsiasi momento.",
-  },
-  {
-    n: "02",
-    titolo: "Intermedio",
-    testo:
-      "Personaggi, relazioni, struttura della scena. Si comincia a tenere in piedi storie più lunghe e a lavorare sull'ascolto fine.",
-  },
-  {
-    n: "03",
-    titolo: "Avanzato",
-    testo:
-      "Format, regia, presenza scenica. È il gruppo che porta gli spettacoli in teatro.",
-  },
-];
 
 const skill = [
   "Ascolto",
@@ -63,50 +42,50 @@ export default async function CorsiPage() {
         <div>
           <p className="kicker mb-6 text-blu">Corsi · Berlino · in italiano</p>
           <h1 className="text-[clamp(3rem,8vw,5.5rem)]">
-            Imparare
+            Prova
             <br />
-            ad <span className="text-blu">ascoltare</span>
+            una <span className="text-blu">lezione</span>
           </h1>
           <p className="mt-7 max-w-lg text-lg">
-            Corsi di improvvisazione teatrale in italiano, tre livelli. Si allena la
-            concentrazione, la velocità di reazione, la capacità di collaborare, e si
-            scopre come un <strong>sì</strong> o un <strong>no</strong> cambiano tutta la
-            storia.
+            Puoi venire a una lezione singola, senza iscriverti a un corso. Costa 20 €, si
+            prenota online e non ti impegna a continuare.
+          </p>
+          <p className="mt-4 max-w-lg text-lg">
+            Non devi saper recitare e non devi essere madrelingua: basta parlare italiano e
+            avere voglia di giocare. Ci vediamo il lunedì sera o il sabato pomeriggio.
           </p>
           <div className="mt-8 flex flex-wrap gap-3.5">
-            <Button href={site.contact.whatsappUrl} external variant="blu">
-              Vieni a provare
+            <Button href="#prossime-lezioni" variant="blu">
+              Scegli una data
             </Button>
-            <Button href="/contatti" variant="ghost">
-              Scrivici
+            <Button href={site.contact.whatsappUrl} external variant="ghost">
+              Scrivici su WhatsApp
             </Button>
           </div>
         </div>
-        <div className="relative mx-auto aspect-[575/602] w-full max-w-[460px] lg:mx-0 lg:max-w-none">
-          <div className="u-arch absolute right-5 top-0 h-[88%] w-[58%] bg-blu" />
+        <div className="mx-auto w-full max-w-[340px] lg:max-w-[400px]">
           <Image
-            src="/collage/collage-ear.webp"
-            alt="Collage: orecchio, forma blu"
-            width={460}
-            height={560}
+            src="/collage/collage-porta.webp"
+            alt="Collage: porta socchiusa davanti a un arco blu"
+            width={643}
+            height={991}
             priority
-            className="u-riso absolute right-[-8%] top-[-2%] w-[86%] max-w-none"
+            className="w-full rotate-[1.5deg]"
           />
         </div>
       </Container>
 
       <MetaBand color="blu">
-        Anche una lezione singola · senza iscrizione · senza impegno
+        Lunedì e sabato · in italiano · nessuna esperienza richiesta
       </MetaBand>
 
       {/* PROSSIME LEZIONI */}
-      <section className="border-b-2 border-ink bg-paper-2 py-14">
+      <section id="prossime-lezioni" className="border-b-2 border-ink bg-paper-2 py-14">
         <Container className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
           <div>
             <p className="kicker mb-4 text-blu">Vieni a provare</p>
             <h2 className="text-[clamp(2rem,5vw,2.75rem)]">
               Prossime lezioni
-              <br />e workshop
             </h2>
           </div>
           <EventiList
@@ -116,25 +95,21 @@ export default async function CorsiPage() {
         </Container>
       </section>
 
-      {/* LIVELLI */}
+      {/* COM'È UNA LEZIONE */}
       <Container className="py-16">
-        <SectionHeading color="blu" kicker="Il percorso">
-          Tre livelli
+        <SectionHeading color="blu" kicker="Se non l'hai mai fatto">
+          Com&apos;è una lezione
         </SectionHeading>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {livelli.map((l, i) => (
-            <div
-              key={l.n}
-              className="border-2 border-ink bg-paper-3 px-6 py-7"
-              style={{ transform: `rotate(${(i % 2 === 0 ? -1 : 1) * 0.4}deg)` }}
-            >
-              <div className="font-display text-5xl font-bold leading-none text-blu/25">
-                {l.n}
-              </div>
-              <h3 className="mt-2 text-2xl">{l.titolo}</h3>
-              <p className="mt-2 text-sm leading-[1.55]">{l.testo}</p>
-            </div>
-          ))}
+        <div className="max-w-2xl text-lg">
+          <p>Entri. Nessuno ti chiede niente.</p>
+          <p className="mt-4">
+            Dopo pochi minuti stai ridendo insieme a persone che poco prima erano sconosciute.
+          </p>
+          <p className="mt-4">
+            Poi si gioca: si inventano scene e storie sul momento, insieme, senza sapere come
+            andranno a finire. E quando qualcosa va storto, di solito è la parte più
+            divertente.
+          </p>
         </div>
 
         <div className="mt-10 rounded-none border-l-2 border-blu bg-paper-2 p-6">
@@ -172,7 +147,7 @@ export default async function CorsiPage() {
         <dl className="border-t-2 border-ink">
           <div className="grid gap-1 border-b-2 border-ink py-4 sm:grid-cols-[210px_1fr] sm:gap-5">
             <dt className="font-display font-semibold uppercase tracking-[0.08em]">
-              Lunedì · livello base
+              Lunedì
             </dt>
             <dd>
               19:30 – 22:00 · {site.venues.corsiLun.name} · {site.venues.corsiLun.address}
@@ -191,53 +166,17 @@ export default async function CorsiPage() {
         </dl>
       </Container>
 
-      {/* WORKSHOP */}
-      <section className="border-y-2 border-ink bg-paper-2 py-16">
-        <Container className="grid items-center gap-14 md:grid-cols-[1fr_0.85fr]">
-          <div>
-            <p className="kicker mb-4">Dentro i corsi</p>
-            <h2 className="text-[clamp(2rem,5vw,2.75rem)]">Workshop</h2>
-            <p className="mt-5 max-w-[48ch]">
-              Organizziamo regolarmente workshop con insegnanti ospiti che vengono apposta
-              dall&apos;Italia per lavorare con noi, in collaborazione con le migliori
-              scuole del network nazionale di improvvisatori.
-            </p>
-            <p className="mt-4 max-w-[48ch]">
-              E workshop di introduzione all&apos;improvvisazione: incontri singoli in cui
-              scoprire i fondamenti in un ambiente rilassato e molto divertente.
-            </p>
-            <div className="mt-6 flex flex-wrap gap-2">
-              {["Ospiti dall'Italia", "Introduzione all'impro", "Weekend intensivi"].map((s) => (
-                <span
-                  key={s}
-                  className="border-[1.5px] border-ink px-2.5 py-1 font-display text-[11px] font-medium uppercase tracking-[0.1em]"
-                >
-                  {s}
-                </span>
-              ))}
-            </div>
-          </div>
-          <div className="relative">
-            <span className="u-tape left-8 top-[-14px]" />
-            <Image
-              src="/collage/collage-hand-circle.webp"
-              alt="Collage: mano, cerchio rosso"
-              width={520}
-              height={640}
-              className="u-riso w-full rotate-[1.4deg] border-2 border-ink"
-            />
-          </div>
-        </Container>
-      </section>
-
       {/* CTA */}
       <Container className="py-16 text-center">
         <h2 className="text-[clamp(1.6rem,4vw,2.25rem)]">
           Il modo migliore per capire
           <br />è venire una volta.
         </h2>
-        <div className="mt-6">
-          <Button href={site.contact.whatsappUrl} external variant="blu">
+        <div className="mt-6 flex flex-wrap justify-center gap-3.5">
+          <Button href="#prossime-lezioni" variant="blu">
+            Scegli una data
+          </Button>
+          <Button href={site.contact.whatsappUrl} external variant="ghost">
             Scrivici su WhatsApp
           </Button>
         </div>
