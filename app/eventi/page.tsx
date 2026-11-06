@@ -29,7 +29,7 @@ export default async function EventiPage() {
       <Container className="flex flex-col gap-16 pb-24">
         <section>
           <SectionHeading color="blu" kicker="Vieni a provare">
-            Lezioni e workshop
+            Lezioni
           </SectionHeading>
           <EventiList
             eventi={lezioni}

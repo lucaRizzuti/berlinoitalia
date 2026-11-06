@@ -23,9 +23,9 @@ const cards = [
 export default function ContattiPage() {
   return (
     <>
-      <PageHeader kicker="Contatti" title={<>Parliamoci.</>}>
-        Sei un&apos;insegnante, un genitore, un organizzatore? Vuoi provare un corso o
-        portare uno spettacolo? Scrivici.
+      <PageHeader kicker="Contatti" title={<>Scrivici</>}>
+        Vuoi provare una lezione, regalare un token o portare uno spettacolo nella tua scuola
+        o nel tuo teatro? Scrivici su WhatsApp o per email.
       </PageHeader>
 
       <Container className="pb-16">
@@ -51,7 +51,7 @@ export default function ContattiPage() {
         <Container>
           <p className="kicker mb-3 text-verde">Newsletter</p>
           <h2 className="max-w-[16ch] text-[clamp(1.8rem,4.5vw,2.5rem)] text-paper">
-            Spettacoli, corsi e workshop. Una mail al mese.
+            Spettacoli e corsi. Una mail al mese.
           </h2>
           <div className="mt-5">
             <Button href={site.newsletterUrl} external variant="verde">

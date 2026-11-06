@@ -148,8 +148,8 @@ export default async function SpettacoliPage() {
               Le date, sempre aggiornate
             </h2>
             <p className="mt-3.5 max-w-[52ch] text-paper/80">
-              Ogni scheda format mostra le sue prossime repliche. Il calendario completo,
-              con l&apos;acquisto dei biglietti, vive nella pagina Eventi.
+              Ogni scheda format mostra le sue prossime repliche. Il calendario completo e i
+              biglietti sono nella pagina Eventi.
             </p>
           </div>
           <Button href="/eventi" variant="ghost" className="border-paper text-paper hover:bg-paper hover:text-ink">
