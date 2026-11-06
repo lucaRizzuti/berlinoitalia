@@ -19,17 +19,6 @@ export const metadata: Metadata = {
 
 export const revalidate = 3600;
 
-const skill = [
-  "Ascolto",
-  "Collaborazione",
-  "Reazione",
-  "Fiducia",
-  "Italiano spontaneo",
-  "Gestione dell'errore",
-  "Comunicazione",
-  "Creatività",
-];
-
 export default async function CorsiPage() {
   const lezioni = await getLezioni();
 
@@ -112,23 +101,14 @@ export default async function CorsiPage() {
           </p>
         </div>
 
-        <div className="mt-10 rounded-none border-l-2 border-blu bg-paper-2 p-6">
-          <p className="kicker mb-2 text-blu">Cosa si allena</p>
-          <div className="flex flex-wrap gap-2">
-            {skill.map((s) => (
-              <span
-                key={s}
-                className="border-[1.5px] border-ink px-2.5 py-1 font-display text-[11px] font-medium uppercase tracking-[0.1em]"
-              >
-                {s}
-              </span>
-            ))}
-          </div>
-          <p className="mt-4 max-w-3xl text-sm leading-[1.6]">
-            Improvvisare in italiano significa pensare in italiano, senza tradurre, senza
-            fermarsi. La velocità dell&apos;improvvisazione costringe a usare la lingua in
-            modo istintivo, e col tempo quella fluidità si trasferisce fuori dalla scena.
+        <div className="mt-10 border-l-2 border-blu bg-paper-2 p-6">
+          <h3 className="text-2xl">Cosa si impara</h3>
+          <p className="mt-3 max-w-2xl">
+            Tante cose, e non le stesse per tutti. C&apos;è chi impara ad ascoltare, chi a
+            buttarsi, chi a smettere di tenere tutto sotto controllo. Ognuno ha le sue lacune e
+            qui, quasi senza accorgersene, comincia a colmarle.
           </p>
+          <p className="mt-3 max-w-2xl">Ma soprattutto si ride.</p>
         </div>
       </Container>
 
