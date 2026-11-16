@@ -124,6 +124,25 @@ export default function GutscheinPage() {
               </div>
             ))}
           </dl>
+          <a
+            href="/gutschein/lettera-gutschein.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-10 flex max-w-2xl items-center justify-between gap-6 border-2 border-ink bg-paper-3 px-6 py-5 transition-transform hover:-translate-y-1"
+          >
+            <span>
+              <span className="block font-display text-lg font-semibold uppercase leading-tight">
+                Lettera di accompagnamento (PDF)
+              </span>
+              <span className="mt-1 block text-sm text-ink/75">
+                Da stampare e mettere nel pacchetto: spiega a chi lo riceve come usare il
+                Gutschein.
+              </span>
+            </span>
+            <span aria-hidden="true" className="font-display text-2xl text-rosso">
+              ↓
+            </span>
+          </a>
         </Container>
       </section>
 
