@@ -172,3 +172,47 @@ export function rangeSettimana(start: string): string {
     ? `${fmtGiornoNum.format(a)}–${fmtGiornoAnno.format(b)}`
     : `${fmtGiorno.format(a)} – ${fmtGiornoAnno.format(b)}`;
 }
+
+export const ZODIAC: Record<SegnoSlug, string> = {
+  ariete: "♈",
+  toro: "♉",
+  gemelli: "♊",
+  cancro: "♋",
+  leone: "♌",
+  vergine: "♍",
+  bilancia: "♎",
+  scorpione: "♏",
+  sagittario: "♐",
+  capricorno: "♑",
+  acquario: "♒",
+  pesci: "♓",
+};
+
+/**
+ * Caption social della settimana. Su Instagram il link sta in bio; su Facebook
+ * (reel) si scrive l'indirizzo per intero.
+ */
+export function captionSettimana(
+  settimana: Settimana,
+  { linkInBio }: { linkInBio: boolean },
+): string {
+  const range = rangeSettimana(settimana.start);
+  const righe = SEGNI.filter((s) => settimana.segni[s.slug])
+    .map((s) => `${ZODIAC[s.slug]} ${s.nome} · ${settimana.segni[s.slug]!.personaggio}`)
+    .join("\n");
+  return [
+    `ImprOroscopo · la settimana del ${range} 🔮`,
+    "",
+    "L'oroscopo per chi fa teatro senza prendersi troppo sul serio: dodici segni, dodici modi di stare in scena. Niente amore, soldi e lavoro, solo improvvisazione, e un po' di vita.",
+    "",
+    righe,
+    "",
+    linkInBio
+      ? "Il tuo oroscopo completo, segno per segno → berlinoitalia.com/improroscopo (link in bio)"
+      : "Il tuo oroscopo completo, segno per segno → https://www.berlinoitalia.com/improroscopo",
+    "",
+    "Corsi di improvvisazione teatrale in italiano a Berlino, ogni lunedì e sabato. Si può venire anche a una lezione singola, senza iscrizione.",
+    "",
+    "#improvvisazione #improv #teatro #oroscopo #segnizodiacali #berlino #italianiaberlino #berlinoitalia #scuoladiteatro #improvcomedy #teatroinitaliano #comicità",
+  ].join("\n");
+}
